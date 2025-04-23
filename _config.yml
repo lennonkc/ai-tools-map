@@ -1,0 +1,20 @@
+# Jekyll网站基本配置
+title: AI ToolMap By KC
+description: 一个可视化的AI工具思维导图
+baseurl: ""
+url: ""
+
+# 构建设置
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除的文件或目录
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore

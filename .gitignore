@@ -1,0 +1,14 @@
+# Jekyll生成的文件
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# 本地开发环境配置文件
+.DS_Store
+Gemfile.lock
+.bundle
+
+# 日志文件
+*.log
