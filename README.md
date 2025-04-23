@@ -20,8 +20,7 @@
 - Browser Operator
   - Examples
     - Amazon Seller Center
-      - Amazon's API system is too large, which has led to many APIs being deprecated;
-      it has also resulted in a lack of many highly accurate data APIs.
+      - Amazon's API system is too large, which has led to many APIs being deprecated; <br>it has also resulted in a lack of many highly accurate data APIs.<br> So in this situation, a browser agent is needed to bypass APIs in order to complete the task.
   - Solutions
     - open-source
       - BrowserUse
@@ -67,7 +66,7 @@
   - MCP Market(all free)
     - <https://github.com/modelcontextprotocol/servers>
     - <https://mcp.so/>
-    - <https://github.com/modelcontextprotocol/servers>
+    - <https://glama.ai/mcp/servers>
     - <https://github.com/punkpeye/awesome-mcp-servers>
     - More than thousands of pre-built MCPs, connected almost all known APPs or platform...<br>🚨 MCPs is gradually replacing all the known APIs
   - MCP vs API
@@ -84,7 +83,7 @@
     - crawl4AI
     - crawlee
     - maxun
-    - Firecrawl.md
+    - Firecrawl
   - 3rd
     - Scrapegraph-ai
     - ScrapingBee
@@ -96,10 +95,10 @@
     - Google BigQuery
   - open-source
     - MongoDB+MCP
-    - metabase.md
+    - metabase
 - BI / Database management
   - open-source
-    - DBeaver.md
+    - DBeaver
     - Prisma
     - Apache Superset 
 ### Deep Reasearcher<br>(generate deep insights base<br> on internet or local info)
@@ -175,10 +174,22 @@
 ### RAG
 - Google NoteBookLM
 - Second me
-## Resource
-### Computing resources
+## Foundation
+### Resources
+#### Computing resources
 - The HOST servers that run agents. 
 - Developer Laptop
-### LLM AI model usage cost
+#### LLM AI model usage cost
 - Build our own GPUs for LLM
 - Register the Thrasio OpenRouter, OpenAI, Grok or Gemini developer platform
+### Prompts Engineering
+- Rules
+  - [Cline Prompts Hints](https://mp.weixin.qq.com/s/Y7wXwq-anNCCxyeh0oSA6w)
+  - [Claude Prompt](https://mp.weixin.qq.com/s/u2YhuunO9gRX9H8LklRTnA?mpshare=1&scene=1&srcid=0416ZD0S7awgqdtX2F3CBv6r&sharer_shareinfo=4f4d026b3bdcf446b4c9e32dad413dd0&sharer_shareinfo_first=4f4d026b3bdcf446b4c9e32dad413dd0&version=4.1.36.99603&platform=mac#rd)
+  - [Cline offical guide of prompt](https://docs.cline.bot/improving-your-prompting-skills/prompting)
+- Tools
+  - LangChain
+  - LangGraph
+  - Jinja2
+  - Cloudflare AI gateway
+  - Helicone
