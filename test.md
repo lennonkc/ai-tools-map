@@ -1,45 +1,42 @@
-# AI ToolMap_byKC
+# AI ToolMap <br>[by kc_2025.04.23]<br>[weekly update]
 ## Agents
-### Agents Control Platform 🌟 and MCP Clients
+### Agents Control Platform ⭐ / MCP Clients
 - Agents Control Platform
-  - Google ADK 🌟
-  - open webui
+  - Google ADK ⭐
+  - open webui ⭐
   - UI_TAR 
   - [AutoAgent](https://github.com/HKUDS/AutoAgent)
   - openui 
-  - [LangManus.md](/details/LangManus.md)
+  - LangManus
   - Genspark SuperAgent(3rd)
 - MCP Client
   - SillyTavern
     - Provide advanced AI conversation tuning
-  - Cline⭐/RooCode
+  - Cline ⭐ /RooCode
     - Quick MCP invocation embedded in the IDE
-  - Trae⭐/Cursor
+  - Trae ⭐ /Cursor
     - AI IDE
 ### Vision-Based
 - Browser Operator
   - Examples
-    - [Amazon Seller Center.md](/details/Amazon%20Seller%20Center.md)
-      - [Issue Background.md](/details/Issue%20Background.md)
-      - [SP-API.md](/details/SP-API.md)
+    - Amazon Seller Center
+      - Amazon's API system is too large, which has led to many APIs being deprecated; <br>it has also resulted in a lack of many highly accurate data APIs.<br> So in this situation, a browser agent is needed to bypass APIs in order to complete the task.
   - Solutions
     - open-source
       - BrowserUse
-        - [前景分析](https://mp.weixin.qq.com/s/DrxG_KTenZUBjd0XfUQiBQ)
       - Nanobrowser
-      - [Stagehand ⭐️.md](/details/Stagehand%20⭐️.md)
-      - Dom Operation
+      - Stagehand ⭐️
+      - Dom Operation<br>(Operate the source code of the webpage)
         - PlayWright ⭐
         - Selenium
-          - [Selenium vs PlayWright.md](/details/Selenium%20vs%20PlayWright.md)
         - Puppeteer
     - 3rd
-      - **Browserless**
-      - **[Browse.ai](Browse.ai)**
-      - **[Induced.ai](Induced.ai)**
+      - Browserless
+      - [Browse.ai](Browse.ai)
+      - [Induced.ai](Induced.ai)
       - [Axiom.ai](Axiom.ai) 
 - Computer Operator
-  - Solution
+  - Solutions
     - 3rd
       - OPENAI Computer Use
       - Manus
@@ -52,13 +49,13 @@
     - API data inaccuracies
     - Reason
       - Cost
-        - Unlike the WEB, Font Web is built 100% tightly integrated with a real database and genuine back-end logic. However, API services are an additional component, typically developed separately from the main logic, which results in extra costs.
+        - Unlike the WEB, Font Web is built 100% tightly integrated with a real database and genuine back-end logic. However, API 
+        services are an additional component, typically developed separately from the main logic, which results in extra costs.
       - Complexity
         - API calling complexity causing most platform will not 1:1 100% provides exact API. 
     - Real Cases
       - Netsuite
-        - Unable to fetch data from **Customized Search**can only read it by Suite_Script+API
-          - **Customized Search is** System level search using huge computing resource of Netsuite system.Providing that API will causing high complexity and cost. so NetSuite only provides WEB button to fetch **Customized Search.** Or go with very complex SuiteScript.
+        - Unable to fetch data from Customized Searchcan only read it by Suite_Script+API
       - Amazon Seller Center
         - FBAs details
         - users level order data
@@ -71,12 +68,12 @@
     - <https://mcp.so/>
     - <https://github.com/modelcontextprotocol/servers>
     - <https://github.com/punkpeye/awesome-mcp-servers>
-    - More than thousands of pre-built MCPs, connected almost all known APPs or platform...🚨🚨🚨MCPs is gradually replacing all the known APIs
+    - More than thousands of pre-built MCPs, connected almost all known APPs or platform...<br>🚨 MCPs is gradually replacing all the known APIs
   - MCP vs API
-    - AI which API to call and complete entire task,  human don\`t need to work on API to API.Only focus on NATURAL LANGUAGE to talk with MCP, teach MCP to call correct APIs
-- Function Call of  (APIs) ❌(Technologies on the verge of obsolescence)
+    - AI decide what APIs to call and complete entire task,  human don\`t need to work on API to API. <br> Only focus on NATURAL LANGUAGE to talk with MCP, teach MCP to call correct APIs
+- Function Call ❌ <br>(Technologies on the verge of obsolescence)
   - Examples
-    - [Zendesk x Netsuite.md](/details/Zendesk%20x%20Netsuite.md)
+    - Using different APIs to provide data to AI directly
   - Use cases
     - Connect Different Software that providing Nice APIs
 ## Tools
@@ -86,9 +83,9 @@
     - crawl4AI
     - crawlee
     - maxun
-    - [Firecrawl.md](/details/Firecrawl.md)
+    - Firecrawl.md
   - 3rd
-    - [Scrapegraph-ai.md](/details/Scrapegraph-ai.md)
+    - Scrapegraph-ai
     - ScrapingBee
     - WebScrapingAPI
     - ScraperAPI
@@ -98,27 +95,25 @@
     - Google BigQuery
   - open-source
     - MongoDB+MCP
-    - [metabase.md](/details/metabase.md)
+    - metabase.md
 - BI / Database management
   - open-source
-    - [DBeaver.md](/details/DBeaver.md)
+    - DBeaver.md
     - Prisma
     - Apache Superset 
-### Deep Reasearcher
-(generate deep insights base on internet or local info)
+### Deep Reasearcher<br>(generate deep insights base<br> on internet or local info)
 - 3rd
   - SerpAPI
   - Metaphor
-  - **preplexity**
+  - preplexity
 - open-source
-  - **deep-searcher**
-    - [分析报告.md](/details/分析报告.md)
-  - **[OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher)**[ ](https://github.com/mshumer/OpenDeepResearcher)
-  - **Jina**
-  - **[deep-research](https://github.com/dzhng/deep-research)**
-  - **[gpt-researcher](https://github.com/assafelovic/gpt-researcher)**
+  - deep-searcher
+  - [OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher)[ ](https://github.com/mshumer/OpenDeepResearcher)
+  - Jina
+  - [deep-research](https://github.com/dzhng/deep-research)
+  - [gpt-researcher](https://github.com/assafelovic/gpt-researcher)
 ### low code Work Flow builder
-- open-source(free)
+- open-source
   - n8n 🌟
     - The most popular low-code workflow generation platform with the richest 3rd intergrations.
   - Flowise
@@ -134,16 +129,17 @@
   - Google Firebase
   - OneReach
   - Dify
-  - [Gumloop ai.md](/details/Gumloop%20ai.md)
+  - Gumloop ai
 ### media
-- AI News Center
+- News Center
   - meridian
-    - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise, personalized daily briefings to help users filter out valuable information from the noise.
+    - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise, 
+    personalized daily briefings to help users filter out valuable information from the noise.
   - newsnow
-- AI help to write
+- Writting
   - Writer
   - Jenni_AI
-- AI Voice & Video
+- Voice & Video
   - Krillin AI
     - Video subtitle generation, subtitle translation, automatic dubbing
   - spark
@@ -171,7 +167,10 @@
   - caddy
   - Gatsby
   - Strapi
+    - open-source headless CMS that enables developers to build customizable APIs
+     with flexible content structures and a powerful admin interface.
   - SQLPage
+    - Quickly build a front-end visual website based on a database
 ### RAG
 - Google NoteBookLM
 - Second me
