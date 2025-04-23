@@ -1,71 +1,184 @@
-# AI ToolMap 思维导图网站
-
-这是一个简单的纯静态网站，用于展示AI工具生态系统的思维导图。
-
-## 项目特点
-
-- 纯静态实现，无需Jekyll或其他动态框架
-- 自动将Markdown文件转换为交互式思维导图
-- 简洁美观的界面设计
-- 支持缩放、展开/折叠、全屏显示等功能
-- 响应式设计，适配各种设备
-- GitHub Pages自动部署
-
-## 部署指南
-
-### 在GitHub上设置
-
-1. 将此项目推送到GitHub仓库：
-
-```bash
-git init
-git add .
-git commit -m "初始化项目"
-git branch -M main
-git remote add origin 你的GitHub仓库地址
-git push -u origin main
-```
-
-2. 在GitHub仓库设置中启用GitHub Pages：
-   - 进入仓库的Settings标签页
-   - 在左侧导航栏找到Pages选项
-   - 在Source部分，选择main分支作为源
-   - 保存设置，GitHub将自动构建并部署网站
-
-### 本地开发调试
-
-1. 使用任意HTTP服务器运行网站：
-
-```bash
-# 使用Python的内置HTTP服务器
-python -m http.server
-# 或者使用Python3
-python3 -m http.server
-```
-
-2. 打开浏览器访问 `http://localhost:8000` 查看网站
-
-## 更新思维导图
-
-只需编辑`tools.md`文件并推送到GitHub，网站将自动更新：
-
-```bash
-git add tools.md
-git commit -m "更新思维导图内容"
-git push
-```
-
-## 项目结构
-
-- `index.html`: 主页面，包含思维导图渲染
-- `about.html`: 关于页面
-- `tools.md`: 思维导图的Markdown内容源文件
-- `assets/`: 样式表和JavaScript文件
-  - `css/styles.css`: 网站样式
-  - `js/mindmap.js`: 思维导图渲染脚本
-
-## 注意事项
-
-- Markdown文件的标题结构（#、##、###等）决定了思维导图的层级
-- 建议使用清晰的层级结构，以获得最佳的思维导图效果
-- 如果修改了JavaScript或CSS文件，确保刷新浏览器缓存以查看更改
+# AI ToolMap_byKC
+## Agents
+### Agents Control Platform 🌟 and MCP Clients
+- Agents Control Platform
+  - Google ADK 🌟
+  - open webui
+  - UI_TAR 
+  - [AutoAgent](https://github.com/HKUDS/AutoAgent)
+  - openui 
+  - [LangManus.md](/details/LangManus.md)
+  - Genspark SuperAgent(3rd)
+- MCP Client
+  - SillyTavern
+    - Provide advanced AI conversation tuning
+  - Cline⭐/RooCode
+    - Quick MCP invocation embedded in the IDE
+  - Trae⭐/Cursor
+    - AI IDE
+### Vision-Based
+- Browser Operator
+  - Examples
+    - [Amazon Seller Center.md](/details/Amazon%20Seller%20Center.md)
+      - [Issue Background.md](/details/Issue%20Background.md)
+      - [SP-API.md](/details/SP-API.md)
+  - Solutions
+    - open-source
+      - BrowserUse
+        - [前景分析](https://mp.weixin.qq.com/s/DrxG_KTenZUBjd0XfUQiBQ)
+      - Nanobrowser
+      - [Stagehand ⭐️.md](/details/Stagehand%20⭐️.md)
+      - Dom Operation
+        - PlayWright ⭐
+        - Selenium
+          - [Selenium vs PlayWright.md](/details/Selenium%20vs%20PlayWright.md)
+        - Puppeteer
+    - 3rd
+      - **Browserless**
+      - **[Browse.ai](Browse.ai)**
+      - **[Induced.ai](Induced.ai)**
+      - [Axiom.ai](Axiom.ai) 
+- Computer Operator
+  - Solution
+    - 3rd
+      - OPENAI Computer Use
+      - Manus
+    - open-source
+      - [Automate](https://github.com/yuruotong1/autoMate)
+        - Simply circle a spot on the screen, and the AI will take control of that area.
+- Use Cases
+  - Non API tasks
+    - Some platforms not even provide APIs
+    - API data inaccuracies
+    - Reason
+      - Cost
+        - Unlike the WEB, Font Web is built 100% tightly integrated with a real database and genuine back-end logic. However, API services are an additional component, typically developed separately from the main logic, which results in extra costs.
+      - Complexity
+        - API calling complexity causing most platform will not 1:1 100% provides exact API. 
+    - Real Cases
+      - Netsuite
+        - Unable to fetch data from **Customized Search**can only read it by Suite_Script+API
+          - **Customized Search is** System level search using huge computing resource of Netsuite system.Providing that API will causing high complexity and cost. so NetSuite only provides WEB button to fetch **Customized Search.** Or go with very complex SuiteScript.
+      - Amazon Seller Center
+        - FBAs details
+        - users level order data
+      - They are real cases I met in the past 2 months. I believe that must be more.
+  - Handling highly repetitive tasks
+### API-Based
+- MCP ✅
+  - MCP Market(all free)
+    - <https://github.com/modelcontextprotocol/servers>
+    - <https://mcp.so/>
+    - <https://github.com/modelcontextprotocol/servers>
+    - <https://github.com/punkpeye/awesome-mcp-servers>
+    - More than thousands of pre-built MCPs, connected almost all known APPs or platform...🚨🚨🚨MCPs is gradually replacing all the known APIs
+  - MCP vs API
+    - AI which API to call and complete entire task,  human don\`t need to work on API to API.Only focus on NATURAL LANGUAGE to talk with MCP, teach MCP to call correct APIs
+- Function Call of  (APIs) ❌(Technologies on the verge of obsolescence)
+  - Examples
+    - [Zendesk x Netsuite.md](/details/Zendesk%20x%20Netsuite.md)
+  - Use cases
+    - Connect Different Software that providing Nice APIs
+## Tools
+### AI Work With DATA
+- Scarping
+  - open-source
+    - crawl4AI
+    - crawlee
+    - maxun
+    - [Firecrawl.md](/details/Firecrawl.md)
+  - 3rd
+    - [Scrapegraph-ai.md](/details/Scrapegraph-ai.md)
+    - ScrapingBee
+    - WebScrapingAPI
+    - ScraperAPI
+- AI Conversational Database
+  - 3rd
+    - pandasAI
+    - Google BigQuery
+  - open-source
+    - MongoDB+MCP
+    - [metabase.md](/details/metabase.md)
+- BI / Database management
+  - open-source
+    - [DBeaver.md](/details/DBeaver.md)
+    - Prisma
+    - Apache Superset 
+### Deep Reasearcher
+(generate deep insights base on internet or local info)
+- 3rd
+  - SerpAPI
+  - Metaphor
+  - **preplexity**
+- open-source
+  - **deep-searcher**
+    - [分析报告.md](/details/分析报告.md)
+  - **[OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher)**[ ](https://github.com/mshumer/OpenDeepResearcher)
+  - **Jina**
+  - **[deep-research](https://github.com/dzhng/deep-research)**
+  - **[gpt-researcher](https://github.com/assafelovic/gpt-researcher)**
+### low code Work Flow builder
+- open-source(free)
+  - n8n 🌟
+    - The most popular low-code workflow generation platform with the richest 3rd intergrations.
+  - Flowise
+    - Open source low-code tool to build customized LLM orchestration flow & AI agents
+  - GrapesJS
+    - drag-and-drop build website
+  - Motia
+    - AI help to build each step by step of a big workflow
+  - Tars
+- 3rd
+  - Coze
+  - Microsoft Automate
+  - Google Firebase
+  - OneReach
+  - Dify
+  - [Gumloop ai.md](/details/Gumloop%20ai.md)
+### media
+- AI News Center
+  - meridian
+    - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise, personalized daily briefings to help users filter out valuable information from the noise.
+  - newsnow
+- AI help to write
+  - Writer
+  - Jenni_AI
+- AI Voice & Video
+  - Krillin AI
+    - Video subtitle generation, subtitle translation, automatic dubbing
+  - spark
+    - Open-source anthropomorphic TTS
+  - Orpheus
+    - Source text to speech system. Pre-trained to simulate human voice.
+### developing
+- tools
+  - gitdiagram
+    - Quickly understand the structure diagram of a GitHub project
+  - devDocs
+    - DevDocs = High-Quality Documentation Crawler + Intelligent Content Cleaner + AI Knowledge Integration Tool
+  - jekyll
+    - fast tech blog builder
+- Design & Font-end
+  - GrapesJS
+    - Zero-code web design tool
+  - Galileo AI 
+    - Zero-code web design tool
+  - [animejs](https://animejs.com/%20)
+    - Font-end component library
+  - inspira-ui
+    - Font-end component library
+- Back-end
+  - caddy
+  - Gatsby
+  - Strapi
+  - SQLPage
+### RAG
+- Google NoteBookLM
+- Second me
+## Resource
+### Computing resources
+- The HOST servers that run agents. 
+- Developer Laptop
+### LLM AI model usage cost
+- Build our own GPUs for LLM
+- Register the Thrasio OpenRouter, OpenAI, Grok or Gemini developer platform
