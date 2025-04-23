@@ -62,8 +62,6 @@
       - Amazon Seller Center
         - FBAs details
         - users level order data
-        - WHY?
-          - it's a very natural thinking that because of security policy they don't provide API. but the truth is because of cost. for most e-selling platforms. The data is way toooooo big. Maintaining a real-time single order level or some small level data's API is not economical for them .As A Result, they hide the logic of real data. not providing data or just providing outdated data on API. but provides easy webpage buttons. They are a smart split users case, for small sellers, web is totally enough, for big sellers must have a scraper team to scrape data, that is also explaining that thrasio have many scripts running more than 3 years also because the WEB security level of seller center website is low. amazon intended to open a low protection WEB to let big sellers catch
       - They are real cases I met in the past 2 months. I believe that must be more.
   - Handling highly repetitive tasks
 ### API-Based
@@ -172,9 +170,7 @@
 - Back-end
   - caddy
   - Gatsby
-    - Gatsby is a static site generator framework based on React, suitable for static websites that require high performance, good SEO, and a modern development experience. It combines React’s component-based development approach with the powerful data management capabilities of GraphQL, making it an ideal choice for building blogs, documentation sites, and corporate websites. However, for projects with a lot of dynamic content, it may be necessary to use other tools (such as Next.js) or backend services to achieve more complex functionality.
   - Strapi
-    - Strapi is a leader in the Headless CMS field, with over 60,000 stars demonstrating its absolute strength. It can quickly create API interfaces for content management and delivery, making it flexible and fast—an ideal partner for developing websites and apps.
   - SQLPage
 ### RAG
 - Google NoteBookLM
