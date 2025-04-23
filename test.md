@@ -1,5 +1,3 @@
-
-
 # AI ToolMap By KC
 ## Agents
 ### Agents Control Platform 🌟 and MCP Clients
