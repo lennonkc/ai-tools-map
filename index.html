@@ -1,13 +1,71 @@
----
-layout: default
-title: AI ToolMap By KC
----
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI ToolMap By KC</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <meta name="description" content="一个可视化的AI工具思维导图">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <a href="./">AI ToolMap By KC</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./">首页</a></li>
+          <li><a href="about.html">关于</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<div class="mindmap-container">
-  <div id="mindmap"></div>
-</div>
+  <main class="site-content">
+    <div class="container">
+      <div class="mindmap-container">
+        <div id="mindmap"></div>
+      </div>
+    </div>
+  </main>
 
-<script src="https://cdn.jsdelivr.net/npm/d3@6"></script>
-<script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script>
-<script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.14.4/dist/browser/index.min.js"></script>
-<script src="/assets/js/mindmap.js"></script>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2023 AI ToolMap By KC. 保留所有权利。</p>
+    </div>
+  </footer>
+
+  <!-- 引入必要的脚本 -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.15.1/dist/browser/index.min.js"></script>
+
+  <!-- Markdown 文件加载脚本 -->
+  <script>
+    // 加载 tools.md 文件内容
+    fetch('tools.md')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('无法加载 Markdown 文件');
+        }
+        return response.text();
+      })
+      .then(content => {
+        // 删除YAML前言部分 (如果存在)
+        const yamlFrontMatterRegex = /^---[\s\S]*?---\s*/;
+        const cleanContent = content.replace(yamlFrontMatterRegex, '');
+        window.markdownContent = cleanContent;
+        // 当内容加载完成后触发一个自定义事件
+        document.dispatchEvent(new Event('markdownLoaded'));
+      })
+      .catch(error => {
+        console.error('加载 Markdown 文件失败:', error);
+        document.getElementById('mindmap').innerHTML = '<p class="error-message">加载思维导图内容失败，请检查文件路径</p>';
+      });
+  </script>
+
+  <!-- 思维导图渲染脚本 -->
+  <script src="assets/js/mindmap.js"></script>
+</body>
+</html>

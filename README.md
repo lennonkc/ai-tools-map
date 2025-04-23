@@ -1,9 +1,10 @@
 # AI ToolMap 思维导图网站
 
-这个项目基于GitHub Pages和Jekyll，自动将Markdown文件（tools.md）渲染成交互式思维导图。
+这是一个简单的纯静态网站，用于展示AI工具生态系统的思维导图。
 
 ## 项目特点
 
+- 纯静态实现，无需Jekyll或其他动态框架
 - 自动将Markdown文件转换为交互式思维导图
 - 简洁美观的界面设计
 - 支持缩放、展开/折叠、全屏显示等功能
@@ -33,21 +34,16 @@ git push -u origin main
 
 ### 本地开发调试
 
-1. 安装Jekyll和依赖：
+1. 使用任意HTTP服务器运行网站：
 
 ```bash
-# 确保已安装Ruby
-gem install bundler
-bundle install
+# 使用Python的内置HTTP服务器
+python -m http.server
+# 或者使用Python3
+python3 -m http.server
 ```
 
-2. 本地运行网站：
-
-```bash
-bundle exec jekyll serve
-```
-
-3. 打开浏览器访问 `http://localhost:4000` 查看网站
+2. 打开浏览器访问 `http://localhost:8000` 查看网站
 
 ## 更新思维导图
 
@@ -59,14 +55,17 @@ git commit -m "更新思维导图内容"
 git push
 ```
 
-## 自定义
+## 项目结构
 
-- 修改`_config.yml`更新网站基本信息
-- 编辑`assets/css/styles.css`自定义样式
-- 修改`_layouts`目录下的文件自定义布局
+- `index.html`: 主页面，包含思维导图渲染
+- `about.html`: 关于页面
+- `tools.md`: 思维导图的Markdown内容源文件
+- `assets/`: 样式表和JavaScript文件
+  - `css/styles.css`: 网站样式
+  - `js/mindmap.js`: 思维导图渲染脚本
 
 ## 注意事项
 
 - Markdown文件的标题结构（#、##、###等）决定了思维导图的层级
 - 建议使用清晰的层级结构，以获得最佳的思维导图效果
-- 第一次部署后，GitHub Pages可能需要几分钟才能完成构建和部署
+- 如果修改了JavaScript或CSS文件，确保刷新浏览器缓存以查看更改
