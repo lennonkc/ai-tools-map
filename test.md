@@ -4,9 +4,7 @@
 - Agents Control Platform
   - Google ADK ⭐
   - open webui ⭐
-  - UI_TAR 
   - [AutoAgent](https://github.com/HKUDS/AutoAgent)
-  - openui 
   - LangManus
   - Genspark SuperAgent(3rd)
 - MCP Client
@@ -23,6 +21,7 @@
       - Amazon's API system is too large, which has led to many APIs being deprecated; <br>it has also resulted in a lack of many highly accurate data APIs.<br> So in this situation, a browser agent is needed to bypass APIs in order to complete the task.
   - Solutions
     - open-source
+      - UI_TAR Desktop⭐
       - BrowserUse
       - Nanobrowser
       - Stagehand ⭐️
@@ -155,6 +154,8 @@
   - jekyll
     - fast tech blog builder
 - Design & Font-end
+  - [openui](https://github.com/wandb/openui)
+    - conversational build Font web
   - GrapesJS
     - Zero-code web design tool
   - Galileo AI 
