@@ -8,6 +8,10 @@
   - LangManus
   - Genspark SuperAgent(3rd)
 - MCP Client
+  - [5fire](https://github.com/nanbingxyz/5ire)
+  - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
+  - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)⭐
+  - Claude ⭐
   - SillyTavern
     - Provide advanced AI conversation tuning
   - Cline ⭐ /RooCode
