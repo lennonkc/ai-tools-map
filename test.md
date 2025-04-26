@@ -1,16 +1,16 @@
-# AI ToolMap <br>[by kc_2025.04.23]<br>[weekly update]
+# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[by kc_2025.04.26]<br>[weekly update]
 ## Agents
 ### Agents Control Platform ⭐ / MCP Clients
 - Agents Control Platform
   - Google ADK ⭐
-  - open webui ⭐
   - [AutoAgent](https://github.com/HKUDS/AutoAgent)
   - LangManus
   - Genspark SuperAgent(3rd)
 - MCP Client
-  - [5fire](https://github.com/nanbingxyz/5ire)
+  - open webui ⭐
+  - [5fire](https://github.com/nanbingxyz/5ire) Desktop
   - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
-  - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)⭐
+  - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)⭐ Desktop
   - Claude ⭐
   - SillyTavern
     - Provide advanced AI conversation tuning
@@ -104,6 +104,10 @@
     - DBeaver
     - Prisma
     - Apache Superset 
+- text to everything
+  - vega
+  - markmap
+  - [Mermaid](https://mermaid.js.org/syntax/timeline.html)
 ### Deep Reasearcher<br>(generate deep insights base<br> on internet or local info)
 - 3rd
   - SerpAPI
