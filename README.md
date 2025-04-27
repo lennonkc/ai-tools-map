@@ -2,7 +2,8 @@
 ## Agents
 ### Agents Control Platform ⭐ / MCP Clients
 - Agents Control Platform
-  - Google ADK ⭐
+  - AutoGen ⭐
+  - Google ADK 
   - [AutoAgent](https://github.com/HKUDS/AutoAgent)
   - LangManus
   - Genspark SuperAgent(3rd)
@@ -10,8 +11,7 @@
   - open webui ⭐
   - [5fire](https://github.com/nanbingxyz/5ire) Desktop
   - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
-  - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)⭐ Desktop
-  - Claude ⭐
+  - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)
   - SillyTavern
     - Provide advanced AI conversation tuning
   - Cline ⭐ /RooCode
@@ -134,7 +134,6 @@
   - Coze
   - Microsoft Automate
   - Google Firebase
-  - OneReach
   - Dify
   - Gumloop ai
 ### media
