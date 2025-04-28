@@ -31,9 +31,13 @@
 - MCP developing <!-- markmap: fold -->
   - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
     - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
-#### Knowledge Base
+#### Knowledge <!-- markmap: fold -->
 - [what-are-agentic-workflows](https://weaviate.io/blog/what-are-agentic-workflows)
 - [fast build MCP](https://mp.weixin.qq.com/s/NU62Dvq3SMO6O-He9lcQ4Q?mpshare=1&scene=1&srcid=0426SfJNX6rGDUxjcw5t0DvE&sharer_shareinfo=ba26840944e675d838911a6e4c6cec36&sharer_shareinfo_first=ba26840944e675d838911a6e4c6cec36&version=4.1.36.99603&platform=mac#rd)
+- [building MCP](https://mp.weixin.qq.com/s/9J3pvrmC9r47QahjI7U1lA?mpshare=1&scene=1&srcid=04277UkUFRAbmkR2BrGfBKy1&sharer_shareinfo=9594d217dfe05e42f29d29f414976329&sharer_shareinfo_first=9594d217dfe05e42f29d29f414976329&version=4.1.36.99603&platform=mac#rd)
+- [Some pain points from MCP developers](https://mp.weixin.qq.com/s/PCXaZzZsRBdBytG2YuwKiw?mpshare=1&scene=1&srcid=0427tGu6FH0QsucG4ke0YFfx&sharer_shareinfo=8f4b455ca8d5065828bfd26e65c55440&sharer_shareinfo_first=8f4b455ca8d5065828bfd26e65c55440&version=4.1.36.99603&platform=mac#rd)
+- [function Call vs MCP](https://mp.weixin.qq.com/s/Bs42mK8fQhDqLdm0ILtwSg?mpshare=1&scene=1&srcid=0427HGtLrFbF8oXncChCAadm&sharer_shareinfo=15a0e92260d2612e72f322b33a140649&sharer_shareinfo_first=15a0e92260d2612e72f322b33a140649&version=4.1.36.99603&platform=mac#rd)
+- [Visions for Agent system](https://mp.weixin.qq.com/s/US1o7MULP4Ar_kGkSgRHuA?mpshare=1&scene=1&srcid=04275fRe8jNzwnigt7ILEg2r&sharer_shareinfo=c344b802fa4d7115c8979e3bd4d1a26d&sharer_shareinfo_first=c344b802fa4d7115c8979e3bd4d1a26d&version=4.1.36.99603&platform=mac#rd)
 ### Vision-Based <!-- markmap: fold -->
 - Browser Operator
   - Examples
@@ -180,13 +184,16 @@
   - A browser specifically designed for AI systems
 - Fellou
 ### Developing <!-- markmap: fold -->
-- tools
+- Docs
+  - Context 7
+  - DeepWiki
+    - Help developers gain an in-depth understanding of GitHub project documentation,<br> and support the automatic generation of clear, easy-to-understand, <br>and standardized documentation for their own projects.
   - gitdiagram
     - Quickly understand the structure diagram of a GitHub project
   - devDocs
     - DevDocs = High-Quality Documentation Crawler + Intelligent Content Cleaner + AI Knowledge Integration Tool
   - jekyll
-    - fast tech blog builder
+    - fast tech blog_ web builder
 - Design & Font-end
   - [openui](https://github.com/wandb/openui)
     - conversational build Font web
