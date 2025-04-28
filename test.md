@@ -33,6 +33,7 @@
     - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
 #### Knowledge Base
 - [what-are-agentic-workflows](https://weaviate.io/blog/what-are-agentic-workflows)
+- [fast build MCP](https://mp.weixin.qq.com/s/NU62Dvq3SMO6O-He9lcQ4Q?mpshare=1&scene=1&srcid=0426SfJNX6rGDUxjcw5t0DvE&sharer_shareinfo=ba26840944e675d838911a6e4c6cec36&sharer_shareinfo_first=ba26840944e675d838911a6e4c6cec36&version=4.1.36.99603&platform=mac#rd)
 ### Vision-Based <!-- markmap: fold -->
 - Browser Operator
   - Examples
@@ -44,6 +45,8 @@
       - BrowserUse
       - Nanobrowser
       - Stagehand ⭐️
+      - [Suna](https://github.com/kortix-ai/suna)
+        - By integrating powerful features such as browser automation, file management,<br> web crawling, and API integration through natural language dialogue,<br> complex tasks like market research, itinerary planning, and data analysis can be easily accomplished.
       - Dom Operation<br>(Operate the source code of the webpage)
         - PlayWright ⭐
         - Selenium
@@ -248,3 +251,9 @@ Logo 文字："LangGPT"
 传达理念：语言、创新、智能、可靠
 设计元素：简洁几何形状，可融入抽象的 AI/语言相关元素
 技术规格：高分辨率，确保文字清晰易读
+##### Create Diagram <!-- markmap: fold -->
+- Draw the key structural diagram of the MLP (SVG)
+Elements should not overlap, and avoid overcrowding of content
+Add small formulas to explain key calculations
+Use precise professional terminology
+Mathematical formulas should use a formula font, English should use Times New Roman font, and Chinese should use SimSun font
