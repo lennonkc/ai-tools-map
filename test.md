@@ -132,7 +132,7 @@
   - Jina
   - [deep-research](https://github.com/dzhng/deep-research)
   - [gpt-researcher](https://github.com/assafelovic/gpt-researcher)
-### low code Work Flow builder <!-- markmap: fold -->
+### Work Flow builder <!-- markmap: fold -->
 - open-source
   - n8n 🌟
     - The most popular low-code workflow generation platform with the richest 3rd intergrations.
@@ -150,7 +150,7 @@
   - Google Firebase
   - Dify
   - Gumloop ai
-### media <!-- markmap: fold -->
+### Media <!-- markmap: fold -->
 - News Center
   - meridian
     - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise, 
@@ -179,7 +179,7 @@
 - dia
   - A browser specifically designed for AI systems
 - Fellou
-### developing <!-- markmap: fold -->
+### Developing <!-- markmap: fold -->
 - tools
   - gitdiagram
     - Quickly understand the structure diagram of a GitHub project
