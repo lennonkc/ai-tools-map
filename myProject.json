@@ -1,0 +1,12 @@
+{
+    "Project1":{
+        "Name": "myProject",
+        "Description": "A simple project",
+        "Demo":{
+            "type":"repo/video/Live",
+            "url":""
+        },
+        "BackgroundVideo":"",
+        "Like":""
+    }
+}

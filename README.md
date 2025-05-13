@@ -38,6 +38,7 @@
   - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
     - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
 #### Knowledge <!-- markmap: fold -->
+- [Gen tools Map](https://www.sequoiacap.com/article/generative-ai-act-two/)
 - [Foundation Agents](https://arxiv.org/abs/2504.01990)
 - [The general charging models of AI companies](http://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247489536&idx=1&sn=69a37a83b1cac9a31958d966445e21e3&chksm=c0c1c4e730cbac3846f9d3727e34df0f221e151a2eda1a9b17bbab8d06c6735bb82494bda0ae&mpshare=1&scene=1&srcid=0427c2NgTBGaxQnbjYOMOmik&sharer_shareinfo=abf2a9227030ccb80fe45ea1934fd791&sharer_shareinfo_first=abf2a9227030ccb80fe45ea1934fd791#rd)
 - [what-are-agentic-workflows](https://weaviate.io/blog/what-are-agentic-workflows)
