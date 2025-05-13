@@ -10,7 +10,7 @@
 ![chatmcp](https://github.com/daodao97/chatmcp/raw/main/macos/Runner/Assets.xcassets/AppIcon.appiconset/icon_128@1x.png)
 ![cherrystudio](https://www.cherry-ai.com/assets/cherry-logo-CtmH594q.svg)
 ![扣子空间](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXKrSeEPFMVM7yzJMmhlYHoaARyc_Bv1gCcg&s)
-![360 纳米 ai](assets/20250513_105322_image.png)
+![360 纳米 ai](icon/360nami.png)
 ![SillyTavern](https://sillytavern.app/img/logo.png)
 ![RooCode](https://github.com/RooVetGit/Roo-Code/blob/main/assets/icons/icon.png?raw=true)
 ![Cline](https://github.com/cline/cline/blob/main/assets/icons/icon.png?raw=true)
@@ -27,9 +27,9 @@
 ![Browserless](https://github.com/microlinkhq/browserless/raw/master/static/logo-banner.png#gh-light-mode-only)
 ![Browse.ai](https://cdn.prod.website-files.com/628be7c04ab34bfc699e4acb/67aaa3454cc6e424c83d6e8c_Marketing%20Logo.png)
 ![screenpipe](https://media.licdn.com/dms/image/v2/D560BAQGtpwCbSRQx1g/company-logo_200_200/company-logo_200_200/0/1731549928733?e=2147483647&v=beta&t=oGgoWnMJ7Mc9NlZwZw38cXb3ftxmt9qPSh4lCAzHQ5w)
-![Firecrawl](https://github.com/lennonkc/ai-tools-map/blob/main/assets/icon/firecrawl-logo-with-fire.png)
+![Firecrawl](icon/firecrawl-logo-with-fire.png)
 ![MongoDB+MCP](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/512px-MongoDB_Logo.svg.png?20190626143224)
-![preplexity](https://www.perplexity.ai/)
+![preplexity](https://chatgpt-consulting.net/thumbnail/what-is-perplexity-ai.webp?w=1920&format=webp)
 ![n8n](https://github.com/n8n-io/n8n/blob/master/assets/n8n-logo.png?raw=true)
 ![Tars](https://hellotars.com/images/logo.webp)
 ![Krillin AI](https://github.com/krillinai/KrillinAI/raw/master/docs/images/logo.png)
@@ -37,7 +37,3 @@
 ![Strapi](https://camo.githubusercontent.com/3fe9f597bffdf00fd02927133a76d866a1b0b0b383e5889337bf951a894deb25/68747470733a2f2f7374726170692e696f2f6173736574732f7374726170692d6c6f676f2d6461726b2e737667)
 ![Supabase](https://cdn.getshifter.co/8a02b8322c8339db67673735bae4923b9ee1696e/uploads/2024/03/supabase_logo-767x185.jpg)
 ![Mermaid](https://raw.githubusercontent.com/mermaid-js/mermaid/develop/docs/public/favicon.svg)
-
-# kk
-
-!![](assets/20250513_142942_image.png)
