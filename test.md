@@ -1,4 +1,4 @@
-# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[by kc, 2025 May_8]<br>[weekly update]
+# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025 May8,weekly update]
 ## Agents
 ### Agents Control Platform ⭐ / MCP Clients <!-- markmap: fold -->
 #### Agents
