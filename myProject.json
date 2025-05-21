@@ -1,12 +1,24 @@
 {
-    "Project1":{
-        "Name": "myProject",
-        "Description": "A simple project",
-        "Demo":{
-            "type":"repo/video/Live",
-            "url":""
-        },
-        "BackgroundVideo":"",
-        "Like":""
-    }
+  "Project1": {
+    "Name": "myProject",
+    "Highlight": "C++",
+    "Details": "A simple project",
+    "TechTag": ["C++", "Game", "Web"],
+    "Demo": {
+      "type": "repo/video/Live",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project2": {
+    "Name": "myProject2",
+    "Highlight": "Javascript",
+    "Details": "A simple project",
+    "TechTag": ["C++", "Game", "Web"],
+    "Demo": {
+      "type": "repo/video/Live",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  }
 }
