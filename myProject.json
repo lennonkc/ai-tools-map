@@ -9,7 +9,7 @@
       "url": "https://youtu.be/CdbptfTXKOw"
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project1.png?raw=true"
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project9.png?raw=true"
   },
   "Project8": {
     "Name": "AI Database",
@@ -20,7 +20,8 @@
       "type": "video",
       "url": ""
     },
-    "BackgroundVideo": ""
+    "BackgroundVideo": "",
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project8.png?raw=true"
   },
   "Project7": {
     "Name": "API vs GUI",
@@ -31,7 +32,9 @@
       "type": "video",
       "url": ""
     },
-    "BackgroundVideo": ""
+    "BackgroundVideo": "",
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project7.png?raw=true"
+
   },
   "Project6": {
     "Name": "Browser Operator Agent",
