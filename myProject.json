@@ -1,12 +1,12 @@
 {
   "Project9": {
-    "Name": "Super Agent",
-    "Highlight": "基于MCP技术实现的综合Agent",
-    "Details": "最后更新于May-2025. 通过简单的对话, 即可让AI使用各种工具去自动化完成各种复杂任务. 就像人类使用APP一样, AI现在也可以使用APP. 比如打开网站, 生成文件, 制作 3D模型等等 ",
+    "Name": "MCP AI Agent",
+    "Highlight": "Integrated Agent Based on MCP Technology",
+    "Details": "Last updated in May 2025. Through simple conversations, AI can now use various tools to automate the completion of complex tasks. Just like humans use apps, AI can now also utilize apps—for example, opening websites, generating files, creating 3D models, and more.",
     "TechTag": ["MongoDB", "MCP"],
     "Demo": {
       "type": "video",
-      "url": ""
+      "url": "https://youtu.be/CdbptfTXKOw"
     },
     "BackgroundVideo": ""
   },
@@ -67,34 +67,45 @@
   },
   "Project3": {
     "Name": "Kaxi",
-    "Highlight": "基于Chatbox的Taxi预定App",
-    "Details": "最后更新于Feb-2025. 在chabox中实现Uber的 90% 功能, 支持用户管理,地址选择, 路线选择, 车型选择, 订单创建,订单完成等功能.",
+    "Highlight": "Chatbox-Based Taxi Booking App",
+    "Details": "Last updated in Feb 2025. Implements 90% of Uber’s features within Chatbox, supporting user management, address selection, route selection, vehicle type selection, order creation, order completion, and more.",
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
       "type": "video/Live",
-      "url": ""
+      "url": "https://youtube.com/shorts/cdI8gGxA8WI?feature=share"
     },
     "BackgroundVideo": ""
   },
   "Project2": {
     "Name": "Zendesk AI Agent",
-    "Highlight": "一个打通了Zendesk知识库和工单操作的智能Agent.",
-    "Details": "最后更新于Jan-2025. 可以通过RAG技术检索Zendesk知识库, 为用户提供及时的响应. 可以通过chatbox快速创建工单, 并与工单管理员进行实时沟通. 管理员可以通过chatbox快速查看工单, 可以对功能进行智能分析.",
+    "Highlight": "An intelligent agent that integrates Zendesk knowledge base with ticket management operations.",
+    "Details": "Last updated in January 2025. It utilizes RAG technology to retrieve information from the Zendesk knowledge base, providing users with timely responses. Users can quickly create tickets via the chatbox and communicate with ticket administrators in real-time. Administrators can swiftly view tickets through the chatbox and perform intelligent analysis of functionalities.",
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
       "type": "video",
-      "url": ""
+      "url": "https://youtu.be/QrBI2gJpx6E"
     },
     "BackgroundVideo": ""
   },
   "Project1": {
     "Name": "Meeting Assistant",
-    "Highlight": "一个浏览器插件. 将ASR, TTS, AI功能运用到在线会议中",
-    "Details": "最后更新于Jan-2025. 产品亮点, 支持自定义ASR/TTS/AI服务的API, 低成本运行会议助手. 支持TTS不同语言语调的设置, 支持定制自己的声音. ",
+    "Highlight": "A browser extension that integrates ASR, TTS, and AI functionalities into online meetings.",
+    "Details": "Last updated in January 2025. Product highlights include support for customizable APIs for ASR, TTS, and AI services, enabling low-cost operation of the meeting assistant. It also supports setting different language tones for TTS and allows users to customize their own voice.",
     "TechTag": ["JavaScript", "Game", "Web"],
     "Demo": {
       "type": "video",
-      "url": ""
+      "url": "https://youtu.be/7E2UUX2VSDc"
+    },
+    "BackgroundVideo": ""
+  },
+  "Project0": {
+    "Name": "SmartDove",
+    "Highlight": "A Chat Buzzword assistant",
+    "Details": "Last updated in September 2019. Product highlights: Transform ordinary, mundane text into trendy, buzzworthy expressions popular on the internet, or convert it into more engaging and captivating language.",
+    "TechTag": ["Xcode", "Python", "Javascript"],
+    "Demo": {
+      "type": "video",
+      "url": "https://youtube.com/shorts/zdao-DysEFA?feature=share"
     },
     "BackgroundVideo": ""
   }
