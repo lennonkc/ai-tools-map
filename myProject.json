@@ -8,7 +8,8 @@
       "type": "video",
       "url": "https://youtu.be/CdbptfTXKOw"
     },
-    "BackgroundVideo": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project1.png?raw=true"
+    "BackgroundVideo": "",
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project1.png?raw=true"
   },
   "Project8": {
     "Name": "AI Database",
@@ -96,7 +97,8 @@
       "type": "video",
       "url": "https://youtu.be/7E2UUX2VSDc"
     },
-    "BackgroundVideo": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project1.png?raw=true"
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project1.png?raw=true",
+    "BackgroundVideo": ""
   },
   "Project0": {
     "Name": "SmartDove",
@@ -107,6 +109,7 @@
       "type": "video",
       "url": "https://youtube.com/shorts/zdao-DysEFA?feature=share"
     },
-    "BackgroundVideo": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project0.png?raw=true"
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project0.png?raw=true",
+    "BackgroundVideo": ""
   }
 }
