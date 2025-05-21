@@ -9,12 +9,12 @@
       "url": "https://youtu.be/CdbptfTXKOw"
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project9.png?raw=true"
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project9.png?raw=true"
   },
   "Project8": {
     "Name": "AI Database",
-    "Highlight": "基于MCP技术, 通过简单的对话准确地智能分析超大型数据库.",
-    "Details": "最后更新于Apr-2025.基于MongoDB和MCP技术, MongoDB可以对大量数据进行高级运算和筛选, 可以突破传统LLM的Token限制, 最终实现了一个智能的数据库.",
+    "Highlight": "Based on MCP+NoSQL technology, an AI chatbox that accurately and intelligently analyzes large-scale data.",
+    "Details": "Last updated in April 2025. Utilizing MongoDB and MCP technology, MongoDB can perform advanced computations and filtering on large datasets, overcoming the token limitations of traditional LLMs, ultimately resulting in an intelligent database.",
     "TechTag": ["MongoDB", "MCP"],
     "Demo": {
       "type": "video",
@@ -25,32 +25,34 @@
   },
   "Project7": {
     "Name": "API vs GUI",
-    "Highlight": "一个解释API和GUI Agent的视频",
-    "Details": "最后更新于Apr-2025.",
+    "Highlight": "A video explaining APIs and GUI Agents.",
+    "Details": "Last updated in April 2025.",
     "TechTag": ["Camtasia"],
     "Demo": {
       "type": "video",
       "url": ""
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project7.png?raw=true"
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/AIsystems.png?raw=true"
 
   },
   "Project6": {
     "Name": "Browser Operator Agent",
-    "Highlight": "一个可以像人类一样操作浏览器的AI Agent",
-    "Details": "最后更新于Mar-2025. 通过预设任务, 让AI Agent像人类一样操作浏览器, 突破传统爬虫的限制, 可以对浏览器进行任何操作, 可以获取任何信息.",
+    "Highlight": "An AI agent capable of operating a browser app like a human.",
+    "Details": "Last updated in March 2025. By using predefined tasks, the AI agent can operate a browser like a human, breaking through the limitations of traditional web crawlers. It can perform any action within the browser and retrieve any information.",
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
       "type": "video/Live",
-      "url": ""
+      "url": "https://youtu.be/2t-d5vePZuw"
     },
-    "BackgroundVideo": ""
+    "BackgroundVideo": "",
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project6.png?raw=true"
+
   },
   "Project5": {
     "Name": "Amazon AI Chat",
-    "Highlight": "基于Amazon SPAPI的数据, 实现的AI聊天机器人",
-    "Details": "最后更新于Mar-2025.",
+    "Highlight": "An AI chatbot implemented based on Amazon SPAPI data.",
+    "Details": "Last updated in March 2025. The AI chatbot is capable of answering questions about Amazon data",
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
       "type": "video/Live",
@@ -60,14 +62,15 @@
   },
   "Project4": {
     "Name": "Zendesk X Netsuite Actions AI",
-    "Highlight": "获取Zendesk关于Netsuite的工单信息, 并自动创建/修改Netsuite订单.",
-    "Details": "最后更新于Feb-2025. 实时获取Zendesk的工单信息. 用AI技术分析工单内容, 获取用户的目的和Netsuite的操作类型. 根据用户的目的和操作类型 自动创建/修改Netsuite订单. 提供日志记录功能, 方便管理员查看订单创建/修改的完整过程.",
+    "Highlight": "Retrieve Zendesk tickets related to NetSuite and automatically create or modify NetSuite data.",
+    "Details": "Last updated in February 2025. Real-time retrieval of Zendesk ticket information. Utilize AI technology to analyze ticket content, identifying user intent and the type of NetSuite operations. Automatically create or modify NetSuite orders based on user intent and operation type. Provide a logging feature to facilitate administrators in reviewing the complete process of order creation and modification.",
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
       "type": "video/Live",
       "url": ""
     },
-    "BackgroundVideo": ""
+    "BackgroundVideo": "",
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project4.png?raw=true"
   },
   "Project3": {
     "Name": "Kaxi",
@@ -89,7 +92,8 @@
       "type": "video",
       "url": "https://youtu.be/QrBI2gJpx6E"
     },
-    "BackgroundVideo": ""
+    "BackgroundVideo": "",
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project2.png?raw=true"
   },
   "Project1": {
     "Name": "Meeting Assistant",
@@ -100,7 +104,7 @@
       "type": "video",
       "url": "https://youtu.be/7E2UUX2VSDc"
     },
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project1.png?raw=true",
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project1.png?raw=true",
     "BackgroundVideo": ""
   },
   "Project0": {
