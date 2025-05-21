@@ -96,7 +96,7 @@
       "type": "video",
       "url": "https://youtu.be/7E2UUX2VSDc"
     },
-    "BackgroundVideo": ""
+    "BackgroundVideo": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project1.png?raw=true"
   },
   "Project0": {
     "Name": "SmartDove",
@@ -107,6 +107,6 @@
       "type": "video",
       "url": "https://youtube.com/shorts/zdao-DysEFA?feature=share"
     },
-    "BackgroundVideo": ""
+    "BackgroundVideo": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project0.png?raw=true"
   }
 }
