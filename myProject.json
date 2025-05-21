@@ -1,22 +1,99 @@
 {
-  "Project1": {
-    "Name": "myProject",
-    "Highlight": "C++",
-    "Details": "A simple project",
+  "Project9": {
+    "Name": "Super Agent",
+    "Highlight": "基于MCP技术实现的综合Agent",
+    "Details": "最后更新于May-2025. 通过简单的对话, 即可让AI使用各种工具去自动化完成各种复杂任务. 就像人类使用APP一样, AI现在也可以使用APP. 比如打开网站, 生成文件, 制作 3D模型等等 ",
+    "TechTag": ["MongoDB", "MCP"],
+    "Demo": {
+      "type": "video",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project8": {
+    "Name": "AI Database",
+    "Highlight": "基于MCP技术, 通过简单的对话准确地智能分析超大型数据库.",
+    "Details": "最后更新于Apr-2025.基于MongoDB和MCP技术, MongoDB可以对大量数据进行高级运算和筛选, 可以突破传统LLM的Token限制, 最终实现了一个智能的数据库.",
+    "TechTag": ["MongoDB", "MCP"],
+    "Demo": {
+      "type": "video",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project7": {
+    "Name": "API vs GUI",
+    "Highlight": "一个解释API和GUI Agent的视频",
+    "Details": "最后更新于Apr-2025.",
+    "TechTag": ["Camtasia"],
+    "Demo": {
+      "type": "video",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project6": {
+    "Name": "Browser Operator Agent",
+    "Highlight": "一个可以像人类一样操作浏览器的AI Agent",
+    "Details": "最后更新于Mar-2025. 通过预设任务, 让AI Agent像人类一样操作浏览器, 突破传统爬虫的限制, 可以对浏览器进行任何操作, 可以获取任何信息.",
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
-      "type": "repo/video/Live",
+      "type": "video/Live",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project5": {
+    "Name": "Amazon AI Chat",
+    "Highlight": "基于Amazon SPAPI的数据, 实现的AI聊天机器人",
+    "Details": "最后更新于Mar-2025.",
+    "TechTag": ["C++", "Game", "Web"],
+    "Demo": {
+      "type": "video/Live",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project4": {
+    "Name": "Zendesk X Netsuite Actions AI",
+    "Highlight": "获取Zendesk关于Netsuite的工单信息, 并自动创建/修改Netsuite订单.",
+    "Details": "最后更新于Feb-2025. 实时获取Zendesk的工单信息. 用AI技术分析工单内容, 获取用户的目的和Netsuite的操作类型. 根据用户的目的和操作类型 自动创建/修改Netsuite订单. 提供日志记录功能, 方便管理员查看订单创建/修改的完整过程.",
+    "TechTag": ["C++", "Game", "Web"],
+    "Demo": {
+      "type": "video/Live",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project3": {
+    "Name": "Kaxi",
+    "Highlight": "基于Chatbox的Taxi预定App",
+    "Details": "最后更新于Feb-2025. 在chabox中实现Uber的 90% 功能, 支持用户管理,地址选择, 路线选择, 车型选择, 订单创建,订单完成等功能.",
+    "TechTag": ["C++", "Game", "Web"],
+    "Demo": {
+      "type": "video/Live",
       "url": ""
     },
     "BackgroundVideo": ""
   },
   "Project2": {
-    "Name": "myProject2",
-    "Highlight": "Javascript",
-    "Details": "A simple project",
+    "Name": "Zendesk AI Agent",
+    "Highlight": "一个打通了Zendesk知识库和工单操作的智能Agent.",
+    "Details": "最后更新于Jan-2025. 可以通过RAG技术检索Zendesk知识库, 为用户提供及时的响应. 可以通过chatbox快速创建工单, 并与工单管理员进行实时沟通. 管理员可以通过chatbox快速查看工单, 可以对功能进行智能分析.",
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
-      "type": "repo/video/Live",
+      "type": "video",
+      "url": ""
+    },
+    "BackgroundVideo": ""
+  },
+  "Project1": {
+    "Name": "Meeting Assistant",
+    "Highlight": "一个浏览器插件. 将ASR, TTS, AI功能运用到在线会议中",
+    "Details": "最后更新于Jan-2025. 产品亮点, 支持自定义ASR/TTS/AI服务的API, 低成本运行会议助手. 支持TTS不同语言语调的设置, 支持定制自己的声音. ",
+    "TechTag": ["JavaScript", "Game", "Web"],
+    "Demo": {
+      "type": "video",
       "url": ""
     },
     "BackgroundVideo": ""
