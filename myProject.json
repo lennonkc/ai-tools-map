@@ -9,7 +9,7 @@
       "url": "https://youtu.be/CdbptfTXKOw"
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project9.png?raw=true"
+    "BackgroundImage": "/projectImages/project9.png"
   },
   "Project8": {
     "Name": "AI Database",
@@ -21,7 +21,7 @@
       "url": ""
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project8.png?raw=true"
+    "BackgroundImage": "/projectImages/project8.png"
   },
   "Project7": {
     "Name": "API vs GUI",
@@ -33,7 +33,7 @@
       "url": "https://youtu.be/ETXEbkvWelM"
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/AIsystems.png?raw=true"
+    "BackgroundImage": "/projectImages/AIsystems.png"
   },
   "Project6": {
     "Name": "Browser Operator Agent",
@@ -45,7 +45,7 @@
       "url": "https://youtu.be/2t-d5vePZuw"
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project6.png?raw=true"
+    "BackgroundImage": "/projectImages/project6.png"
   },
   "Project5": {
     "Name": "Amazon AI Chat",
@@ -68,7 +68,7 @@
       "url": ""
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project4.png?raw=true"
+    "BackgroundImage": "/projectImages/project4.png"
   },
   "Project3": {
     "Name": "Kaxi",
@@ -79,7 +79,7 @@
       "type": "video/Live",
       "url": "https://www.linkedin.com/posts/kuncheng-li_onereachai-robert-aldrich-i-would-like-activity-7298105397981192192-vF8m?utm_source=share&utm_medium=member_desktop&rcm=ACoAACjz41MBBvxo7Z532WG56M-NalqYcEacrc8"
     },
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project3.png?raw=true",
+    "BackgroundImage": "/projectImages/project3.png",
     "BackgroundVideo": ""
   },
   "Project2": {
@@ -92,7 +92,7 @@
       "url": "https://youtu.be/QrBI2gJpx6E"
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project2.png?raw=true"
+    "BackgroundImage": "/projectImages/project2.png"
   },
   "Project1": {
     "Name": "Meeting Assistant",
@@ -103,7 +103,7 @@
       "type": "video",
       "url": "https://youtu.be/7E2UUX2VSDc"
     },
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project1.png?raw=true",
+    "BackgroundImage": "/projectImages/project1.png",
     "BackgroundVideo": ""
   },
   "Project0": {
@@ -115,7 +115,7 @@
       "type": "video",
       "url": "https://youtube.com/shorts/zdao-DysEFA?feature=share"
     },
-    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project0.png?raw=true",
+    "BackgroundImage": "/projectImages/project0.png",
     "BackgroundVideo": ""
   }
 }
