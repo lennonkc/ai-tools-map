@@ -24,7 +24,7 @@
     "BackgroundImage": "/projectImages/project8.png"
   },
   "Project7": {
-    "Name": "API vs GUI",
+    "Name": "API vs GUI Agents",
     "Highlight": "A video explaining APIs and GUI Agents.",
     "Details": "Last updated in April 2025.",
     "TechTag": ["Camtasia"],
@@ -33,7 +33,7 @@
       "url": "https://youtu.be/ETXEbkvWelM"
     },
     "BackgroundVideo": "",
-    "BackgroundImage": "/projectImages/AIsystems.png"
+    "BackgroundImage": "/projectImages/project3.png"
   },
   "Project6": {
     "Name": "Browser Operator Agent",
