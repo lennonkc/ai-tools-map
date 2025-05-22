@@ -34,7 +34,6 @@
     },
     "BackgroundVideo": "",
     "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/AIsystems.png?raw=true"
-
   },
   "Project6": {
     "Name": "Browser Operator Agent",
@@ -47,7 +46,6 @@
     },
     "BackgroundVideo": "",
     "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectImages/project6.png?raw=true"
-
   },
   "Project5": {
     "Name": "Amazon AI Chat",
@@ -79,8 +77,9 @@
     "TechTag": ["C++", "Game", "Web"],
     "Demo": {
       "type": "video/Live",
-      "url": "https://youtube.com/shorts/cdI8gGxA8WI?feature=share"
+      "url": "https://www.linkedin.com/posts/kuncheng-li_onereachai-robert-aldrich-i-would-like-activity-7298105397981192192-vF8m?utm_source=share&utm_medium=member_desktop&rcm=ACoAACjz41MBBvxo7Z532WG56M-NalqYcEacrc8"
     },
+    "BackgroundImage": "https://github.com/lennonkc/ai-tools-map/blob/main/assets/projectDiagrams/project3.png?raw=true",
     "BackgroundVideo": ""
   },
   "Project2": {
