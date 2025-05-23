@@ -4,58 +4,55 @@
 
 ### A2A/MCP <!-- markmap: fold -->
 
-#### Agents
-
 - openSource
 
-  - A2A
+#### A2A <!-- markmap: fold -->
+- AutoGen ⭐
+- GraphFlow
+  - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
+- AutoGPT ⭐
+- LangGraph ⭐
+  - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
+- [CrewAI](https://github.com/crewAIInc/crewAI)
+- Google ADK
+- [AutoAgent](https://github.com/HKUDS/AutoAgent)
+- Agno
+- LangManus <!-- markmap: fold -->
+  - pre-built tools
 
-    - AutoGen ⭐
-    - GraphFlow
-      - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
-    - AutoGPT ⭐
-    - LangGraph ⭐
-      - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
-    - [CrewAI](https://github.com/crewAIInc/crewAI)
-    - Google ADK
-    - [AutoAgent](https://github.com/HKUDS/AutoAgent)
-    - Agno
-    - LangManus <!-- markmap: fold -->
-      - pre-built tools
+#### MCP <!-- markmap: fold -->
+  - MCP Market(all free) <!-- markmap: fold -->
+    - <https://github.com/modelcontextprotocol/servers>
+    - <https://mcp.so/>
+    - <https://glama.ai/mcp/servers>
+    - <https://github.com/punkpeye/awesome-mcp-servers>
+  - [MCP Clients](https://modelcontextprotocol.io/clients) <!-- markmap: fold -->
+    - open-source
+      - open webui ⭐
+      - [5fire](https://github.com/nanbingxyz/5ire) Desktop
+      - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
+      - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)
+    - 3rd
+      - 扣子空间
+      - [360 纳米 ai](https://bot.n.cn/download)
+    - SillyTavern
+      - Provide advanced AI conversation tuning
+    - Cline ⭐ /RooCode
+      - Quick MCP invocation embedded in the IDE
+    - Trae ⭐ /Cursor
+      - AI IDE
+  - MCP developing <!-- markmap: fold -->
+    - [aci](https://github.com/aipotheosis-labs/aci)
+      - 你需要配置一个总的 ACI MCP 服务，然后把你想要的告诉它，它会自己帮你决策调用哪些 MCP 或者 API 完成你的任务。它预置了 600 多种常见应用（如谷歌日历、Slack 等）的标准化接口，开发者无需从头编写每个服务的授权流程和 API 调用代码。
+    - [Mem0](https://github.com/mem0ai/mem0)
+      - “mem-zero”为 AI 助手和智能体加上了智能记忆层，让 AI 可以实现个性化的互动。它能记住用户的偏好，适应每个人的需求，并且会随着时间不断学习，非常适合用在客服聊天机器人、AI 助手和自动化系统中。
+    - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
+      - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
+    - Docs
+      - [MCP 开发精准控制](https://mp.weixin.qq.com/s/AFrOLt0MZPrv11WJGQE5zA?mpshare=1&scene=1&srcid=0516lrt6NmDfMTT8Kq0PcDvB&sharer_shareinfo=d8b588badd9f9283def218a8efddc067&sharer_shareinfo_first=d8b588badd9f9283def218a8efddc067&version=4.1.36.99603&platform=mac#rd)
+- [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
 
-  - MCP
-    - MCP Market(all free) <!-- markmap: fold -->
-      - <https://github.com/modelcontextprotocol/servers>
-      - <https://mcp.so/>
-      - <https://glama.ai/mcp/servers>
-      - <https://github.com/punkpeye/awesome-mcp-servers>
-    - [MCP Clients](https://modelcontextprotocol.io/clients) <!-- markmap: fold -->
-      - open-source
-        - open webui ⭐
-        - [5fire](https://github.com/nanbingxyz/5ire) Desktop
-        - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
-        - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)
-      - 3rd
-        - 扣子空间
-        - [360 纳米 ai](https://bot.n.cn/download)
-      - SillyTavern
-        - Provide advanced AI conversation tuning
-      - Cline ⭐ /RooCode
-        - Quick MCP invocation embedded in the IDE
-      - Trae ⭐ /Cursor
-        - AI IDE
-    - MCP developing <!-- markmap: fold -->
-      - [aci](https://github.com/aipotheosis-labs/aci)
-        - 你需要配置一个总的 ACI MCP 服务，然后把你想要的告诉它，它会自己帮你决策调用哪些 MCP 或者 API 完成你的任务。它预置了 600 多种常见应用（如谷歌日历、Slack 等）的标准化接口，开发者无需从头编写每个服务的授权流程和 API 调用代码。
-      - [Mem0](https://github.com/mem0ai/mem0)
-        - “mem-zero”为 AI 助手和智能体加上了智能记忆层，让 AI 可以实现个性化的互动。它能记住用户的偏好，适应每个人的需求，并且会随着时间不断学习，非常适合用在客服聊天机器人、AI 助手和自动化系统中。
-      - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
-        - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
-      - Docs
-        - [MCP 开发精准控制](https://mp.weixin.qq.com/s/AFrOLt0MZPrv11WJGQE5zA?mpshare=1&scene=1&srcid=0516lrt6NmDfMTT8Kq0PcDvB&sharer_shareinfo=d8b588badd9f9283def218a8efddc067&sharer_shareinfo_first=d8b588badd9f9283def218a8efddc067&version=4.1.36.99603&platform=mac#rd)
-  - [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
-
-- 3rd
+#### 3r agents <!-- markmap: fold -->
   - Genspark SuperAgent(3rd)
   - [flowith](https://flowith.io/blank)
 
