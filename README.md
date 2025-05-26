@@ -1,4 +1,4 @@
-# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025May23]
+# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025May26]
 
 ## Agents
 
@@ -8,6 +8,7 @@
 
 #### A2A <!-- markmap: fold -->
 - AutoGen ⭐
+  - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
 - GraphFlow
   - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
 - AutoGPT ⭐
@@ -19,6 +20,7 @@
 - Agno
 - LangManus <!-- markmap: fold -->
   - pre-built tools
+- [Agent Squad 6k🌟](https://github.com/awslabs/agent-squad)
 
 #### MCP <!-- markmap: fold -->
   - MCP Market(all free) <!-- markmap: fold -->
@@ -55,9 +57,10 @@
 #### 3r agents <!-- markmap: fold -->
   - Genspark SuperAgent(3rd)
   - [flowith](https://flowith.io/blank)
+  - [DeepAgent](https://apps.abacus.ai/chatllm/)
 
 #### Knowledge <!-- markmap: fold -->
-
+- [bvp_Agent maturity scale](https://www.bvp.com/atlas/bessemers-ai-agent-autonomy-scale)
 - [全流程客制化一个 Agent](https://mp.weixin.qq.com/s/rX3J1f8V_-dvBYn1MAl1dg?version=4.1.36.99603&platform=mac)
 - [Gen tools Map](https://www.sequoiacap.com/article/generative-ai-act-two/)
 - [Foundation Agents](https://arxiv.org/abs/2504.01990)
@@ -75,7 +78,8 @@
   - 基于 Tavily 的 AI 内容筛选, 多源数据自动收集，整合公司网站、新闻和财报信息；
 - [FutureHouse](https://www.futurehouse.org/)
   - 综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
-
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands)
+  - 一个可以帮程序员写代码的 AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
 ### Vision-Based <!-- markmap: fold -->
 
 - Browser Operator
@@ -96,6 +100,7 @@
         - Selenium
         - Puppeteer
       - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
+        - Selenium 原生操作复杂、脚本不稳定、报告繁琐。SeleniumBase 像一个“智能助手”，让自动化测试和任务变得简单可靠。
         - 除了基本的网页操作，它还内置了测试框架（支持 pytest、unittest、behave），能帮你写端到端测试、爬网页数据，甚至还能搞定 Cloudflare 那种防爬的检测。自带一堆工具，比如生成测试报告、截图保存、甚至还能做交互式网页引导。总之，不管你是开发者、测试工程师，还是想偷懒的“脚本侠”，它都能给你整得明明白白！
     - 3rd
       - Browserless
@@ -224,6 +229,8 @@
   - Tars
   - [Activepieces](https://github.com/activepieces/activepieces)
   - bisheng
+  - [PySpur 5k](https://github.com/PySpur-Dev/pyspur)
+    - PySpur 是一个基于 Python 的开源可视化AI智能体开发平台，专为简化AI工作流构建而生。它通过图形化拖拽替代传统编码，让非技术用户也能快速搭建复杂的AI应用，同时支持开发者深度定制模块。
 
 - 3rd
   - Coze
@@ -241,10 +248,20 @@
   - newsnow
   - [lingowhale](https://lingowhale.com/)
     - Automatic tracking of information sources and AI summarization
+  - Stock Trader
+    - [ai_quant_trade](https://github.com/charliedream1/ai_quant_trade)
+    - [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS)
+      - 一个本地量化交易的解决方案，支持任务调度、分布式部署，国内很多投资者和量化开发者都在使用，目前在 GitHub 上已经获得了 8.7K 的 Star
+    - [Backtrader](https://github.com/mementum/backtrader)
+      - 回测框架
+
+
 - Writting
   - Writer
   - Jenni_AI
-- Voice & Video
+
+
+- Voice & Video & Images
 
   - TTS
     - MiniMax
@@ -253,25 +270,31 @@
       - • Multi-character dialogue generation: Use tags like [S1], [S2] <br>• Personified expressions: Supports non-verbal emotions such as laughter (laugh), sighing (sigh), coughing (cough), etc.
     - spark
       - Open-source anthropomorphic TTS
-  - Krillin AI
-    - Video subtitle generation, subtitle translation, automatic dubbing
-  - Deep-Live-Cam
+  
+  - Video
+    - Krillin AI
+      - Video subtitle generation, subtitle translation, automatic dubbing
+    - Deep-Live-Cam
 
-    - Real-time face swapping in video conferences
+      - Real-time face swapping in video conferences
 
-  - MoneyPrinterTurbo
-    - 自动免费资源整合, 视频生成器. 把 DeepSeek 大模型、视频素材搜索、配音、字幕生成能力整合起来了。你属于一个主题，它基于刚刚这一系列能力攒出来一个高清短视频。
-  - Video to Text
-    - [FramePark](https://github.com/lllyasviel/FramePack)
-      - 在普通电脑运行视频生成模型. 用户友好的 UI, 每一帧都能预览.
-    - BiliNote
-      - Transform bilibili video into text
-    - Video2Blog
-      - Youtube Video -> Text
-  - Video download
-    - datatool.vip
-    - [Cobalt](https://cobalt.tools/)
-      - 下载 url 连接中的媒体视频
+    - MoneyPrinterTurbo
+      - 自动免费资源整合, 视频生成器. 把 DeepSeek 大模型、视频素材搜索、配音、字幕生成能力整合起来了。你属于一个主题，它基于刚刚这一系列能力攒出来一个高清短视频。
+    - Video to Text
+      - [FramePark](https://github.com/lllyasviel/FramePack)
+        - 在普通电脑运行视频生成模型. 用户友好的 UI, 每一帧都能预览.
+      - BiliNote
+        - Transform bilibili video into text
+      - Video2Blog
+        - Youtube Video -> Text
+    - Video download
+      - datatool.vip
+      - [Cobalt](https://cobalt.tools/)
+        - 下载 url 连接中的媒体视频
+
+  - Images
+    - Lovart
+      - 图片生成
 
 - Wechat
   - [chatlog](https://github.com/sjzar/chatlog)
@@ -339,6 +362,8 @@
       - 介绍 <!-- markmap: fold -->
         - Meilisearch 本质上是一个开源的全文搜索引擎，用 Rust 语言开发，专为前端和移动应用优化设计。它跟传统搜索引擎最大的区别就是对用户体验的极致追求，尤其是实时搜索这块，输入一个字母就能立刻看到结果，真的是快到夸张。
           市面上类似的产品大部分要么太重（Elasticsearch 动辄几个 G 内存），要么功能太弱（像 SQL 的 LIKE 查询连拼写错误都容忍不了）。而 Meilisearch 就像是取了两者的精华，既保持了轻量级（才 100 多 MB 内存），又提供了企业级的搜索体验。
+    - [Bruno](https://github.com/usebruno/bruno)
+      - 开源API测试工具
   - caddy
   - Gatsby
   - Strapi
