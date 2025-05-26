@@ -7,59 +7,64 @@
 - openSource
 
 #### A2A <!-- markmap: fold -->
-- AutoGen ⭐
+
+- AutoGen 45k⭐
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
-- GraphFlow
-  - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
-- AutoGPT ⭐
-- LangGraph ⭐
-  - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
-- [CrewAI](https://github.com/crewAIInc/crewAI)
-- Google ADK
-- [AutoAgent](https://github.com/HKUDS/AutoAgent)
-- Agno
-- LangManus <!-- markmap: fold -->
-  - pre-built tools
-- [Agent Squad 6k🌟](https://github.com/awslabs/agent-squad)
+  - GraphFlow
+    - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
+- AutoGPT 176⭐
+- [CrewAI 32kStar](https://github.com/crewAIInc/crewAI)
+- Agno 27k⭐
+- Google ADK 9k⭐
+
+- other <!-- markmap: fold -->
+  - LangManus <!-- markmap: fold -->
+    - LangGraph
+      - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
+    - pre-built tools
+  - [Agent Squad 6k](https://github.com/awslabs/agent-squad)
 
 #### MCP <!-- markmap: fold -->
-  - MCP Market(all free) <!-- markmap: fold -->
-    - <https://github.com/modelcontextprotocol/servers>
-    - <https://mcp.so/>
-    - <https://glama.ai/mcp/servers>
-    - <https://github.com/punkpeye/awesome-mcp-servers>
-  - [MCP Clients](https://modelcontextprotocol.io/clients) <!-- markmap: fold -->
-    - open-source
-      - open webui ⭐
-      - [5fire](https://github.com/nanbingxyz/5ire) Desktop
-      - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
-      - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)
-    - 3rd
-      - 扣子空间
-      - [360 纳米 ai](https://bot.n.cn/download)
-    - SillyTavern
-      - Provide advanced AI conversation tuning
-    - Cline ⭐ /RooCode
-      - Quick MCP invocation embedded in the IDE
-    - Trae ⭐ /Cursor
-      - AI IDE
-  - MCP developing <!-- markmap: fold -->
-    - [aci](https://github.com/aipotheosis-labs/aci)
-      - 你需要配置一个总的 ACI MCP 服务，然后把你想要的告诉它，它会自己帮你决策调用哪些 MCP 或者 API 完成你的任务。它预置了 600 多种常见应用（如谷歌日历、Slack 等）的标准化接口，开发者无需从头编写每个服务的授权流程和 API 调用代码。
-    - [Mem0](https://github.com/mem0ai/mem0)
-      - “mem-zero”为 AI 助手和智能体加上了智能记忆层，让 AI 可以实现个性化的互动。它能记住用户的偏好，适应每个人的需求，并且会随着时间不断学习，非常适合用在客服聊天机器人、AI 助手和自动化系统中。
-    - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
-      - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
-    - Docs
-      - [MCP 开发精准控制](https://mp.weixin.qq.com/s/AFrOLt0MZPrv11WJGQE5zA?mpshare=1&scene=1&srcid=0516lrt6NmDfMTT8Kq0PcDvB&sharer_shareinfo=d8b588badd9f9283def218a8efddc067&sharer_shareinfo_first=d8b588badd9f9283def218a8efddc067&version=4.1.36.99603&platform=mac#rd)
+
+- MCP Market(all free) <!-- markmap: fold -->
+  - <https://github.com/modelcontextprotocol/servers>
+  - <https://mcp.so/>
+  - <https://glama.ai/mcp/servers>
+  - <https://github.com/punkpeye/awesome-mcp-servers>
+- [MCP Clients](https://modelcontextprotocol.io/clients) <!-- markmap: fold -->
+  - open-source
+    - open webui ⭐
+    - [5fire](https://github.com/nanbingxyz/5ire) Desktop
+    - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
+    - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)
+  - 3rd
+    - 扣子空间
+    - [360 纳米 ai](https://bot.n.cn/download)
+  - SillyTavern
+    - Provide advanced AI conversation tuning
+  - Cline ⭐ /RooCode
+    - Quick MCP invocation embedded in the IDE
+  - Trae ⭐ /Cursor
+    - AI IDE
+- MCP developing <!-- markmap: fold -->
+  - [aci](https://github.com/aipotheosis-labs/aci)
+    - 你需要配置一个总的 ACI MCP 服务，然后把你想要的告诉它，它会自己帮你决策调用哪些 MCP 或者 API 完成你的任务。它预置了 600 多种常见应用（如谷歌日历、Slack 等）的标准化接口，开发者无需从头编写每个服务的授权流程和 API 调用代码。
+  - [Mem0](https://github.com/mem0ai/mem0)
+    - “mem-zero”为 AI 助手和智能体加上了智能记忆层，让 AI 可以实现个性化的互动。它能记住用户的偏好，适应每个人的需求，并且会随着时间不断学习，非常适合用在客服聊天机器人、AI 助手和自动化系统中。
+  - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
+    - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
+  - Docs
+    - [MCP 开发精准控制](https://mp.weixin.qq.com/s/AFrOLt0MZPrv11WJGQE5zA?mpshare=1&scene=1&srcid=0516lrt6NmDfMTT8Kq0PcDvB&sharer_shareinfo=d8b588badd9f9283def218a8efddc067&sharer_shareinfo_first=d8b588badd9f9283def218a8efddc067&version=4.1.36.99603&platform=mac#rd)
 - [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
 
 #### 3r agents <!-- markmap: fold -->
-  - Genspark SuperAgent(3rd)
-  - [flowith](https://flowith.io/blank)
-  - [DeepAgent](https://apps.abacus.ai/chatllm/)
+
+- Genspark SuperAgent(3rd)
+- [flowith](https://flowith.io/blank)
+- [DeepAgent](https://apps.abacus.ai/chatllm/)
 
 #### Knowledge <!-- markmap: fold -->
+
 - [bvp_Agent maturity scale](https://www.bvp.com/atlas/bessemers-ai-agent-autonomy-scale)
 - [全流程客制化一个 Agent](https://mp.weixin.qq.com/s/rX3J1f8V_-dvBYn1MAl1dg?version=4.1.36.99603&platform=mac)
 - [Gen tools Map](https://www.sequoiacap.com/article/generative-ai-act-two/)
@@ -80,6 +85,7 @@
   - 综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
   - 一个可以帮程序员写代码的 AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
+
 ### Vision-Based <!-- markmap: fold -->
 
 - Browser Operator
@@ -230,7 +236,7 @@
   - [Activepieces](https://github.com/activepieces/activepieces)
   - bisheng
   - [PySpur 5k](https://github.com/PySpur-Dev/pyspur)
-    - PySpur 是一个基于 Python 的开源可视化AI智能体开发平台，专为简化AI工作流构建而生。它通过图形化拖拽替代传统编码，让非技术用户也能快速搭建复杂的AI应用，同时支持开发者深度定制模块。
+    - PySpur 是一个基于  Python  的开源可视化 AI 智能体开发平台，专为简化 AI 工作流构建而生。它通过图形化拖拽替代传统编码，让非技术用户也能快速搭建复杂的 AI 应用，同时支持开发者深度定制模块。
 
 - 3rd
   - Coze
@@ -242,6 +248,7 @@
 ### Media <!-- markmap: fold -->
 
 - News Center
+
   - meridian
     - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise,
       personalized daily briefings to help users filter out valuable information from the noise.
@@ -255,23 +262,24 @@
     - [Backtrader](https://github.com/mementum/backtrader)
       - 回测框架
 
-
 - Writting
+
   - Writer
   - Jenni_AI
-
 
 - Voice & Video & Images
 
   - TTS
+
     - MiniMax
       - Speech-02 是 MiniMax 全新升级的一款 AI 语音模型，也是全球第一个真正实现多样化、个性化定义的语音模型。
     - [Dia-1.6B](https://huggingface.co/spaces/nari-labs/Dia-1.6B)
       - • Multi-character dialogue generation: Use tags like [S1], [S2] <br>• Personified expressions: Supports non-verbal emotions such as laughter (laugh), sighing (sigh), coughing (cough), etc.
     - spark
       - Open-source anthropomorphic TTS
-  
+
   - Video
+
     - Krillin AI
       - Video subtitle generation, subtitle translation, automatic dubbing
     - Deep-Live-Cam
@@ -363,7 +371,7 @@
         - Meilisearch 本质上是一个开源的全文搜索引擎，用 Rust 语言开发，专为前端和移动应用优化设计。它跟传统搜索引擎最大的区别就是对用户体验的极致追求，尤其是实时搜索这块，输入一个字母就能立刻看到结果，真的是快到夸张。
           市面上类似的产品大部分要么太重（Elasticsearch 动辄几个 G 内存），要么功能太弱（像 SQL 的 LIKE 查询连拼写错误都容忍不了）。而 Meilisearch 就像是取了两者的精华，既保持了轻量级（才 100 多 MB 内存），又提供了企业级的搜索体验。
     - [Bruno](https://github.com/usebruno/bruno)
-      - 开源API测试工具
+      - 开源 API 测试工具
   - caddy
   - Gatsby
   - Strapi
@@ -466,3 +474,9 @@
 - [wan2.1-vace](https://www.douyin.com/video/7505069983332879643)
   - 视频生成大模型
   - 阿里巴巴颠覆视频创作领域！全新 Wan2.1-VACE 视频生成大模型震撼发布，保姆级教程手把手教你本地与 Colab 双平台部署，轻松生成电影级 AI 大片！Wan2.1-VACE-1.3B 参数做出惊艳效果
+
+### Learning Path <!-- markmap: fold -->
+
+- Playwright
+  - May26-June6
+- AutoGen
