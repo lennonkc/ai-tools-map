@@ -12,12 +12,13 @@
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
   - GraphFlow
     - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
-- AutoGPT 176⭐
 - [CrewAI 32kStar](https://github.com/crewAIInc/crewAI)
 - Agno 27k⭐
 - Google ADK 9k⭐
 
 - other <!-- markmap: fold -->
+  - AutoGPT 176⭐
+    - 主要是单Agent, 类似工作流编排.
   - LangManus <!-- markmap: fold -->
     - LangGraph
       - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
@@ -176,7 +177,10 @@
     - crawlee
     - maxun
     - Firecrawl
+      - 深度爬取网页内的link; 并且输出格式为md
   - 3rd
+    - Travily
+      - 支持网络搜索和结果验证, 更像一个搜索引擎
     - Scrapegraph-ai
     - ScrapingBee
     - WebScrapingAPI
