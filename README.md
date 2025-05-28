@@ -175,12 +175,13 @@
   - open-source
     - crawl4AI
     - crawlee
+      - 爬虫和浏览器自动化的结合
     - maxun
     - Firecrawl
-      - 深度爬取网页内的link; 并且输出格式为md
+      - 深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
   - 3rd
     - Travily
-      - 支持网络搜索和结果验证, 更像一个搜索引擎
+      - 支持网络搜索和结果验证, 更像一个智能搜索引擎
     - Scrapegraph-ai
     - ScrapingBee
     - WebScrapingAPI
