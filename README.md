@@ -1,4 +1,4 @@
-# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025May26]
+# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025Jun9]
 
 ## Agents
 
@@ -15,10 +15,10 @@
 - [CrewAI 32kStar](https://github.com/crewAIInc/crewAI)
 - Agno 27k⭐
 - Google ADK 9k⭐
+- Langflow/LangChain 70k⭐
+  - building and deploying AI-powered agents and workflows by simple drag and click
 
 - other <!-- markmap: fold -->
-  - AutoGPT 176⭐
-    - 主要是单Agent, 类似工作流编排.
   - LangManus <!-- markmap: fold -->
     - LangGraph
       - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
@@ -63,6 +63,7 @@
 - Genspark SuperAgent(3rd)
 - [flowith](https://flowith.io/blank)
 - [DeepAgent](https://apps.abacus.ai/chatllm/)
+- [AgentGPT](https://agentgpt.reworkd.ai/zh)
 
 #### Knowledge <!-- markmap: fold -->
 
@@ -209,6 +210,8 @@
     - [Docling 30k⭐](https://github.com/docling-project/docling)
       - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉识别的 LLM 模型, 降低成本.
 
+- 量化投资
+  - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
 ### Deep Reasearcher<br> <!-- markmap: fold -->
 
 - 3rd
@@ -220,6 +223,8 @@
     - [example](https://atypica.musedam.cc/study/Miw9cmdmfLmdzxaq/share?replay=1)
 - open-source
   - deep-searcher
+  - [deer-flow 13k⭐](https://github.com/bytedance/deer-flow/blob/main/README_zh.md)
+    - 字节旗下的深度研究框架, 目标是将语言模型与专业工具（如网络搜索、爬虫和 Python 代码执行）相结合. 可连接MCP
   - [OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher)[ ](https://github.com/mshumer/OpenDeepResearcher)
   - Jina
   - [deep-research](https://github.com/dzhng/deep-research)
@@ -253,7 +258,8 @@
 ### Media <!-- markmap: fold -->
 
 - News Center
-
+  - FMHY
+    - AI 资讯中心 / 各种免费资源集合
   - meridian
     - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise,
       personalized daily briefings to help users filter out valuable information from the noise.
@@ -284,7 +290,8 @@
       - Open-source anthropomorphic TTS
 
   - Video
-
+    - [FramePack 14k](https://github.com/lllyasviel/FramePack)
+      - Windows电脑生成视频,  低硬件需求和友好界面，开启创作新纪元
     - Krillin AI
       - Video subtitle generation, subtitle translation, automatic dubbing
     - Deep-Live-Cam
@@ -341,6 +348,8 @@
 
   - [openui](https://github.com/wandb/openui)
     - conversational build Font web
+  - [onlook 18k](https://github.com/onlook-dev/onlook)
+    - 前端可视化工具. 像ps一样编辑React前端, 支持tw
   - GrapesJS
     - Zero-code web design tool
   - Galileo AI
