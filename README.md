@@ -1,12 +1,12 @@
-# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025Jun9]
+# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025Aug9]
 
 ## Agents
 
-### A2A/MCP <!-- markmap: fold -->
+### Conversions/WorkFlows <!-- markmap: fold -->
 
 - openSource
 
-#### A2A <!-- markmap: fold -->
+#### Conversational Agents <!-- markmap: fold -->
 
 - AutoGen 45k⭐
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
@@ -14,9 +14,8 @@
     - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
 - [CrewAI 32kStar](https://github.com/crewAIInc/crewAI)
 - Agno 27k⭐
-- Google ADK 9k⭐
-- Langflow/LangChain 70k⭐
-  - building and deploying AI-powered agents and workflows by simple drag and click
+- Google ADK & A2A 9k⭐
+
 
 - other <!-- markmap: fold -->
   - LangManus <!-- markmap: fold -->
@@ -24,6 +23,14 @@
       - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
     - pre-built tools
   - [Agent Squad 6k](https://github.com/awslabs/agent-squad)
+
+#### WorkFlows Agent
+- Langflow/LangChain 70k⭐
+  - building and deploying AI-powered agents and workflows by simple drag and click
+  - examples
+    - JP Morgen **Ask D.A.V.I.D**
+    - ByteDance **DeerFlow**
+    - Google **Gemini_Researcher**
 
 #### MCP <!-- markmap: fold -->
 
