@@ -6,7 +6,7 @@
 
 - openSource
 
-#### Conversational Agents <!-- markmap: fold -->
+#### Conversational Agents 
 
 - AutoGen 45k⭐
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
@@ -15,14 +15,8 @@
 - [CrewAI 32kStar](https://github.com/crewAIInc/crewAI)
 - Agno 27k⭐
 - Google ADK & A2A 9k⭐
-
-
-- other <!-- markmap: fold -->
-  - LangManus <!-- markmap: fold -->
-    - LangGraph
-      - [docs_link](https://mp.weixin.qq.com/s/VMNJQiWSTGCbyCfHdAn9jw?mpshare=1&scene=1&srcid=0501BJJYkAdGwreLl2ds1eUB&sharer_shareinfo=f514703baec16a06161e0c373df57d72&sharer_shareinfo_first=f514703baec16a06161e0c373df57d72&version=4.1.36.99603&platform=mac#rd)
-    - pre-built tools
-  - [Agent Squad 6k](https://github.com/awslabs/agent-squad)
+- LangManus
+- [Agent Squad 6k⭐](https://github.com/awslabs/agent-squad)
 
 #### WorkFlows Agent
 - Langflow/LangChain 70k⭐
@@ -31,6 +25,10 @@
     - JP Morgen **Ask D.A.V.I.D**
     - ByteDance **DeerFlow**
     - Google **Gemini_Researcher**
+- N8N
+- Dify
+- Coze
+
 
 #### MCP <!-- markmap: fold -->
 
@@ -65,12 +63,6 @@
     - [MCP 开发精准控制](https://mp.weixin.qq.com/s/AFrOLt0MZPrv11WJGQE5zA?mpshare=1&scene=1&srcid=0516lrt6NmDfMTT8Kq0PcDvB&sharer_shareinfo=d8b588badd9f9283def218a8efddc067&sharer_shareinfo_first=d8b588badd9f9283def218a8efddc067&version=4.1.36.99603&platform=mac#rd)
 - [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
 
-#### 3r agents <!-- markmap: fold -->
-
-- Genspark SuperAgent(3rd)
-- [flowith](https://flowith.io/blank)
-- [DeepAgent](https://apps.abacus.ai/chatllm/)
-- [AgentGPT](https://agentgpt.reworkd.ai/zh)
 
 #### Knowledge <!-- markmap: fold -->
 
@@ -94,6 +86,11 @@
   - 综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
   - 一个可以帮程序员写代码的 AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
+- 3r agents
+  - Genspark SuperAgent(3rd)
+  - [flowith](https://flowith.io/blank)
+  - [DeepAgent](https://apps.abacus.ai/chatllm/)
+  - [AgentGPT](https://agentgpt.reworkd.ai/zh)
 
 ### Vision-Based <!-- markmap: fold -->
 
