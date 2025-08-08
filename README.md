@@ -2,28 +2,29 @@
 
 ## Agents
 
-### Conversions/Workflows <!-- markmap: fold -->
+### Conversions vs Workflows Agent <!-- markmap: fold -->
 
 - openSource
 
 #### Conversational Agents
 
-- AutoGen 45k⭐
+- AutoGen 48k⭐
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
   - GraphFlow
     - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
-- [CrewAI 32kStar](https://github.com/crewAIInc/crewAI)
-- Agno 27k⭐
-- Google ADK & A2A 9k⭐
+- [CrewAI 35kStar](https://github.com/crewAIInc/crewAI)
+- Agno 31k⭐
+- Google ADK & A2A 11k⭐
 - LangManus
 
 #### WorkFlows Agent
-- Langflow/LangChain 70k⭐
+- LangChain/LangGraph 113k⭐
   - building and deploying AI-powered agents and workflows by simple drag and click
   - examples
-    - JP Morgen **Ask D.A.V.I.D**
+    - J.P. Morgen **Ask D.A.V.I.D**
     - ByteDance **DeerFlow**
     - Google **Gemini_Researcher**
+    - [Email Assistant Agent](https://github.com/langchain-ai/agents-from-scratch)
 - N8N
 - Dify
 - Coze
@@ -91,13 +92,12 @@
   - [DeepAgent](https://apps.abacus.ai/chatllm/)
   - [AgentGPT](https://agentgpt.reworkd.ai/zh)
 
-### Vision-Based <!-- markmap: fold -->
+### GUI vs API Agent
+
+#### Vision-Based <!-- markmap: fold -->
 
 - Browser Operator
 
-  - Examples
-    - Amazon Seller Center
-      - Amazon's API system is too large, which has led to many APIs being deprecated; <br>it has also resulted in a lack of many highly accurate data APIs.<br> So in this situation, a browser agent is needed to bypass APIs in order to complete the task.
   - Solutions
     - open-source
       - UI_TAR Desktop⭐
@@ -139,7 +139,9 @@
           🌟 为什么火？
           • AGI 的“记忆库”：项目口号“每一秒不记录都是 AGI 缺失的上下文”直击痛点——未来 AI 需要你的操作数据来理解人类行为。
           • 开发者友好：插件商店支持 Stripe 支付，开发者能靠几行 JS 代码赚取被动收入。
-
+- Computer Vision
+  - [supervision](https://github.com/roboflow/supervision)
+    - It specifically provides practical functions that you will frequently use when performing tasks such as object detection and tracking, such as reading datasets, drawing detection boxes, and counting the number of people in an area.
 - Use Cases
   - Non API tasks
     - Some platforms not even provide APIs
@@ -149,27 +151,14 @@
         - Unlike the WEB, Font Web is built 100% tightly integrated with a real database and genuine back-end logic. However, API
           services are an additional component, typically developed separately from the main logic, which results in extra costs.
       - Complexity
-        - API calling complexity causing most platform will not 1:1 100% provides exact API.
-    - Real Cases
-      - Netsuite
-        - Unable to fetch data from Customized Searchcan only read it by Suite_Script+API
-      - Amazon Seller Center
-        - FBAs details
-        - users level order data
-      - They are real cases I met in the past 2 months. I believe that must be more.
+        - API calling complexity causing most platform will not 1:1 100% provides exact API..
   - Handling highly repetitive tasks
 
-### API-Based <!-- markmap: fold -->
+#### API-Based <!-- markmap: fold -->
 
-- MCP ✅
-  - More than thousands of pre-built MCPs, connected almost all known APPs or platform...<br>🚨 MCPs is gradually replacing all the known APIs
-  - MCP vs API
-    - AI decide what APIs to call and complete entire task, human don\`t need to work on API to API. <br> Only focus on NATURAL LANGUAGE to talk with MCP, teach MCP to call correct APIs
-- Function Call ❌ <br>(Technologies on the verge of obsolescence)
-  - Examples
-    - Using different APIs to provide data to AI directly
-  - Use cases
-    - Connect Different Software that providing Nice APIs
+- MCP⭐
+- Function Call
+- API
 
 ## Tools
 
@@ -179,13 +168,13 @@
   - open-source
     - crawl4AI
     - crawlee
-      - 爬虫和浏览器自动化的结合
+      - The combination of web crawling and browser automation. 爬虫和浏览器自动化的结合
     - maxun
     - Firecrawl
-      - 深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
+      - Deeply crawl web content and internal links; optimize the output content, filtered through LLM in markdown format.深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
   - 3rd
     - Travily
-      - 支持网络搜索和结果验证, 更像一个智能搜索引擎
+      - Supports web search and result verification, more like an intelligent search engine.支持网络搜索和结果验证, 更像一个智能搜索引擎
     - Scrapegraph-ai
     - ScrapingBee
     - WebScrapingAPI
@@ -207,14 +196,24 @@
     - Teable
       - Open-source and free alternative to Airtable
 - Files
+  - PPT
+    - [MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT)
+      - multi Conversational Agents auto create PPT
   - pdf
     - PDFGPT
     - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr)It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
     - [Docling 30k⭐](https://github.com/docling-project/docling)
       - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉识别的 LLM 模型, 降低成本.
 
-- 量化投资
+- Investment
   - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
+  - [FinGenius](https://github.com/HuaYaoAI/FinGenius)
+    - Muti Conversational Agents help you make invest decisions
+  - [OpenBB](https://github.com/OpenBB-finance/OpenBB)
+    - Open-source financial platform has already received 43K stars on GitHub. Its goal is to enable anyone, anywhere, to conduct professional-level investment research.
+  - [TradingAgents](https://github.com/hsliuping/TradingAgents-CN)
+    - Muti Conversational Agents help you make invest decisions
+
 ### Deep Reasearcher<br> <!-- markmap: fold -->
 
 - 3rd
@@ -261,6 +260,8 @@
 ### Media <!-- markmap: fold -->
 
 - News Center
+  - [FOLO](https://github.com/RSSNext/Folo)
+    - Folo is an information aggregation tool that gathers various sources you want to follow (articles, videos, updates, etc.) into a clean timeline, eliminating the hassle of switching between different platforms.
   - FMHY
     - AI 资讯中心 / 各种免费资源集合
   - meridian
@@ -280,6 +281,8 @@
 
   - Writer
   - Jenni_AI
+  - [Resume-Matcher](https://github.com/srbhr/Resume-Matcher)
+    - AI helps to improve your resume
 
 - Voice & Video & Images
 
@@ -318,7 +321,9 @@
   - Images
     - Lovart
       - 图片生成
-
+- Podcast
+  - [Podcastfy.ai](https://github.com/souzatharsis/podcastfy)
+    - An Open Source APl alternative to NotebookLM's podcast feature: Transforming Multimodal Content intoCaptivating Multilingual Audio Conversations with GenAl
 - Wechat
   - [chatlog](https://github.com/sjzar/chatlog)
   - [WeClone](https://github.com/xming521/WeClone)
@@ -332,14 +337,25 @@
 
 ### Developing <!-- markmap: fold -->
 
+- Vibe Coding ⭐
+  - Claude Code CLI
+  - Gemini CLI
+  - Cline
+  - Kilo Code
+  - Roo Code
+  - Cursor
+  - Trae
+  - Windsurf
+
 - Docs
 
-  - About repo
+  - helpful tools to read Github Repo
     - [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge)
       - 快速学习 GitHub 仓库
     - Context 7
     - DeepWiki
       - drawing architecture diagrams and sequence diagrams; generate API documentation; Deep Research;
+    - Zread.ai
     - gitdiagram
       - Quickly understand the structure diagram of a GitHub project
   - devDocs
@@ -364,7 +380,9 @@
   - Logo Design
     - [Arosade](https://github.com/JhojanGgarcia/arosade)
       - Logo design tool
-
+- Git
+  - [GitMCP](https://github.com/idosal/git-mcp)
+    - Seamlessly convert any GitHub repository into an MCP service, allowing AI assistants to easily access and understand the project’s documentation.
 - Back-end
 
   - servers
@@ -374,6 +392,8 @@
       - 通过 AI 大模型简化 Kubernetes 集群的管理操作，简单来说：你只输入大白话，就能完成原来复杂的运维，不需要记各种复杂的命令了。
     - [nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
       - 通过 UI 操作 Nginx
+    - [JumpServer](https://github.com/jumpserver/jumpserver)
+      - Manage enterprise server assets using a browser, which is quite secure.开源堡垒机
   - database
     - Supabase ⭐
     - Firebase
@@ -416,7 +436,7 @@
 ### OCR <!-- markmap: fold -->
 - Monkey OCR
 - dots.ocr
-- OCRFlux_3b 
+- OCRFlux_3b
 
 ### What`s more then Text <!-- markmap: fold -->
 
