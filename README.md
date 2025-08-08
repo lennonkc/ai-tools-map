@@ -11,7 +11,7 @@
 - AutoGen 48k⭐
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
   - GraphFlow
-    - [通过有向图精准控制 agent 的调用](https://www.douyin.com/video/7502426444174249252)
+    - [Precise control of agent invocation through directed graphs.](https://www.douyin.com/video/7502426444174249252)
 - [CrewAI 35kStar](https://github.com/crewAIInc/crewAI)
 - Agno 31k⭐
 - Google ADK & A2A 11k⭐
@@ -30,14 +30,14 @@
 - Coze
 
 
-#### MCP <!-- markmap: fold -->
+#### MCP
 
-- MCP Market(all free) <!-- markmap: fold -->
+- MCP Market(all free)
   - <https://github.com/modelcontextprotocol/servers>
   - <https://mcp.so/>
   - <https://glama.ai/mcp/servers>
   - <https://github.com/punkpeye/awesome-mcp-servers>
-- [MCP Clients](https://modelcontextprotocol.io/clients) <!-- markmap: fold -->
+- [MCP Clients](https://modelcontextprotocol.io/clients)
   - open-source
     - open webui ⭐
     - [5fire](https://github.com/nanbingxyz/5ire) Desktop
@@ -54,9 +54,9 @@
     - AI IDE
 - MCP developing <!-- markmap: fold -->
   - [aci](https://github.com/aipotheosis-labs/aci)
-    - 你需要配置一个总的 ACI MCP 服务，然后把你想要的告诉它，它会自己帮你决策调用哪些 MCP 或者 API 完成你的任务。它预置了 600 多种常见应用（如谷歌日历、Slack 等）的标准化接口，开发者无需从头编写每个服务的授权流程和 API 调用代码。
+    - You need to configure a general ACI MCP service and tell it what you want. It will help you decide which MCPs or APIs to invoke to complete your tasks. It has pre-configured standardized interfaces for over 600 common applications (such as Google Calendar, Slack, etc.), so developers do not need to write the authorization process and API call code for each service from scratch.你需要配置一个总的 ACI MCP 服务，然后把你想要的告诉它，它会自己帮你决策调用哪些 MCP 或者 API 完成你的任务。它预置了 600 多种常见应用（如谷歌日历、Slack 等）的标准化接口，开发者无需从头编写每个服务的授权流程和 API 调用代码。
   - [Mem0](https://github.com/mem0ai/mem0)
-    - “mem-zero”为 AI 助手和智能体加上了智能记忆层，让 AI 可以实现个性化的互动。它能记住用户的偏好，适应每个人的需求，并且会随着时间不断学习，非常适合用在客服聊天机器人、AI 助手和自动化系统中。
+    - “Mem-zero” adds an intelligent memory layer to AI assistants and agents, enabling personalized interactions. It can remember user preferences, adapt to individual needs, and continuously learn over time, making it ideal for customer service chatbots, AI assistants, and automation systems. “mem-zero”为 AI 助手和智能体加上了智能记忆层，让 AI 可以实现个性化的互动。它能记住用户的偏好，适应每个人的需求，并且会随着时间不断学习，非常适合用在客服聊天机器人、AI 助手和自动化系统中。
   - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
     - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
   - Docs
@@ -81,20 +81,20 @@
 #### Good Agents Examples <!-- markmap: fold -->
 
 - [ Agentic Company Researcher](https://github.com/pogjester/company-research-agent)
-  - 基于 Tavily 的 AI 内容筛选, 多源数据自动收集，整合公司网站、新闻和财报信息；
+  - Based on Tavily’s AI content filtering, it automatically collects and integrates data from multiple sources, including company websites, news, and financial reports. 基于 Tavily 的 AI 内容筛选, 多源数据自动收集，整合公司网站、新闻和财报信息；
 - [FutureHouse](https://www.futurehouse.org/)
-  - 综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
+  - An integrated intelligent agent as an AI scientist: a combination of a scientist, information integration expert, academic detective (for paper comparison and online resource comparison), and experimenter. 综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
-  - 一个可以帮程序员写代码的 AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
+  - An AI agent that can help programmers write code; you just need to tell this AI assistant what you want to achieve, and it will automatically break it down and execute it. 一个可以帮程序员写代码的 AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
 - 3r agents
   - Genspark SuperAgent(3rd)
   - [flowith](https://flowith.io/blank)
   - [DeepAgent](https://apps.abacus.ai/chatllm/)
   - [AgentGPT](https://agentgpt.reworkd.ai/zh)
 
-### GUI vs API Agent
+### GUI vs API Agent <!-- markmap: fold -->
 
-#### Vision-Based <!-- markmap: fold -->
+#### Vision-Based
 
 - Browser Operator
 
@@ -111,8 +111,8 @@
         - Selenium
         - Puppeteer
       - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
-        - Selenium 原生操作复杂、脚本不稳定、报告繁琐。SeleniumBase 像一个“智能助手”，让自动化测试和任务变得简单可靠。
-        - 除了基本的网页操作，它还内置了测试框架（支持 pytest、unittest、behave），能帮你写端到端测试、爬网页数据，甚至还能搞定 Cloudflare 那种防爬的检测。自带一堆工具，比如生成测试报告、截图保存、甚至还能做交互式网页引导。总之，不管你是开发者、测试工程师，还是想偷懒的“脚本侠”，它都能给你整得明明白白！
+        - Selenium’s native operations are complex, scripts are unstable, and reports are cumbersome. SeleniumBase acts like an “intelligent assistant,” making automated testing and tasks simple and reliable. Selenium 原生操作复杂、脚本不稳定、报告繁琐。SeleniumBase 像一个“智能助手”，让自动化测试和任务变得简单可靠。
+        - In addition to basic web operations, it also has a built-in testing framework (supporting pytest, unittest, behave), which can help you write end-to-end tests, scrape web data, and even handle anti-scraping detections like those from Cloudflare. It comes with a bunch of tools, such as generating test reports, saving screenshots, and even creating interactive web guides. In short, whether you are a developer, a testing engineer, or a “script wizard” looking to make things easier, it can get the job done clearly and effectively!除了基本的网页操作，它还内置了测试框架（支持 pytest、unittest、behave），能帮你写端到端测试、爬网页数据，甚至还能搞定 Cloudflare 那种防爬的检测。自带一堆工具，比如生成测试报告、截图保存、甚至还能做交互式网页引导。总之，不管你是开发者、测试工程师，还是想偷懒的“脚本侠”，它都能给你整得明明白白！
     - 3rd
       - Browserless
       - [Browse.ai](Browse.ai)
@@ -203,7 +203,7 @@
     - PDFGPT
     - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr)It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
     - [Docling 30k⭐](https://github.com/docling-project/docling)
-      - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉识别的 LLM 模型, 降低成本.
+      - the most comprehensive document parsing and conversion tool, capable of enhancing its capabilities with visual AI models. In particular, it can use locally dedicated visual recognition LLM models to reduce costs.目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉识别的 LLM 模型, 降低成本.
 
 - Investment
   - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
@@ -226,7 +226,7 @@
 - open-source
   - deep-searcher
   - [deer-flow 13k⭐](https://github.com/bytedance/deer-flow/blob/main/README_zh.md)
-    - 字节旗下的深度研究框架, 目标是将语言模型与专业工具（如网络搜索、爬虫和 Python 代码执行）相结合. 可连接MCP
+    - A deep research framework under ByteDance, aimed at combining language models with specialized tools (such as web search, web scraping, and Python code execution). It can connect to MCP. 字节旗下的深度研究框架, 目标是将语言模型与专业工具（如网络搜索、爬虫和 Python 代码执行）相结合. 可连接MCP
   - [OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher)[ ](https://github.com/mshumer/OpenDeepResearcher)
   - Jina
   - [deep-research](https://github.com/dzhng/deep-research)
@@ -248,7 +248,7 @@
   - [Activepieces](https://github.com/activepieces/activepieces)
   - bisheng
   - [PySpur 5k](https://github.com/PySpur-Dev/pyspur)
-    - PySpur 是一个基于  Python  的开源可视化 AI 智能体开发平台，专为简化 AI 工作流构建而生。它通过图形化拖拽替代传统编码，让非技术用户也能快速搭建复杂的 AI 应用，同时支持开发者深度定制模块。
+    - PySpur is an open-source visual AI agent development platform based on Python, designed to simplify AI workflow construction. It replaces traditional coding with graphical drag-and-drop, allowing non-technical users to quickly build complex AI applications, while also supporting developers in deeply customizing modules. PySpur 是一个基于  Python  的开源可视化 AI 智能体开发平台，专为简化 AI 工作流构建而生。它通过图形化拖拽替代传统编码，让非技术用户也能快速搭建复杂的 AI 应用，同时支持开发者深度定制模块。
 
 - 3rd
   - Coze
@@ -263,7 +263,7 @@
   - [FOLO](https://github.com/RSSNext/Folo)
     - Folo is an information aggregation tool that gathers various sources you want to follow (articles, videos, updates, etc.) into a clean timeline, eliminating the hassle of switching between different platforms.
   - FMHY
-    - AI 资讯中心 / 各种免费资源集合
+    - AI News Center / A collection of various free resources. AI 资讯中心 / 各种免费资源集合
   - meridian
     - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise,
       personalized daily briefings to help users filter out valuable information from the noise.
@@ -273,7 +273,7 @@
   - Stock Trader
     - [ai_quant_trade](https://github.com/charliedream1/ai_quant_trade)
     - [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS)
-      - 一个本地量化交易的解决方案，支持任务调度、分布式部署，国内很多投资者和量化开发者都在使用，目前在 GitHub 上已经获得了 8.7K 的 Star
+      - A local quantitative trading solution that supports task scheduling and distributed deployment. Many investors and quantitative developers in China are using it, and it has currently received 8.7K stars on GitHub.一个本地量化交易的解决方案，支持任务调度、分布式部署，国内很多投资者和量化开发者都在使用，目前在 GitHub 上已经获得了 8.7K 的 Star
     - [Backtrader](https://github.com/mementum/backtrader)
       - 回测框架
 
@@ -289,7 +289,7 @@
   - TTS
 
     - MiniMax
-      - Speech-02 是 MiniMax 全新升级的一款 AI 语音模型，也是全球第一个真正实现多样化、个性化定义的语音模型。
+      - Speech-02 is a newly upgraded AI voice model from MiniMax and is the world’s first voice model to truly achieve diversified and personalized definitions. Speech-02 是 MiniMax 全新升级的一款 AI 语音模型，也是全球第一个真正实现多样化、个性化定义的语音模型。
     - [Dia-1.6B](https://huggingface.co/spaces/nari-labs/Dia-1.6B)
       - • Multi-character dialogue generation: Use tags like [S1], [S2] <br>• Personified expressions: Supports non-verbal emotions such as laughter (laugh), sighing (sigh), coughing (cough), etc.
     - spark
@@ -305,10 +305,10 @@
       - Real-time face swapping in video conferences
 
     - MoneyPrinterTurbo
-      - 自动免费资源整合, 视频生成器. 把 DeepSeek 大模型、视频素材搜索、配音、字幕生成能力整合起来了。你属于一个主题，它基于刚刚这一系列能力攒出来一个高清短视频。
+      - An automatic free resource integration and video generator. It combines the capabilities of the DeepSeek large model, video material search, voiceover, and subtitle generation. 自动免费资源整合, 视频生成器. 把 DeepSeek 大模型、视频素材搜索、配音、字幕生成能力整合起来了
     - Video to Text
       - [FramePark](https://github.com/lllyasviel/FramePack)
-        - 在普通电脑运行视频生成模型. 用户友好的 UI, 每一帧都能预览.
+        - Run video generation models on a regular computer. It features a user-friendly UI that allows users to preview every frame. 在普通电脑运行视频生成模型. 用户友好的 UI, 每一帧都能预览.
       - BiliNote
         - Transform bilibili video into text
       - Video2Blog
@@ -316,11 +316,10 @@
     - Video download
       - datatool.vip
       - [Cobalt](https://cobalt.tools/)
-        - 下载 url 连接中的媒体视频
+        - Download media videos from the URL link. 下载 url 连接中的媒体视频
 
   - Images
     - Lovart
-      - 图片生成
 - Podcast
   - [Podcastfy.ai](https://github.com/souzatharsis/podcastfy)
     - An Open Source APl alternative to NotebookLM's podcast feature: Transforming Multimodal Content intoCaptivating Multilingual Audio Conversations with GenAl
@@ -361,14 +360,14 @@
   - devDocs
     - DevDocs = High-Quality Documentation Crawler + Intelligent Content Cleaner + AI Knowledge Integration Tool
   - [awesome-selfhosted ⭐](https://github.com/awesome-selfhosted/awesome-selfhosted)
-    - 免费开源软件成品集合
+    - A collection of free and open-source software products. 免费开源软件成品集合
 
 - Design & Font-end
 
   - [openui](https://github.com/wandb/openui)
     - conversational build Font web
   - [onlook 18k](https://github.com/onlook-dev/onlook)
-    - 前端可视化工具. 像ps一样编辑React前端, 支持tw
+    - A front-end visualization tool that allows you to edit React front-end like Photoshop, supporting Tailwind CSS (tw). 前端可视化工具. 像ps一样编辑React前端, 支持tw
   - GrapesJS
     - Zero-code web design tool
   - Galileo AI
@@ -428,10 +427,10 @@
 - Google NoteBookLM
 - Second me
 - [nb](https://github.com/xwmx/nb)
-  - 终端形式的知识库, 可以丢到服务器上用
+  - A terminal-based knowledge base that can be deployed on a server for use.终端形式的知识库, 可以丢到服务器上用
 - Perplexity
 - [SurfSense](https://github.com/MODSetter/SurfSense)
-  - 知识管理工具，能聚合搜索引擎/Slack/Notion 等平台数据搭建个人知识库，并且通过 AI 对话来快速效率的查找知识库中的内容
+  - A knowledge management tool that can aggregate data from platforms like search engines, Slack, and Notion to build a personal knowledge base, and quickly and efficiently search for content in the knowledge base through AI conversations.知识管理工具，能聚合搜索引擎/Slack/Notion 等平台数据搭建个人知识库，并且通过 AI 对话来快速效率的查找知识库中的内容
 
 ### OCR <!-- markmap: fold -->
 - Monkey OCR
@@ -449,7 +448,7 @@
 - Slidev
   - Markdown to slide
 - [GPT-vis](https://github.com/antvis/GPT-Vis/blob/main/README.zh-CN.md)
-  - 专门生成图表的 AI chat
+  - An AI chat specifically designed for generating charts.专门生成图表的 AI chat
 
 ## Foundation
 
@@ -469,7 +468,7 @@
 
 #### Rules
 
-- [热门工具的提示词收集库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+- [A collection library of prompts 热门工具的提示词收集库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
 - [Cline Prompts Hints](https://mp.weixin.qq.com/s/Y7wXwq-anNCCxyeh0oSA6w)
 - [Claude Prompt](https://mp.weixin.qq.com/s/u2YhuunO9gRX9H8LklRTnA?mpshare=1&scene=1&srcid=0416ZD0S7awgqdtX2F3CBv6r&sharer_shareinfo=4f4d026b3bdcf446b4c9e32dad413dd0&sharer_shareinfo_first=4f4d026b3bdcf446b4c9e32dad413dd0&version=4.1.36.99603&platform=mac#rd)
 - [Cline offical guide of prompt](https://docs.cline.bot/improving-your-prompting-skills/prompting)
