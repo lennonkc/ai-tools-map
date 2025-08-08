@@ -2,11 +2,11 @@
 
 ## Agents
 
-### Conversions/WorkFlows <!-- markmap: fold -->
+### Conversions/Workflows <!-- markmap: fold -->
 
 - openSource
 
-#### Conversational Agents 
+#### Conversational Agents
 
 - AutoGen 45k⭐
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
@@ -16,7 +16,6 @@
 - Agno 27k⭐
 - Google ADK & A2A 9k⭐
 - LangManus
-- [Agent Squad 6k⭐](https://github.com/awslabs/agent-squad)
 
 #### WorkFlows Agent
 - Langflow/LangChain 70k⭐
@@ -413,6 +412,11 @@
 - Perplexity
 - [SurfSense](https://github.com/MODSetter/SurfSense)
   - 知识管理工具，能聚合搜索引擎/Slack/Notion 等平台数据搭建个人知识库，并且通过 AI 对话来快速效率的查找知识库中的内容
+
+### OCR <!-- markmap: fold -->
+- Monkey OCR
+- dots.ocr
+- OCRFlux_3b 
 
 ### What`s more then Text <!-- markmap: fold -->
 
