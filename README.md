@@ -518,6 +518,6 @@
 
 ### Learning Path <!-- markmap: fold -->
 
-- Playwright
-  - May26-June6
-- AutoGen
+- [AI Engineer](https://roadmap.sh/ai-engineer)
+- [AI Agents](https://roadmap.sh/ai-agents)
+- [AI and Data Scientist](https://roadmap.sh/ai-data-scientist)
