@@ -138,6 +138,8 @@
   - An integrated intelligent agent as an AI scientist: a combination of <br> a scientist, information integration expert, academic detective  <br>(for paper comparison and online resource comparison), and experimenter. <br>综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
   - An AI agent that can help programmers write code; you just need<br> to tell this AI assistant what you want to achieve, and it will <br>automatically break it down and execute it. 一个可以帮程序员写代码的<br> AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
+- [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
+  - AI扮演不同的投资专家角色，有的负责估值、有的分析市场情绪、研究基本面、技术分析. 最终制定交易决策。
 - 3r agents
   - Genspark SuperAgent(3rd)
   - Manus
@@ -282,61 +284,6 @@
 
 ### Coding <!-- markmap: fold -->
 
-#### DATA <!-- markmap: fold -->
-
-- Scarping
-  - open-source
-    - crawl4AI
-    - crawlee
-      - The combination of web crawling and browser automation. 爬虫和浏览器自动化的结合
-    - maxun
-    - Firecrawl
-      - Deeply crawl web content and internal links; optimize the output content, filtered through LLM in markdown format.深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
-  - 3rd
-    - Travily
-      - Supports web search and result verification, more like an intelligent search engine.支持网络搜索和结果验证, 更像一个智能搜索引擎
-    - Scrapegraph-ai
-    - ScrapingBee
-    - WebScrapingAPI
-    - ScraperAPI
-- AI Conversational Database
-  - 3rd
-    - pandasAI
-    - Google BigQuery
-  - open-source
-    - MongoDB+MCP
-    - metabase
-    - liam
-      - Automatically generate database relationship ERP diagrams
-- BI / Database management
-  - open-source
-    - DBeaver
-    - Prisma
-    - Apache Superset
-    - Teable
-      - Open-source and free alternative to Airtable
-- Files
-  - [langextract](https://github.com/google/langextract)
-    - 从非结构化数据中提取并组织结构化的关键信息
-  - PPT
-    - [MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT)
-      - multi Conversational Agents auto create PPT
-  - PDF
-    - PDFGPT
-    - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr) It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
-    - [Docling 30k⭐](https://github.com/docling-project/docling)
-      - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉<br>识别的 LLM 模型, 降低成本.
-
-- Investment
-  - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
-  - [FinGenius](https://github.com/HuaYaoAI/FinGenius)
-    - Muti Conversational Agents help you make invest decisions
-  - [OpenBB](https://github.com/OpenBB-finance/OpenBB)
-    - Open-source financial platform has already received 43K stars on GitHub. Its goal is to enable anyone, anywhere, to conduct professional-level investment research.
-  - [TradingAgents](https://github.com/hsliuping/TradingAgents-CN)
-    - Muti Conversational Agents help you make invest decisions
-
-
 #### Vibe Coding ⭐
 - AI IDE
   - Cursor
@@ -439,9 +386,72 @@
   - NPS
     - A powerful intranet penetration proxy server that supports almost all commonly used protocols, such as TCP, UDP, HTTP(S), <br>SOCKS5, etc. With simple configuration, nps allows you to access resources on the external network just as if you <br> were on the internal network.
 
+### DATA <!-- markmap: fold -->
+
+- Scarping
+  - open-source
+    - crawl4AI
+    - crawlee
+      - The combination of web crawling and browser automation. 爬虫和浏览器自动化的结合
+    - maxun
+    - Firecrawl
+      - Deeply crawl web content and internal links; optimize the output content, filtered through LLM in markdown format.深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
+  - 3rd
+    - Travily
+      - Supports web search and result verification, more like an intelligent search engine.支持网络搜索和结果验证, 更像一个智能搜索引擎
+    - Scrapegraph-ai
+    - ScrapingBee
+    - WebScrapingAPI
+    - ScraperAPI
+- AI Conversational Database
+  - 3rd
+    - pandasAI
+    - Google BigQuery
+  - open-source
+    - MongoDB+MCP
+    - metabase
+    - liam
+      - Automatically generate database relationship ERP diagrams
+- BI / Database management
+  - open-source
+    - DBeaver
+    - Prisma
+    - Apache Superset
+    - Teable
+      - Open-source and free alternative to Airtable
+- Files and OCR
+  - [langextract](https://github.com/google/langextract)
+    - 从非结构化数据中提取并组织结构化的关键信息
+  - Docs
+    - [ConvertX ⭐](https://github.com/C4illin/ConvertX) 开源免费的文档格式转换工具
+    - PPT
+      - [MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT)
+        - multi Conversational Agents auto create PPT
+    - PDF
+      - PDFGPT
+      - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr) It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
+      - [Docling 30k⭐](https://github.com/docling-project/docling)
+        - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉<br>识别的 LLM 模型, 降低成本.
+  - OCR <!-- markmap: fold -->
+    - [PaddleOCR ⭐](www.paddleocr.com)
+    - Monkey OCR
+    - dots.ocr
+    - OCRFlux_3b
+
+- Investment
+  - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
+  - [FinGenius](https://github.com/HuaYaoAI/FinGenius)
+    - Muti Conversational Agents help you make invest decisions
+  - [OpenBB](https://github.com/OpenBB-finance/OpenBB)
+    - Open-source financial platform has already received 43K stars on GitHub. Its goal is to enable anyone, anywhere, to conduct professional-level investment research.
+  - [TradingAgents](https://github.com/hsliuping/TradingAgents-CN)
+    - Muti Conversational Agents help you make invest decisions
+
+
 ### RAG <!-- markmap: fold -->
 
-- Google NoteBookLM
+- Google NoteBookLM ⭐
+- [Open Notebook ⭐](https://github.com/lfnovo/open-notebook), NotebookLM的开源平替
 - Second me
 - [nb](https://github.com/xwmx/nb)
   - A terminal-based knowledge base that can be deployed on a server for use.终端形式的知识库, 可以丢到服务器上用
@@ -449,10 +459,7 @@
 - [SurfSense](https://github.com/MODSetter/SurfSense)
   - A knowledge management tool that can aggregate data from platforms like search engines, Slack, and Notion to build a personal knowledge base, and quickly and efficiently search for content in the knowledge base through AI conversations.知识管理工具，能聚合搜索引擎/Slack/Notion 等平台数据搭建个人知识库，并且通过 AI 对话来快速效率的查找知识库中的内容
 
-### OCR <!-- markmap: fold -->
-- Monkey OCR
-- dots.ocr
-- OCRFlux_3b
+
 
 ### What`s more then Text <!-- markmap: fold -->
 
@@ -466,67 +473,33 @@
   - Markdown to slide
 - [GPT-vis](https://github.com/antvis/GPT-Vis/blob/main/README.zh-CN.md)
   - An AI chat specifically designed for generating charts.专门生成图表的 AI chat
+- [AI 画 Draw.io的逻辑图](https://github.com/DayuanJiang/next-ai-draw-io)
 
 ## Foundation
 
 ### Awesome Links <!-- markmap: fold -->
-
 - [Vibe Coding 中文指南](https://github.com/tukuaiai/vibe-coding-cn)
+- [Vibe Vibe](https://github.com/datawhalechina/vibe-vibe) 面向零编程基础学习者的 AI 辅助编程系统化教程，<br>从「我有一个想法」到「我做出了一个产品」，让人人都能成为 Builder
 - [精选 LLM 应用集, 探索 LLM 在不同领域实际应用的创新方式](https://www.zdoc.app/zh/Shubhamsaboo/awesome-llm-apps)
 - [OPENTOOLS, 热门AI工具列表](https://opentools.ai/)
 - [海量AI工具百科](https://fmhy.net/ai)
-
-### Prompts Engineering <!-- markmap: fold -->
-
-#### Rules
-
-- [A collection library of prompts 热门工具的提示词收集库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-- [Cline Prompts Hints](https://mp.weixin.qq.com/s/Y7wXwq-anNCCxyeh0oSA6w)
-- [Claude Prompt](https://mp.weixin.qq.com/s/u2YhuunO9gRX9H8LklRTnA?mpshare=1&scene=1&srcid=0416ZD0S7awgqdtX2F3CBv6r&sharer_shareinfo=4f4d026b3bdcf446b4c9e32dad413dd0&sharer_shareinfo_first=4f4d026b3bdcf446b4c9e32dad413dd0&version=4.1.36.99603&platform=mac#rd)
-- [Cline offical guide of prompt](https://docs.cline.bot/improving-your-prompting-skills/prompting)
-
-#### Tools
-
-- LangChain
-- LangGraph 🌟
-- Jinja2
-- Cloudflare AI gateway
-- Helicone
-
-#### Examples
-
-##### Design logo <!-- markmap: fold -->
-
-- Create image 专业 logo 设计图：
-  设计风格：采用苹果设计美学（简约、精致、高端）
-  背景要求：纯白色
-  主色调：亮天蓝色系
-  行业定位：人工智能/科技
-  Logo 文字："LangGPT"
-  传达理念：语言、创新、智能、可靠
-  设计元素：简洁几何形状，可融入抽象的 AI/语言相关元素
-  技术规格：高分辨率，确保文字清晰易读
-
-##### Create Diagram <!-- markmap: fold -->
-
-- Draw the key structural diagram of the MLP (SVG)
-  Elements should not overlap, and avoid overcrowding of content
-  Add small formulas to explain key calculations
-  Use precise professional terminology
-  Mathematical formulas should use a formula font, English should use Times New Roman font, and Chinese should use SimSun font
-
-### LLM <!-- markmap: fold -->
-
 - [llm-course](https://github.com/mlabonne/llm-course)
   - 学习大模型基础知识
-- Voila
-  - 能无缝融入人类日常生活，以自主、实时、富有情感的方式与人类互动。
-  - 不仅响应用户命令，还能持续倾听、推理并主动回应，促进流畅、动态、有情感共鸣的交互
-  - Voila 是端到端的语音大模型，支持全双工、低延迟对话，能表现丰富的声音细节（如音调、节奏、情感）。
-  - 支持超过 100 万个预构建语音。
-- [wan2.1-vace](https://www.douyin.com/video/7505069983332879643)
-  - 视频生成大模型
-  - 阿里巴巴颠覆视频创作领域！全新 Wan2.1-VACE 视频生成大模型震撼发布，保姆级教程手把手教你本地与 Colab 双平台部署，轻松生成电影级 AI 大片！Wan2.1-VACE-1.3B 参数做出惊艳效果
+- Prompts Engineering <!-- markmap: fold -->
+  - Rules
+    - [A collection library of prompts 热门工具的提示词收集库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+    - [Cline Prompts Hints](https://mp.weixin.qq.com/s/Y7wXwq-anNCCxyeh0oSA6w)
+    - [Claude Prompt](https://mp.weixin.qq.com/s/u2YhuunO9gRX9H8LklRTnA?mpshare=1&scene=1&srcid=0416ZD0S7awgqdtX2F3CBv6r&sharer_shareinfo=4f4d026b3bdcf446b4c9e32dad413dd0&sharer_shareinfo_first=4f4d026b3bdcf446b4c9e32dad413dd0&version=4.1.36.99603&platform=mac#rd)
+    - [Cline offical guide of prompt](https://docs.cline.bot/improving-your-prompting-skills/prompting)
+
+  - Tools
+    - LangChain
+    - LangGraph 🌟
+    - Jinja2
+    - Cloudflare AI gateway
+    - Helicone
+
+
 
 ### Learning Path <!-- markmap: fold -->
 
