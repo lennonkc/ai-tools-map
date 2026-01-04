@@ -1,12 +1,8 @@
-# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2025Aug9]
+# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2026Jan]
 
 ## Agents
 
-### Conversions vs Workflows Agent <!-- markmap: fold -->
-
-- openSource
-
-#### Conversational Agents
+### Conversions Agent <!-- markmap: fold -->
 
 - AutoGen 48k⭐
   - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
@@ -17,6 +13,7 @@
 - Google ADK & A2A 11k⭐
 - LangManus
 
+### Workflows Agent <!-- markmap: fold -->
 #### WorkFlows Agent
 - LangChain/LangGraph 113k⭐
   - building and deploying AI-powered agents and workflows by simple drag and click
@@ -63,6 +60,9 @@
     - [MCP 开发精准控制](https://mp.weixin.qq.com/s/AFrOLt0MZPrv11WJGQE5zA?mpshare=1&scene=1&srcid=0516lrt6NmDfMTT8Kq0PcDvB&sharer_shareinfo=d8b588badd9f9283def218a8efddc067&sharer_shareinfo_first=d8b588badd9f9283def218a8efddc067&version=4.1.36.99603&platform=mac#rd)
 - [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
 
+#### Skills
+- [claude-code-templates](https://github.com/davila7/claude-code-templates)
+- [Anthropic Skills](https://github.com/anthropics/skills)
 
 #### Knowledge <!-- markmap: fold -->
 
@@ -78,70 +78,45 @@
 - [function Call vs MCP](https://mp.weixin.qq.com/s/Bs42mK8fQhDqLdm0ILtwSg?mpshare=1&scene=1&srcid=0427HGtLrFbF8oXncChCAadm&sharer_shareinfo=15a0e92260d2612e72f322b33a140649&sharer_shareinfo_first=15a0e92260d2612e72f322b33a140649&version=4.1.36.99603&platform=mac#rd)
 - [Visions for Agent system](https://mp.weixin.qq.com/s/US1o7MULP4Ar_kGkSgRHuA?mpshare=1&scene=1&srcid=04275fRe8jNzwnigt7ILEg2r&sharer_shareinfo=c344b802fa4d7115c8979e3bd4d1a26d&sharer_shareinfo_first=c344b802fa4d7115c8979e3bd4d1a26d&version=4.1.36.99603&platform=mac#rd)
 
-#### Good Agents Examples <!-- markmap: fold -->
 
-- [ Agentic Company Researcher](https://github.com/pogjester/company-research-agent)
-  - Based on Tavily’s AI content filtering, it automatically collects and integrates data from multiple sources, including company websites, news, and financial reports. 基于 Tavily 的 AI 内容筛选, 多源数据自动收集，整合公司网站、新闻和财报信息；
-- [FutureHouse](https://www.futurehouse.org/)
-  - An integrated intelligent agent as an AI scientist: a combination of a scientist, information integration expert, academic detective (for paper comparison and online resource comparison), and experimenter. 综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands)
-  - An AI agent that can help programmers write code; you just need to tell this AI assistant what you want to achieve, and it will automatically break it down and execute it. 一个可以帮程序员写代码的 AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
-- 3r agents
-  - Genspark SuperAgent(3rd)
-  - [flowith](https://flowith.io/blank)
-  - [DeepAgent](https://apps.abacus.ai/chatllm/)
-  - [AgentGPT](https://agentgpt.reworkd.ai/zh)
-
-### GUI vs API Agent <!-- markmap: fold -->
-
-#### Vision-Based
+### GUI Agent <!-- markmap: fold -->
 
 - Browser Operator
-
-  - Solutions
-    - open-source
-      - UI_TAR Desktop⭐
-      - BrowserUse
-      - Nanobrowser
-      - Stagehand ⭐️
-      - [Suna](https://github.com/kortix-ai/suna)
-        - By integrating powerful features such as browser automation, file management,<br> web crawling, and API integration through natural language dialogue,<br> complex tasks like market research, itinerary planning, and data analysis can be easily accomplished.
-      - Dom Operation<br>(Operate the source code of the webpage)
-        - PlayWright ⭐
-        - Selenium
-        - Puppeteer
-      - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
-        - Selenium’s native operations are complex, scripts are unstable, and reports are cumbersome. SeleniumBase acts like an “intelligent assistant,” making automated testing and tasks simple and reliable. Selenium 原生操作复杂、脚本不稳定、报告繁琐。SeleniumBase 像一个“智能助手”，让自动化测试和任务变得简单可靠。
-        - In addition to basic web operations, it also has a built-in testing framework (supporting pytest, unittest, behave), which can help you write end-to-end tests, scrape web data, and even handle anti-scraping detections like those from Cloudflare. It comes with a bunch of tools, such as generating test reports, saving screenshots, and even creating interactive web guides. In short, whether you are a developer, a testing engineer, or a “script wizard” looking to make things easier, it can get the job done clearly and effectively!除了基本的网页操作，它还内置了测试框架（支持 pytest、unittest、behave），能帮你写端到端测试、爬网页数据，甚至还能搞定 Cloudflare 那种防爬的检测。自带一堆工具，比如生成测试报告、截图保存、甚至还能做交互式网页引导。总之，不管你是开发者、测试工程师，还是想偷懒的“脚本侠”，它都能给你整得明明白白！
-    - 3rd
-      - Browserless
-      - [Browse.ai](Browse.ai)
-      - [Induced.ai](Induced.ai)
-      - [Axiom.ai](Axiom.ai)
+  - open-source
+    - UI_TAR Desktop⭐
+    - BrowserUse
+    - Nanobrowser
+    - Stagehand ⭐️
+    - [Suna](https://github.com/kortix-ai/suna)
+      - By integrating powerful features such as browser automation, file management,<br> web crawling, and API integration through natural language dialogue,<br> complex tasks like market research, itinerary planning, and data analysis can be easily accomplished.
+    - Dom Operation<br>(Operate the source code of the webpage)
+      - PlayWright ⭐
+      - Selenium
+      - Puppeteer
+    - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
+      - Selenium 原生操作复杂、脚本不稳定、报告繁琐。SeleniumBase 像一个“智能助<br> 手”，让自动化测试和任务变得简单可靠。
+      - 除了基本的网页操作，它还内置了测试框架（支持 pytest、unittest、behave），<br> 能帮你写端到端测试、爬网页数据，甚至还能搞定 Cloudflare 那种防爬的检测。<br> 自带一堆工具，比如生成测试报告、截图保存、甚至还能做交互式网页引导。总之，<br> 不管你是开发者、测试工程师，还是想偷懒的“脚本侠”，它都能给你整得明明白白！
+  - 3rd
+    - Browserless
+    - [Browse.ai](Browse.ai)
+    - [Induced.ai](Induced.ai)
+    - [Axiom.ai](Axiom.ai)
 
 - Computer Operator
+  - 3rd
+    - OPENAI Computer Use
+    - Manus
+  - open-source
+    - [Automate](https://github.com/yuruotong1/autoMate)
+      - Simply circle a spot on the screen, and the AI will take control of that area.
+    - screenpipe <!-- markmap: fold -->
+      - Completely record user behavior to facilitate the development of subsequent workflows.<br>一个跨平台的桌面数据抓取 API，支持屏幕、语音、键鼠操作、摄像头录制，还能通过插件扩展功能！
+      - [supervision](https://github.com/roboflow/supervision)
+        - 计算机视觉, 能重复利用的计算机视觉工具。从硬盘里加载数据集、在图片或视频上画出检测结果，<br>统计某个区域里有多少个检测目标
 
-  - Solutions
-    - 3rd
-      - OPENAI Computer Use
-      - Manus
-    - open-source
-      - [Automate](https://github.com/yuruotong1/autoMate)
-        - Simply circle a spot on the screen, and the AI will take control of that area.
-      - screenpipe <!-- markmap: fold -->
-        - Completely record user behavior to facilitate the development of subsequent workflows.
-        - 一个跨平台的桌面数据抓取 API，支持屏幕、语音、键鼠操作、摄像头录制，还能通过插件扩展功能！
-          🛠️ 核心功能
-          • 全维度记录：屏幕画面、语音输入、键盘鼠标操作、摄像头视频，一次搞定。
-          • 沙盒化插件系统：用 JS 写插件，安全运行在 Rust 环境中（已有 Loom pipe、LinkedIn 代理等案例）。
-          • 跨平台支持：macOS/Linux 一行命令安装，Windows 也只需一个脚本。
-          • OCR 集成：内置 Apple 和 Windows 原生 OCR，文字识别更高效。
-          🌟 为什么火？
-          • AGI 的“记忆库”：项目口号“每一秒不记录都是 AGI 缺失的上下文”直击痛点——未来 AI 需要你的操作数据来理解人类行为。
-          • 开发者友好：插件商店支持 Stripe 支付，开发者能靠几行 JS 代码赚取被动收入。
 - Computer Vision
-  - [supervision](https://github.com/roboflow/supervision)
-    - It specifically provides practical functions that you will frequently use when performing tasks such as object detection and tracking, such as reading datasets, drawing detection boxes, and counting the number of people in an area.
+
+
 - Use Cases
   - Non API tasks
     - Some platforms not even provide APIs
@@ -154,65 +129,25 @@
         - API calling complexity causing most platform will not 1:1 100% provides exact API..
   - Handling highly repetitive tasks
 
-#### API-Based <!-- markmap: fold -->
 
-- MCP⭐
-- Function Call
-- API
+### Good Examples <!-- markmap: fold -->
+- J.P. Morgen **Ask D.A.V.I.D**
+- [ Agentic Company Researcher](https://github.com/pogjester/company-research-agent)
+  - Based on Tavily’s AI content filtering, it automatically collects <br> and integrates data from multiple sources, including company websites,<br> news, and financial reports. 基于 Tavily 的 AI 内容筛选, 多源数据自动收集，<br>整合公司网站、新闻和财报信息；
+- [FutureHouse](https://www.futurehouse.org/)
+  - An integrated intelligent agent as an AI scientist: a combination of <br> a scientist, information integration expert, academic detective  <br>(for paper comparison and online resource comparison), and experimenter. <br>综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands)
+  - An AI agent that can help programmers write code; you just need<br> to tell this AI assistant what you want to achieve, and it will <br>automatically break it down and execute it. 一个可以帮程序员写代码的<br> AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
+- 3r agents
+  - Genspark SuperAgent(3rd)
+  - Manus
+  - OpenManus
+  - [flowith](https://flowith.io/blank)
+  - [DeepAgent](https://apps.abacus.ai/chatllm/)
+  - [AgentGPT](https://agentgpt.reworkd.ai/zh)
 
 ## Tools
 
-### AI Work With DATA <!-- markmap: fold -->
-
-- Scarping
-  - open-source
-    - crawl4AI
-    - crawlee
-      - The combination of web crawling and browser automation. 爬虫和浏览器自动化的结合
-    - maxun
-    - Firecrawl
-      - Deeply crawl web content and internal links; optimize the output content, filtered through LLM in markdown format.深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
-  - 3rd
-    - Travily
-      - Supports web search and result verification, more like an intelligent search engine.支持网络搜索和结果验证, 更像一个智能搜索引擎
-    - Scrapegraph-ai
-    - ScrapingBee
-    - WebScrapingAPI
-    - ScraperAPI
-- AI Conversational Database
-  - 3rd
-    - pandasAI
-    - Google BigQuery
-  - open-source
-    - MongoDB+MCP
-    - metabase
-    - liam
-      - Automatically generate database relationship ERP diagrams
-- BI / Database management
-  - open-source
-    - DBeaver
-    - Prisma
-    - Apache Superset
-    - Teable
-      - Open-source and free alternative to Airtable
-- Files
-  - PPT
-    - [MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT)
-      - multi Conversational Agents auto create PPT
-  - pdf
-    - PDFGPT
-    - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr)It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
-    - [Docling 30k⭐](https://github.com/docling-project/docling)
-      - the most comprehensive document parsing and conversion tool, capable of enhancing its capabilities with visual AI models. In particular, it can use locally dedicated visual recognition LLM models to reduce costs.目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉识别的 LLM 模型, 降低成本.
-
-- Investment
-  - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
-  - [FinGenius](https://github.com/HuaYaoAI/FinGenius)
-    - Muti Conversational Agents help you make invest decisions
-  - [OpenBB](https://github.com/OpenBB-finance/OpenBB)
-    - Open-source financial platform has already received 43K stars on GitHub. Its goal is to enable anyone, anywhere, to conduct professional-level investment research.
-  - [TradingAgents](https://github.com/hsliuping/TradingAgents-CN)
-    - Muti Conversational Agents help you make invest decisions
 
 ### Deep Reasearcher<br> <!-- markmap: fold -->
 
@@ -224,6 +159,7 @@
     - Multi_AI_expert collaboration. Focus on market analysis and research, conducted in a conversational manner.
     - [example](https://atypica.musedam.cc/study/Miw9cmdmfLmdzxaq/share?replay=1)
 - open-source
+  - Perplexica ⭐
   - deep-searcher
   - [deer-flow 13k⭐](https://github.com/bytedance/deer-flow/blob/main/README_zh.md)
     - A deep research framework under ByteDance, aimed at combining language models with specialized tools (such as web search, web scraping, and Python code execution). It can connect to MCP. 字节旗下的深度研究框架, 目标是将语言模型与专业工具（如网络搜索、爬虫和 Python 代码执行）相结合. 可连接MCP
@@ -296,8 +232,11 @@
       - Open-source anthropomorphic TTS
 
   - Video
+    - Google Veo3 ⭐
+    - Hunyuan Video
+      - 开源免费版 Veo3 平替
     - [FramePack 14k](https://github.com/lllyasviel/FramePack)
-      - Windows电脑生成视频,  低硬件需求和友好界面，开启创作新纪元
+      - Windows电脑生成视频,  低硬件需求和友好界面
     - Krillin AI
       - Video subtitle generation, subtitle translation, automatic dubbing
     - Deep-Live-Cam
@@ -305,10 +244,10 @@
       - Real-time face swapping in video conferences
 
     - MoneyPrinterTurbo
-      - An automatic free resource integration and video generator. It combines the capabilities of the DeepSeek large model, video material search, voiceover, and subtitle generation. 自动免费资源整合, 视频生成器. 把 DeepSeek 大模型、视频素材搜索、配音、字幕生成能力整合起来了
+      - An automatic free resource integration and video generator.<br> It combines the capabilities of the DeepSeek large model, video <br> material search, voiceover, and subtitle generation. <br> 自动免费资源整合, 视频生成器. 把 DeepSeek 大模型、视频素材搜索、配音、字幕生成能力整合起来了
     - Video to Text
       - [FramePark](https://github.com/lllyasviel/FramePack)
-        - Run video generation models on a regular computer. It features a user-friendly UI that allows users to preview every frame. 在普通电脑运行视频生成模型. 用户友好的 UI, 每一帧都能预览.
+        - Run video generation models on a regular computer. <br> It features a user-friendly UI that allows users to preview every frame.<br>  在普通电脑运行视频生成模型. 用户友好的 UI, 每一帧都能预览.
       - BiliNote
         - Transform bilibili video into text
       - Video2Blog
@@ -319,7 +258,14 @@
         - Download media videos from the URL link. 下载 url 连接中的媒体视频
 
   - Images
-    - Lovart
+    - NanoBanana ⭐
+      - 模型推理能力反哺视觉生成的典型代表
+    - Midjourney V7 ⭐
+      - 优秀的光影质感、艺术构图以及风格一致性
+    - Flux
+      - 免费开源版 Midjourney
+    - Stable Diffusion, LoRA, ControlNet
+      - 画特定动漫角色、或者精确控制姿势
 - Podcast
   - [Podcastfy.ai](https://github.com/souzatharsis/podcastfy)
     - An Open Source APl alternative to NotebookLM's podcast feature: Transforming Multimodal Content intoCaptivating Multilingual Audio Conversations with GenAl
@@ -334,19 +280,89 @@
   - A browser specifically designed for AI systems
 - Fellou
 
-### Developing <!-- markmap: fold -->
+### Coding <!-- markmap: fold -->
 
-- Vibe Coding ⭐
-  - Claude Code CLI
-  - Gemini CLI
-  - Cline
-  - Kilo Code
-  - Roo Code
+#### DATA <!-- markmap: fold -->
+
+- Scarping
+  - open-source
+    - crawl4AI
+    - crawlee
+      - The combination of web crawling and browser automation. 爬虫和浏览器自动化的结合
+    - maxun
+    - Firecrawl
+      - Deeply crawl web content and internal links; optimize the output content, filtered through LLM in markdown format.深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
+  - 3rd
+    - Travily
+      - Supports web search and result verification, more like an intelligent search engine.支持网络搜索和结果验证, 更像一个智能搜索引擎
+    - Scrapegraph-ai
+    - ScrapingBee
+    - WebScrapingAPI
+    - ScraperAPI
+- AI Conversational Database
+  - 3rd
+    - pandasAI
+    - Google BigQuery
+  - open-source
+    - MongoDB+MCP
+    - metabase
+    - liam
+      - Automatically generate database relationship ERP diagrams
+- BI / Database management
+  - open-source
+    - DBeaver
+    - Prisma
+    - Apache Superset
+    - Teable
+      - Open-source and free alternative to Airtable
+- Files
+  - [langextract](https://github.com/google/langextract)
+    - 从非结构化数据中提取并组织结构化的关键信息
+  - PPT
+    - [MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT)
+      - multi Conversational Agents auto create PPT
+  - PDF
+    - PDFGPT
+    - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr) It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
+    - [Docling 30k⭐](https://github.com/docling-project/docling)
+      - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉<br>识别的 LLM 模型, 降低成本.
+
+- Investment
+  - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
+  - [FinGenius](https://github.com/HuaYaoAI/FinGenius)
+    - Muti Conversational Agents help you make invest decisions
+  - [OpenBB](https://github.com/OpenBB-finance/OpenBB)
+    - Open-source financial platform has already received 43K stars on GitHub. Its goal is to enable anyone, anywhere, to conduct professional-level investment research.
+  - [TradingAgents](https://github.com/hsliuping/TradingAgents-CN)
+    - Muti Conversational Agents help you make invest decisions
+
+
+#### Vibe Coding ⭐
+- AI IDE
   - Cursor
   - Trae
   - Windsurf
 
-- Docs
+- IDE Plugin
+  - Kilo Code
+  - Roo Code
+  - Cline
+
+- CLI tool
+  - Claude Code CLI
+  - Gemini CLI
+
+- Web IDE
+  - Lovable
+  - Google AIstudio
+  - Base44
+  - Vercel v0
+  - Bolt.new
+
+
+
+
+#### Docs
 
   - helpful tools to read Github Repo
     - [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge)
@@ -362,8 +378,9 @@
   - [awesome-selfhosted ⭐](https://github.com/awesome-selfhosted/awesome-selfhosted)
     - A collection of free and open-source software products. 免费开源软件成品集合
 
-- Design & Font-end
+#### Design & Font-end
 
+  - [A2UI, 谷歌生态下的UI生成工具](https://github.com/google/A2UI)
   - [openui](https://github.com/wandb/openui)
     - conversational build Font web
   - [onlook 18k](https://github.com/onlook-dev/onlook)
@@ -382,7 +399,7 @@
 - Git
   - [GitMCP](https://github.com/idosal/git-mcp)
     - Seamlessly convert any GitHub repository into an MCP service, allowing AI assistants to easily access and understand the project’s documentation.
-- Back-end
+#### Back-end
 
   - servers
     - [ctop](https://github.com/bcicen/ctop)
@@ -418,7 +435,7 @@
   - [PakePlus 0.9k](https://github.com/Sjj1024/PakePlus)
     - 把网页快速打包成 app
 
-- Network
+#### Network
   - NPS
     - A powerful intranet penetration proxy server that supports almost all commonly used protocols, such as TCP, UDP, HTTP(S), <br>SOCKS5, etc. With simple configuration, nps allows you to access resources on the external network just as if you <br> were on the internal network.
 
@@ -452,17 +469,12 @@
 
 ## Foundation
 
-### Resources <!-- markmap: fold -->
+### Awesome Links <!-- markmap: fold -->
 
-#### Computing resources
-
-- The HOST servers that run agents.
-- Developer Laptop
-
-#### LLM AI model usage cost
-
-- Build our own GPUs for LLM
-- Register the Thrasio OpenRouter, OpenAI, Grok or Gemini developer platform
+- [Vibe Coding 中文指南](https://github.com/tukuaiai/vibe-coding-cn)
+- [精选 LLM 应用集, 探索 LLM 在不同领域实际应用的创新方式](https://www.zdoc.app/zh/Shubhamsaboo/awesome-llm-apps)
+- [OPENTOOLS, 热门AI工具列表](https://opentools.ai/)
+- [海量AI工具百科](https://fmhy.net/ai)
 
 ### Prompts Engineering <!-- markmap: fold -->
 
