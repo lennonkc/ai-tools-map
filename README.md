@@ -101,6 +101,10 @@
     - [Browse.ai](Browse.ai)
     - [Induced.ai](Induced.ai)
     - [Axiom.ai](Axiom.ai)
+  - AI Browser
+    - dia
+      - A browser specifically designed for AI systems
+    - Fellou
 
 - Computer Operator
   - 3rd
@@ -185,8 +189,6 @@
   - Tars
   - [Activepieces](https://github.com/activepieces/activepieces)
   - bisheng
-  - [PySpur 5k](https://github.com/PySpur-Dev/pyspur)
-    - PySpur is an open-source visual AI agent development platform based on Python, designed to simplify AI workflow construction. It replaces traditional coding with graphical drag-and-drop, allowing non-technical users to quickly build complex AI applications, while also supporting developers in deeply customizing modules. PySpur 是一个基于  Python  的开源可视化 AI 智能体开发平台，专为简化 AI 工作流构建而生。它通过图形化拖拽替代传统编码，让非技术用户也能快速搭建复杂的 AI 应用，同时支持开发者深度定制模块。
 
 - 3rd
   - Coze
@@ -270,17 +272,12 @@
       - 画特定动漫角色、或者精确控制姿势
 - Podcast
   - [Podcastfy.ai](https://github.com/souzatharsis/podcastfy)
-    - An Open Source APl alternative to NotebookLM's podcast feature: Transforming Multimodal Content intoCaptivating Multilingual Audio Conversations with GenAl
+    - An Open Source APl alternative to NotebookLM's podcast feature: <br>Transforming Multimodal Content intoCaptivating Multilingual Audio Conversations with GenAl
 - Wechat
   - [chatlog](https://github.com/sjzar/chatlog)
   - [WeClone](https://github.com/xming521/WeClone)
     - 把你的微信聊天记录导出来，搞到大模型里面进行微调训练，训练好的 AI 说话就有你的影子了。
 
-### AI Browser <!-- markmap: fold -->
-
-- dia
-  - A browser specifically designed for AI systems
-- Fellou
 
 ### Coding <!-- markmap: fold -->
 
@@ -475,7 +472,7 @@
   - An AI chat specifically designed for generating charts.专门生成图表的 AI chat
 - [AI 画 Draw.io的逻辑图](https://github.com/DayuanJiang/next-ai-draw-io)
 
-## Foundation
+## Knowledge
 
 ### Awesome Links <!-- markmap: fold -->
 - [Vibe Coding 中文指南](https://github.com/tukuaiai/vibe-coding-cn)
