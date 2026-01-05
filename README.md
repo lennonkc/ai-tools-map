@@ -201,7 +201,7 @@
 
 - News Center
   - [FOLO](https://github.com/RSSNext/Folo)
-    - Folo is an information aggregation tool that gathers various sources you want to follow (articles, videos, updates, etc.) into a clean timeline, eliminating the hassle of switching between different platforms.
+    - Folo is an information aggregation tool that gathers various sources you want to follow (articles, <br>videos, updates, etc.) into a clean timeline, eliminating the hassle of switching between different platforms.
   - FMHY
     - AI News Center / A collection of various free resources. AI 资讯中心 / 各种免费资源集合
   - meridian
@@ -213,7 +213,7 @@
   - Stock Trader
     - [ai_quant_trade](https://github.com/charliedream1/ai_quant_trade)
     - [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS)
-      - A local quantitative trading solution that supports task scheduling and distributed deployment. Many investors and quantitative developers in China are using it, and it has currently received 8.7K stars on GitHub.一个本地量化交易的解决方案，支持任务调度、分布式部署，国内很多投资者和量化开发者都在使用，目前在 GitHub 上已经获得了 8.7K 的 Star
+      - A local quantitative trading solution that supports task scheduling and distributed deployment. <br>Many investors and quantitative developers in China are using it, and it has currently received 8.<br>7K stars on GitHub.一个本地量化交易的解决方案，支持任务调度、分布式部署，国内很多投资者和量化开发者都在使用，目前在 GitHub 上已经获得了 8.7K 的 Star
     - [Backtrader](https://github.com/mementum/backtrader)
       - 回测框架
 
@@ -229,7 +229,7 @@
   - TTS
 
     - MiniMax
-      - Speech-02 is a newly upgraded AI voice model from MiniMax and is the world’s first voice model to truly achieve diversified and personalized definitions. Speech-02 是 MiniMax 全新升级的一款 AI 语音模型，也是全球第一个真正实现多样化、个性化定义的语音模型。
+      - Speech-02 is a newly upgraded AI voice model from MiniMax and is the world’s first voice model to <br>truly achieve diversified and personalized definitions. Speech-02 是 MiniMax 全新升级的一款 AI 语音模<br>型，也是全球第一个真正实现多样化、个性化定义的语音模型。
     - [Dia-1.6B](https://huggingface.co/spaces/nari-labs/Dia-1.6B)
       - • Multi-character dialogue generation: Use tags like [S1], [S2] <br>• Personified expressions: Supports non-verbal emotions such as laughter (laugh), sighing (sigh), coughing (cough), etc.
     - spark
@@ -411,11 +411,20 @@
       - Automatically generate database relationship ERP diagrams
 - BI / Database management
   - open-source
+    - Metabase
+      - AI接入, 学习成本低
+    - DateEase
+      - 中文友好, AI接入
+    - WrenAI
+      - 专为AI设计, 底层AI
     - DBeaver
+      - 数据库Client
     - Prisma
+      - 让前端/全栈开发者能够以编写 TypeScript 代码的自然方式，自信、安全且高效地操作后端数据库。
     - Apache Superset
+      - 最流行的开源 BI 工具
     - Teable
-      - Open-source and free alternative to Airtable
+      - 开源版的 Airtable
 - Files and OCR
   - [langextract](https://github.com/google/langextract)
     - 从非结构化数据中提取并组织结构化的关键信息
@@ -425,7 +434,8 @@
       - [MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT)
         - multi Conversational Agents auto create PPT
     - PDF
-      - PDFGPT
+      - [BabelDOC](https://github.com/funstory-ai/BabelDOC)
+        - 使用llm翻译接口, 保持pdf格式的翻译神器
       - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr) It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
       - [Docling 30k⭐](https://github.com/docling-project/docling)
         - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉<br>识别的 LLM 模型, 降低成本.
@@ -439,7 +449,7 @@
   - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
   - [FinGenius](https://github.com/HuaYaoAI/FinGenius)
     - Muti Conversational Agents help you make invest decisions
-  - [OpenBB](https://github.com/OpenBB-finance/OpenBB)
+  - [OpenBB ⭐](https://github.com/OpenBB-finance/OpenBB)
     - Open-source financial platform has already received 43K stars on GitHub. Its goal is to enable anyone, anywhere, to conduct professional-level investment research.
   - [TradingAgents](https://github.com/hsliuping/TradingAgents-CN)
     - Muti Conversational Agents help you make invest decisions
