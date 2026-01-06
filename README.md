@@ -406,13 +406,12 @@
     - Google BigQuery
   - open-source
     - MongoDB+MCP
-    - metabase
     - liam
       - Automatically generate database relationship ERP diagrams
 - BI / Database management
   - open-source
-    - Metabase
-      - AI接入, 学习成本低
+    - Metabase ⭐
+      - AI接入, 学习成本低, 界面友好
     - DateEase
       - 中文友好, AI接入
     - WrenAI
