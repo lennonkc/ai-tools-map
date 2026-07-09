@@ -1,0 +1,20 @@
+name: Purge jsDelivr cache
+
+# myProject.json 更新推到 main 后,立即让 jsDelivr 丢弃旧缓存。
+# 背景:jsDelivr 对 @main 分支引用默认缓存 12 小时(s-maxage=43200),
+# kc-li.com/about 的项目卡以 jsDelivr 为首选数据源——不 purge 的话,
+# 新增/修改的项目最长要 12 小时后才会出现在线上。
+on:
+  push:
+    branches: [main]
+    paths:
+      - myProject.json
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge myProject.json on jsDelivr
+        run: |
+          curl -fsS 'https://purge.jsdelivr.net/gh/lennonkc/ai-tools-map@main/myProject.json'
+          echo 'jsDelivr cache purged.'
