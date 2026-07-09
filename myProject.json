@@ -1,4 +1,64 @@
 {
+  "Project14": {
+    "Name": "Cedarclaw",
+    "Highlight": "An AI agent, built into anything.",
+    "Details": "Cedarclaw is an on-device AI agent framework that drops into almost any hardware, from screens and set-top boxes to appliances and robots. It understands plain-language requests and makes decisions right on the device, so it stays fast and private and keeps working even when the connection is weak, reaching out to the cloud only for the heavy lifting.",
+    "TechTag": ["AI Agent", "On-device AI", "IoT & Robotics", "Voice Assistant"],
+    "Demo": {
+      "type": "video",
+      "url": ""
+    },
+    "BackgroundVideo": "",
+    "BackgroundImage": "/projectImages/cedarclaw.svg"
+  },
+  "Project13": {
+    "Name": "OpenBuddy",
+    "Highlight": "A funny, easy AI for the most curious minds.",
+    "Details": "OpenBuddy makes the most powerful AI genuinely fun and easy, built for beginners and kids. It lives on a handheld gadget with a playful animated face: just press and speak, and it listens, understands on the spot, and talks back. The idea is simple, bring the strongest tools to the most curious minds.",
+    "TechTag": ["AI Assistant", "Voice Interface", "Hardware/IoT", "Open Source"],
+    "Demo": {
+      "type": "website",
+      "url": "https://openbuddy.fun"
+    },
+    "BackgroundVideo": "",
+    "BackgroundImage": "/projectImages/openbuddy.svg"
+  },
+  "Project12": {
+    "Name": "Antitype",
+    "Highlight": "We don't type anymore.",
+    "Details": "Antitype lets you write by speaking instead of typing. Trigger it with a shortcut, say what you mean, and it turns your voice into clean, well-phrased text, then drops it right where your cursor is in any app. It sits quietly in the menu bar and can learn the names and terms you use most.",
+    "TechTag": ["Voice AI", "macOS App", "Speech-to-Text", "Productivity"],
+    "Demo": {
+      "type": "website",
+      "url": "https://antitype.ai"
+    },
+    "BackgroundVideo": "",
+    "BackgroundImage": "/projectImages/antitype.svg"
+  },
+  "Project11": {
+    "Name": "CedarBuddy",
+    "Highlight": "Your AI, alive on your desk.",
+    "Details": "CedarBuddy gives an AI assistant a friendly physical presence on your desk. It reacts in real time with expressions, motion, and voice, so talking to your AI feels like chatting with a little character sitting beside you. Behind the charm it connects to a cloud brain and a family of smart devices, turning conversation into real-world reactions.",
+    "TechTag": ["AI Companion", "Robotics", "Voice Interaction", "3D Avatar"],
+    "Demo": {
+      "type": "video",
+      "url": ""
+    },
+    "BackgroundVideo": "",
+    "BackgroundImage": "/projectImages/cedarbuddy.svg"
+  },
+  "Project10": {
+    "Name": "CedarArm",
+    "Highlight": "Sees it, grabs it, hands it over.",
+    "Details": "CedarArm is a robotic arm brought to life with AI. Using cameras to perceive its surroundings, it recognizes objects, picks them up, and hands them to a person. It learns new skills by watching people demonstrate them and connects to a conversational assistant, so you can direct it in plain language and watch digital AI act in the physical world.",
+    "TechTag": ["Robotics", "Physical AI", "Computer Vision", "AI Agent"],
+    "Demo": {
+      "type": "video",
+      "url": ""
+    },
+    "BackgroundVideo": "",
+    "BackgroundImage": "/projectImages/cedararm.svg"
+  },
   "Project9": {
     "Name": "MCP AI Agent",
     "Highlight": "Integrated Agent Based on MCP Technology",
