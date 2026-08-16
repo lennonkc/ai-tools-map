@@ -96,6 +96,9 @@
     - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
       - Selenium 原生操作复杂、脚本不稳定、报告繁琐。SeleniumBase 像一个“智能助<br> 手”，让自动化测试和任务变得简单可靠。
       - 除了基本的网页操作，它还内置了测试框架（支持 pytest、unittest、behave），<br> 能帮你写端到端测试、爬网页数据，甚至还能搞定 Cloudflare 那种防爬的检测。<br> 自带一堆工具，比如生成测试报告、截图保存、甚至还能做交互式网页引导。总之，<br> 不管你是开发者、测试工程师，还是想偷懒的“脚本侠”，它都能给你整得明明白白！
+  - source-available
+    - [Agent QA](https://github.com/vostride/agent-qa)
+      - Application QA harness for natural-language web and mobile tests with MCP, persistent execution memory, and self-healing flows. The package is free to install; configured model, browser, or device providers may charge separately.
   - 3rd
     - Browserless
     - [Browse.ai](Browse.ai)
