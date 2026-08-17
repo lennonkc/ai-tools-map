@@ -1,512 +1,524 @@
-# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2026Jan]
+# [AI ToolMap ✨](https://kc-li.com/mytools) <br>[2026-08-17]
 
 ## Agents
 
-### Conversions Agent <!-- markmap: fold -->
+### Agent Frameworks <!-- markmap: fold -->
 
-- AutoGen 48k⭐
-  - [Magentic-UI](https://github.com/microsoft/Magentic-UI)
-  - GraphFlow
-    - [Precise control of agent invocation through directed graphs.](https://www.douyin.com/video/7502426444174249252)
-- [CrewAI 35kStar](https://github.com/crewAIInc/crewAI)
-- Agno 31k⭐
-- Google ADK & A2A 11k⭐
+- [AutoGen](https://github.com/microsoft/autogen)
+  - A multi-agent application framework currently in maintenance mode; new Microsoft projects are directed to Agent Framework.
+  - [MagenticLite (formerly Magentic-UI)](https://github.com/microsoft/magentic-ui)
+  - [GraphFlow](https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/graph-flow.html)
+    - Experimental directed-graph control for multi-agent workflows.
+- [CrewAI](https://github.com/crewAIInc/crewAI)
+- [Agno](https://github.com/agno-agi/agno)
+- [Google Agent Development Kit (ADK)](https://adk.dev/)
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
+  - Microsoft’s successor framework for building and orchestrating AI agents and multi-agent workflows.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)
+  - A lightweight framework for agent handoffs, guardrails, sessions, tracing, and tool use.
 - LangManus
 
-### Workflows Agent <!-- markmap: fold -->
-#### WorkFlows Agent
-- LangChain/LangGraph 113k⭐
-  - building and deploying AI-powered agents and workflows by simple drag and click
-  - examples
-    - J.P. Morgen **Ask D.A.V.I.D**
-    - ByteDance **DeerFlow**
-    - Google **Gemini_Researcher**
-    - [Email Assistant Agent](https://github.com/langchain-ai/agents-from-scratch)
-- N8N
-- Dify
-- Coze
+### Workflow Agents <!-- markmap: fold -->
 
+- [LangChain](https://docs.langchain.com/oss/python/langchain/overview) / [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview)
+  - LangChain provides high-level agent abstractions; LangGraph provides low-level orchestration for long-running, stateful agents and workflows.
+  - examples
+    - J.P. Morgan **Ask D.A.V.I.D**
+    - [DeerFlow](https://github.com/bytedance/deer-flow)
+    - [Gemini Fullstack LangGraph Quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart)
+    - [Email Assistant Agent](https://github.com/langchain-ai/agents-from-scratch)
 
 #### MCP
 
-- MCP Market(all free)
-  - <https://github.com/modelcontextprotocol/servers>
-  - <https://mcp.so/>
-  - <https://glama.ai/mcp/servers>
-  - <https://github.com/punkpeye/awesome-mcp-servers>
-- [MCP Clients](https://modelcontextprotocol.io/clients)
+- MCP directories
+  - [Official MCP Registry](https://registry.modelcontextprotocol.io/)
+  - [MCP.so](https://mcp.so/)
+  - [Glama MCP Servers](https://glama.ai/mcp/servers)
+  - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+- [Understanding MCP clients](https://modelcontextprotocol.io/docs/2026-07-28/learn/client-concepts)
   - open-source
-    - open webui ⭐
-    - [5fire](https://github.com/nanbingxyz/5ire) Desktop
-    - [chatmcp](https://github.com/daodao97/chatmcp?tab=readme-ov-file)
-    - [cherrystudio](https://github.com/CherryHQ/cherry-studio?tab=readme-ov-file)
+    - [Open WebUI](https://github.com/open-webui/open-webui) ⭐
+    - [5ire](https://github.com/nanbingxyz/5ire) Desktop
+    - [ChatMCP](https://github.com/daodao97/chatmcp)
+    - [Cherry Studio](https://github.com/CherryHQ/cherry-studio)
   - 3rd
     - 扣子空间
-    - [360 纳米 ai](https://bot.n.cn/download)
-  - SillyTavern
-    - Provide advanced AI conversation tuning
-  - Cline ⭐ /RooCode
-    - Quick MCP invocation embedded in the IDE
-  - Trae ⭐ /Cursor
-    - AI IDE
-- MCP developing <!-- markmap: fold -->
-  - [aci](https://github.com/aipotheosis-labs/aci)
-    - You need to configure a general ACI MCP service and tell it what you want. It will help you decide which MCPs or APIs to invoke to complete your tasks. It has pre-configured standardized interfaces for over 600 common applications (such as Google Calendar, Slack, etc.), so developers do not need to write the authorization process and API call code for each service from scratch.你需要配置一个总的 ACI MCP 服务，然后把你想要的告诉它，它会自己帮你决策调用哪些 MCP 或者 API 完成你的任务。它预置了 600 多种常见应用（如谷歌日历、Slack 等）的标准化接口，开发者无需从头编写每个服务的授权流程和 API 调用代码。
+    - [360 纳米 AI](https://bot.n.cn/download)
+  - [SillyTavern](https://github.com/SillyTavern/SillyTavern)
+    - Advanced AI conversation tuning and extensible model integrations.
+  - [Cline](https://github.com/cline/cline) ⭐
+    - MCP-enabled coding agents embedded in the IDE.
+  - [TRAE](https://www.trae.ai/) / [Cursor](https://www.cursor.com/)
+    - AI-native development environments.
+- MCP Development <!-- markmap: fold -->
+  - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
+    - Official interactive developer tool for testing and debugging MCP servers.
+  - [Official MCP SDKs](https://modelcontextprotocol.io/docs/2026-07-28/sdk)
+  - [MCP reference servers](https://github.com/modelcontextprotocol/servers)
+    - Educational reference implementations, not a complete production server directory.
+  - [ACI.dev](https://github.com/aipotheosis-labs/aci)
+    - Open-source agent tool-calling platform with authentication, permissions, discovery, and unified MCP/SDK interfaces.
   - [Mem0](https://github.com/mem0ai/mem0)
-    - “Mem-zero” adds an intelligent memory layer to AI assistants and agents, enabling personalized interactions. It can remember user preferences, adapt to individual needs, and continuously learn over time, making it ideal for customer service chatbots, AI assistants, and automation systems. “mem-zero”为 AI 助手和智能体加上了智能记忆层，让 AI 可以实现个性化的互动。它能记住用户的偏好，适应每个人的需求，并且会随着时间不断学习，非常适合用在客服聊天机器人、AI 助手和自动化系统中。
+    - A long-term memory layer that persists agent context across sessions, tools, and runs.
   - [FastAPI-MCP](https://github.com/tadata-org/fastapi_mcp)
-    - [Convert FastAPI to MCP](https://mp.weixin.qq.com/s/wes_IEILNt2ZDqQWsauAnw?mpshare=1&scene=1&srcid=0425rWZoAq1o6fBvDsX5VNjZ&sharer_shareinfo=7889fece983b6f398e97a70a8ae51ec4&sharer_shareinfo_first=7889fece983b6f398e97a70a8ae51ec4&version=4.1.36.99603&platform=mac#rd)
+    - Exposes FastAPI endpoints as MCP tools while reusing schemas, dependencies, documentation, and authentication.
   - Docs
     - [MCP 开发精准控制](https://mp.weixin.qq.com/s/AFrOLt0MZPrv11WJGQE5zA?mpshare=1&scene=1&srcid=0516lrt6NmDfMTT8Kq0PcDvB&sharer_shareinfo=d8b588badd9f9283def218a8efddc067&sharer_shareinfo_first=d8b588badd9f9283def218a8efddc067&version=4.1.36.99603&platform=mac#rd)
+
+#### Agent Interoperability Protocols
+
+- [Agent2Agent (A2A) Protocol](https://github.com/a2aproject/A2A)
 - [AG-UI](https://github.com/ag-ui-protocol/ag-ui)
 
 #### Skills
+
 - [claude-code-templates](https://github.com/davila7/claude-code-templates)
-- [Anthropic Skills](https://github.com/anthropics/skills)
+- [Anthropic Agent Skills](https://github.com/anthropics/skills)
+  - Filesystem-based skill directories centered on `SKILL.md`, with instructions and optional scripts or resources loaded on demand.
 
 #### Knowledge <!-- markmap: fold -->
 
-- [bvp_Agent maturity scale](https://www.bvp.com/atlas/bessemers-ai-agent-autonomy-scale)
+- [Bessemer’s AI agent autonomy scale](https://www.bvp.com/atlas/bessemers-ai-agent-autonomy-scale)
 - [全流程客制化一个 Agent](https://mp.weixin.qq.com/s/rX3J1f8V_-dvBYn1MAl1dg?version=4.1.36.99603&platform=mac)
-- [Gen tools Map](https://www.sequoiacap.com/article/generative-ai-act-two/)
+- [Generative AI’s Act Two](https://www.sequoiacap.com/article/generative-ai-act-two/)
 - [Foundation Agents](https://arxiv.org/abs/2504.01990)
 - [The general charging models of AI companies](http://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247489536&idx=1&sn=69a37a83b1cac9a31958d966445e21e3&chksm=c0c1c4e730cbac3846f9d3727e34df0f221e151a2eda1a9b17bbab8d06c6735bb82494bda0ae&mpshare=1&scene=1&srcid=0427c2NgTBGaxQnbjYOMOmik&sharer_shareinfo=abf2a9227030ccb80fe45ea1934fd791&sharer_shareinfo_first=abf2a9227030ccb80fe45ea1934fd791#rd)
-- [what-are-agentic-workflows](https://weaviate.io/blog/what-are-agentic-workflows)
+- [What are agentic workflows?](https://weaviate.io/blog/what-are-agentic-workflows)
 - [fast build MCP](https://mp.weixin.qq.com/s/NU62Dvq3SMO6O-He9lcQ4Q?mpshare=1&scene=1&srcid=0426SfJNX6rGDUxjcw5t0DvE&sharer_shareinfo=ba26840944e675d838911a6e4c6cec36&sharer_shareinfo_first=ba26840944e675d838911a6e4c6cec36&version=4.1.36.99603&platform=mac#rd)
 - [building MCP](https://mp.weixin.qq.com/s/9J3pvrmC9r47QahjI7U1lA?mpshare=1&scene=1&srcid=04277UkUFRAbmkR2BrGfBKy1&sharer_shareinfo=9594d217dfe05e42f29d29f414976329&sharer_shareinfo_first=9594d217dfe05e42f29d29f414976329&version=4.1.36.99603&platform=mac#rd)
 - [Some pain points from MCP developers](https://mp.weixin.qq.com/s/PCXaZzZsRBdBytG2YuwKiw?mpshare=1&scene=1&srcid=0427tGu6FH0QsucG4ke0YFfx&sharer_shareinfo=8f4b455ca8d5065828bfd26e65c55440&sharer_shareinfo_first=8f4b455ca8d5065828bfd26e65c55440&version=4.1.36.99603&platform=mac#rd)
-- [function Call vs MCP](https://mp.weixin.qq.com/s/Bs42mK8fQhDqLdm0ILtwSg?mpshare=1&scene=1&srcid=0427HGtLrFbF8oXncChCAadm&sharer_shareinfo=15a0e92260d2612e72f322b33a140649&sharer_shareinfo_first=15a0e92260d2612e72f322b33a140649&version=4.1.36.99603&platform=mac#rd)
+- [Function calling vs MCP](https://mp.weixin.qq.com/s/Bs42mK8fQhDqLdm0ILtwSg?mpshare=1&scene=1&srcid=0427HGtLrFbF8oXncChCAadm&sharer_shareinfo=15a0e92260d2612e72f322b33a140649&sharer_shareinfo_first=15a0e92260d2612e72f322b33a140649&version=4.1.36.99603&platform=mac#rd)
 - [Visions for Agent system](https://mp.weixin.qq.com/s/US1o7MULP4Ar_kGkSgRHuA?mpshare=1&scene=1&srcid=04275fRe8jNzwnigt7ILEg2r&sharer_shareinfo=c344b802fa4d7115c8979e3bd4d1a26d&sharer_shareinfo_first=c344b802fa4d7115c8979e3bd4d1a26d&version=4.1.36.99603&platform=mac#rd)
 
 
-### GUI Agent <!-- markmap: fold -->
+### GUI Agents <!-- markmap: fold -->
 
 - Browser Operator
   - open-source
-    - UI_TAR Desktop⭐
-    - BrowserUse
-    - Nanobrowser
-    - Stagehand ⭐️
-    - [Suna](https://github.com/kortix-ai/suna)
-      - By integrating powerful features such as browser automation, file management,<br> web crawling, and API integration through natural language dialogue,<br> complex tasks like market research, itinerary planning, and data analysis can be easily accomplished.
-    - Dom Operation<br>(Operate the source code of the webpage)
-      - PlayWright ⭐
-      - Selenium
-      - Puppeteer
+    - [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) ⭐
+    - [Browser Use](https://github.com/browser-use/browser-use)
+    - [Nanobrowser](https://github.com/nanobrowser/nanobrowser)
+    - [Stagehand](https://github.com/browserbase/stagehand) ⭐
+    - [Playwright MCP](https://github.com/microsoft/playwright-mcp)
+      - Official Microsoft MCP server for browser automation through Playwright.
+    - DOM Operation<br>(Operate the source code of the webpage)
+      - [Playwright](https://github.com/microsoft/playwright) ⭐
+      - [Selenium](https://github.com/SeleniumHQ/selenium)
+      - [Puppeteer](https://github.com/puppeteer/puppeteer)
     - [SeleniumBase](https://github.com/seleniumbase/SeleniumBase)
-      - Selenium 原生操作复杂、脚本不稳定、报告繁琐。SeleniumBase 像一个“智能助<br> 手”，让自动化测试和任务变得简单可靠。
-      - 除了基本的网页操作，它还内置了测试框架（支持 pytest、unittest、behave），<br> 能帮你写端到端测试、爬网页数据，甚至还能搞定 Cloudflare 那种防爬的检测。<br> 自带一堆工具，比如生成测试报告、截图保存、甚至还能做交互式网页引导。总之，<br> 不管你是开发者、测试工程师，还是想偷懒的“脚本侠”，它都能给你整得明明白白！
+      - A Python browser automation framework extending Selenium with test runners, reports, screenshots, and resilient automation helpers.
   - source-available
+    - [Suna](https://github.com/kortix-ai/suna)
+      - Source-available AI management system with browser automation, file management, crawling, and API integrations; licensed under Elastic License 2.0.
     - [Agent QA](https://github.com/vostride/agent-qa)
-      - Application QA harness for natural-language web and mobile tests with MCP, persistent execution memory, and self-healing flows. The package is free to install; configured model, browser, or device providers may charge separately.
+      - Source-available QA harness for natural-language web and mobile tests, with MCP integration, execution memory, and self-healing flows; FSL 1.1 with an Apache-2.0 future grant after two years.
   - 3rd
-    - Browserless
-    - [Browse.ai](Browse.ai)
-    - [Induced.ai](Induced.ai)
-    - [Axiom.ai](Axiom.ai)
+    - [Browserless](https://www.browserless.io/)
+    - [Browse AI](https://www.browse.ai/)
+    - [Induced AI](https://induced.ai/)
+    - [axiom.ai](https://axiom.ai/)
   - AI Browser
-    - dia
-      - A browser specifically designed for AI systems
-    - Fellou
+    - [Dia](https://www.diabrowser.com/)
+      - An AI-focused browser that organizes work context across tabs, meetings, documents, and connected tools.
+    - [Fellou](https://fellou.ai/)
+      - An agentic browser for multi-step research and cross-application workflows.
 
 - Computer Operator
   - 3rd
-    - OPENAI Computer Use
-    - Manus
+    - [OpenAI Computer use](https://developers.openai.com/api/docs/guides/tools-computer-use)
+    - [Manus](https://manus.im/)
   - open-source
-    - [Automate](https://github.com/yuruotong1/autoMate)
-      - Simply circle a spot on the screen, and the AI will take control of that area.
-    - screenpipe <!-- markmap: fold -->
-      - Completely record user behavior to facilitate the development of subsequent workflows.<br>一个跨平台的桌面数据抓取 API，支持屏幕、语音、键鼠操作、摄像头录制，还能通过插件扩展功能！
-      - [supervision](https://github.com/roboflow/supervision)
-        - 计算机视觉, 能重复利用的计算机视觉工具。从硬盘里加载数据集、在图片或视频上画出检测结果，<br>统计某个区域里有多少个检测目标
+    - [autoMate](https://github.com/yuruotong1/autoMate)
+      - Circle a region on the screen and let the AI operate within that area.
+    - [UFO³](https://github.com/microsoft/UFO)
+      - Microsoft’s open-source Windows desktop automation framework for multi-application tasks.
 
 - Computer Vision
-
+  - open-source
+    - [OmniParser](https://github.com/microsoft/OmniParser)
+      - Parses UI screenshots into structured elements for vision-based computer-use agents.
+    - [Supervision](https://github.com/roboflow/supervision)
+      - Reusable computer-vision utilities for datasets, detections, annotations, and video processing.
+  - source-available
+    - [screenpipe](https://github.com/screenpipe/screenpipe)
+      - Local screen and audio capture with OCR/transcription indexing for agent context and memory.
 
 - Use Cases
-  - Non API tasks
-    - Some platforms not even provide APIs
-    - API data inaccuracies
-    - Reason
+  - Non-API tasks
+    - Platforms that do not provide suitable APIs
+    - Cases where API data is incomplete or inaccurate
+    - Reasons
       - Cost
-        - Unlike the WEB, Font Web is built 100% tightly integrated with a real database and genuine back-end logic. However, API
-          services are an additional component, typically developed separately from the main logic, which results in extra costs.
+        - APIs are often developed and maintained separately from a product’s core interface, increasing implementation cost.
       - Complexity
-        - API calling complexity causing most platform will not 1:1 100% provides exact API..
-  - Handling highly repetitive tasks
+        - Public APIs may not expose every operation or data field available in the product UI.
+  - Highly repetitive tasks
 
 
 ### Good Examples <!-- markmap: fold -->
-- J.P. Morgen **Ask D.A.V.I.D**
-- [ Agentic Company Researcher](https://github.com/pogjester/company-research-agent)
-  - Based on Tavily’s AI content filtering, it automatically collects <br> and integrates data from multiple sources, including company websites,<br> news, and financial reports. 基于 Tavily 的 AI 内容筛选, 多源数据自动收集，<br>整合公司网站、新闻和财报信息；
+
+- J.P. Morgan **Ask D.A.V.I.D**
+- [Agentic Company Researcher](https://github.com/guy-hartstein/company-research-agent)
+  - Uses Tavily filtering to collect and integrate company websites, news, and financial reports.
 - [FutureHouse](https://www.futurehouse.org/)
-  - An integrated intelligent agent as an AI scientist: a combination of <br> a scientist, information integration expert, academic detective  <br>(for paper comparison and online resource comparison), and experimenter. <br>综合智能体的 AI 科学家. 搜索科学家+信息整合专家+学术侦探(论文对比,网上资料对比)+实验员
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands)
-  - An AI agent that can help programmers write code; you just need<br> to tell this AI assistant what you want to achieve, and it will <br>automatically break it down and execute it. 一个可以帮程序员写代码的<br> AI Agent，你只需要告诉这个 AI 助手实现什么，它自动拆解执行。
+  - A nonprofit research organization developing AI agents for scientific research automation and end-to-end discovery.
+- [OpenHands / Agent Canvas](https://github.com/OpenHands/OpenHands)
+  - A self-hostable platform for running and orchestrating coding agents.
 - [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
-  - AI扮演不同的投资专家角色，有的负责估值、有的分析市场情绪、研究基本面、技术分析. 最终制定交易决策。
-- 3r agents
-  - Genspark SuperAgent(3rd)
-  - Manus
-  - OpenManus
-  - [flowith](https://flowith.io/blank)
-  - [DeepAgent](https://apps.abacus.ai/chatllm/)
-  - [AgentGPT](https://agentgpt.reworkd.ai/zh)
+  - Educational and research proof of concept for multi-agent investment analysis and historical backtesting; it does not execute real trades and is not investment advice.
+- Third-party agents
+  - Genspark SuperAgent
+  - [Manus](https://manus.im/)
+  - [OpenManus](https://github.com/FoundationAgents/OpenManus)
+  - [flowith](https://flowith.io/)
+  - [Abacus AI Agent (formerly DeepAgent)](https://deepagent.abacus.ai/)
 
 ## Tools
 
 
-### Deep Reasearcher<br> <!-- markmap: fold -->
+### Deep Research <!-- markmap: fold -->
 
 - 3rd
-  - SerpAPI
-  - Metaphor
-  - preplexity
+  - [SerpAPI](https://serpapi.com/)
+  - [Exa](https://exa.ai/)
+  - [Perplexity](https://www.perplexity.ai/)
   - atypica.AI ⭐
-    - Multi_AI_expert collaboration. Focus on market analysis and research, conducted in a conversational manner.
+    - Multi-expert collaboration focused on conversational market analysis and research.
     - [example](https://atypica.musedam.cc/study/Miw9cmdmfLmdzxaq/share?replay=1)
 - open-source
-  - Perplexica ⭐
-  - deep-searcher
-  - [deer-flow 13k⭐](https://github.com/bytedance/deer-flow/blob/main/README_zh.md)
-    - A deep research framework under ByteDance, aimed at combining language models with specialized tools (such as web search, web scraping, and Python code execution). It can connect to MCP. 字节旗下的深度研究框架, 目标是将语言模型与专业工具（如网络搜索、爬虫和 Python 代码执行）相结合. 可连接MCP
-  - [OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher)[ ](https://github.com/mshumer/OpenDeepResearcher)
-  - Jina
+  - [Vane (formerly Perplexica)](https://github.com/ItzCrazyKns/Vane) ⭐
+  - [deep-searcher](https://github.com/zilliztech/deep-searcher)
+  - [DeerFlow](https://github.com/bytedance/deer-flow)
+    - A long-horizon SuperAgent harness for research, coding, and content creation.
+  - [OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher)
+  - [Jina DeepResearch](https://github.com/jina-ai/node-DeepResearch)
   - [deep-research](https://github.com/dzhng/deep-research)
   - [gpt-researcher](https://github.com/assafelovic/gpt-researcher)
+  - [Open Deep Research](https://github.com/langchain-ai/open_deep_research)
+    - A configurable LangGraph research agent with planning, web search, and report synthesis.
 
-### Work Flow builder <!-- markmap: fold -->
+### Workflow Builder <!-- markmap: fold -->
 
 - open-source
-
-  - n8n 🌟
-    - The most popular low-code workflow generation platform with the richest 3rd intergrations.
-  - Flowise
-    - Open source low-code tool to build customized LLM orchestration flow & AI agents
-  - GrapesJS
-    - drag-and-drop build website
-  - Motia
-    - AI help to build each step by step of a big workflow
+  - [Langflow](https://github.com/langflow-ai/langflow)
+    - A visual framework for building and deploying AI agents and workflows.
+  - [iii](https://github.com/iii-hq/iii)
+    - An event-driven runtime for composing services and workflows from reusable workers.
   - Tars
   - [Activepieces](https://github.com/activepieces/activepieces)
   - bisheng
-
+- source-available / fair-code
+  - [n8n](https://github.com/n8n-io/n8n)
+    - Workflow automation platform with extensive app integrations and AI workflow support.
+  - [Dify](https://github.com/langgenius/dify)
+    - Platform for building and operating LLM applications and agentic workflows.
 - 3rd
-  - Coze
-  - Microsoft Automate
-  - Google Firebase
-  - Dify
-  - Gumloop ai
+  - [Coze](https://www.coze.com/)
+  - [Microsoft Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate)
+  - Gumloop AI
 
 ### Media <!-- markmap: fold -->
 
 - News Center
-  - [FOLO](https://github.com/RSSNext/Folo)
-    - Folo is an information aggregation tool that gathers various sources you want to follow (articles, <br>videos, updates, etc.) into a clean timeline, eliminating the hassle of switching between different platforms.
-  - FMHY
-    - AI News Center / A collection of various free resources. AI 资讯中心 / 各种免费资源集合
+  - [Folo](https://github.com/RSSNext/Folo)
+    - An information aggregator that combines articles, videos, and updates from followed sources into one timeline.
   - meridian
-    - It collects news from hundreds of sources, uses artificial intelligence to analyze the news, and provides concise,
-      personalized daily briefings to help users filter out valuable information from the noise.
-  - newsnow
-  - [lingowhale](https://lingowhale.com/)
-    - Automatic tracking of information sources and AI summarization
-  - Stock Trader
-    - [ai_quant_trade](https://github.com/charliedream1/ai_quant_trade)
-    - [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS)
-      - A local quantitative trading solution that supports task scheduling and distributed deployment. <br>Many investors and quantitative developers in China are using it, and it has currently received 8.<br>7K stars on GitHub.一个本地量化交易的解决方案，支持任务调度、分布式部署，国内很多投资者和量化开发者都在使用，目前在 GitHub 上已经获得了 8.7K 的 Star
-    - [Backtrader](https://github.com/mementum/backtrader)
-      - 回测框架
+    - Collects and analyzes news from many sources to produce personalized daily briefings.
+  - [NewsNow](https://github.com/ourongxing/newsnow)
+  - [LingoWhale](https://lingowhale.com/)
+    - Tracks information sources and generates AI summaries.
 
-- Writting
-
-  - Writer
-  - Jenni_AI
-  - [Resume-Matcher](https://github.com/srbhr/Resume-Matcher)
-    - AI helps to improve your resume
+- Writing
+  - [Writer AI Studio](https://writer.com/)
+  - [Jenni](https://jenni.ai/)
+  - [Resume Matcher](https://github.com/srbhr/Resume-Matcher)
+    - AI-assisted resume tailoring and job-description matching.
 
 - Voice & Video & Images
-
   - TTS
-
-    - MiniMax
-      - Speech-02 is a newly upgraded AI voice model from MiniMax and is the world’s first voice model to <br>truly achieve diversified and personalized definitions. Speech-02 是 MiniMax 全新升级的一款 AI 语音模<br>型，也是全球第一个真正实现多样化、个性化定义的语音模型。
-    - [Dia-1.6B](https://huggingface.co/spaces/nari-labs/Dia-1.6B)
-      - • Multi-character dialogue generation: Use tags like [S1], [S2] <br>• Personified expressions: Supports non-verbal emotions such as laughter (laugh), sighing (sigh), coughing (cough), etc.
-    - spark
-      - Open-source anthropomorphic TTS
-
+    - [MiniMax Audio](https://www.minimax.io/audio)
+    - [Dia](https://github.com/nari-labs/dia)
+      - Multi-speaker dialogue generation with non-verbal expressions such as laughter, sighing, and coughing.
+    - [Spark-TTS](https://github.com/SparkAudio/Spark-TTS)
+      - Open-source text-to-speech system for controllable, natural speech generation.
   - Video
-    - Google Veo3 ⭐
-    - Hunyuan Video
-      - 开源免费版 Veo3 平替
-    - [FramePack 14k](https://github.com/lllyasviel/FramePack)
-      - Windows电脑生成视频,  低硬件需求和友好界面
-    - Krillin AI
-      - Video subtitle generation, subtitle translation, automatic dubbing
-    - Deep-Live-Cam
-
-      - Real-time face swapping in video conferences
-
-    - MoneyPrinterTurbo
-      - An automatic free resource integration and video generator.<br> It combines the capabilities of the DeepSeek large model, video <br> material search, voiceover, and subtitle generation. <br> 自动免费资源整合, 视频生成器. 把 DeepSeek 大模型、视频素材搜索、配音、字幕生成能力整合起来了
+    - [Veo 3](https://deepmind.google/models/veo/) ⭐
+      - Video generation with native dialogue, sound effects, and ambient audio.
+    - [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo)
+      - A systematic framework for a large video-generation model.
+    - [FramePack](https://github.com/lllyasviel/FramePack)
+      - Image- and prompt-driven video diffusion designed to run on supported consumer NVIDIA hardware.
+    - [KrillinAI](https://github.com/krillinai/KrillinAI)
+      - Video subtitle generation, translation, and automatic dubbing.
+    - [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
+      - Real-time face swapping for video streams.
+    - [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+      - Automates short-video creation from scripts, stock media, voice-over, and subtitles.
     - Video to Text
-      - [FramePark](https://github.com/lllyasviel/FramePack)
-        - Run video generation models on a regular computer. <br> It features a user-friendly UI that allows users to preview every frame.<br>  在普通电脑运行视频生成模型. 用户友好的 UI, 每一帧都能预览.
-      - BiliNote
-        - Transform bilibili video into text
+      - [BiliNote](https://github.com/JefferyHcool/BiliNote)
+        - Converts supported video content into structured notes.
       - Video2Blog
-        - Youtube Video -> Text
+        - YouTube video to text.
     - Video download
       - datatool.vip
-      - [Cobalt](https://cobalt.tools/)
-        - Download media videos from the URL link. 下载 url 连接中的媒体视频
-
+      - [cobalt](https://cobalt.tools/)
+        - Web interface and API for saving openly accessible media from supported services.
+      - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+        - Command-line downloader supporting thousands of media sites.
   - Images
-    - NanoBanana ⭐
-      - 模型推理能力反哺视觉生成的典型代表
+    - Nano Banana ⭐
+      - Image generation and editing that combines visual synthesis with model reasoning.
     - Midjourney V7 ⭐
-      - 优秀的光影质感、艺术构图以及风格一致性
-    - Flux
-      - 免费开源版 Midjourney
+      - Strong lighting, artistic composition, and style consistency.
+    - [FLUX](https://bfl.ai/flux-1-tools/)
+      - Black Forest Labs image-generation and editing model family with open-weight and API-delivered variants.
     - Stable Diffusion, LoRA, ControlNet
-      - 画特定动漫角色、或者精确控制姿势
+      - Ecosystem for custom characters, styles, and precise pose or composition control.
+    - [ComfyUI](https://github.com/Comfy-Org/ComfyUI)
+      - Node-based interface and execution engine for generative AI workflows.
 - Podcast
-  - [Podcastfy.ai](https://github.com/souzatharsis/podcastfy)
-    - An Open Source APl alternative to NotebookLM's podcast feature: <br>Transforming Multimodal Content intoCaptivating Multilingual Audio Conversations with GenAl
-- Wechat
+  - [Podcastfy](https://github.com/souzatharsis/podcastfy)
+    - Open-source Python tool that transforms multimodal content into multilingual AI-generated audio conversations.
+- WeChat
   - [chatlog](https://github.com/sjzar/chatlog)
   - [WeClone](https://github.com/xming521/WeClone)
-    - 把你的微信聊天记录导出来，搞到大模型里面进行微调训练，训练好的 AI 说话就有你的影子了。
+    - Fine-tunes conversational models from exported chat history to reproduce a personal writing style.
 
 
 ### Coding <!-- markmap: fold -->
 
 #### Vibe Coding ⭐
+
 - AI IDE
-  - Cursor
-  - Trae
+  - [Cursor](https://www.cursor.com/)
+  - [TRAE](https://www.trae.ai/)
   - Windsurf
-
+  - [Zed](https://zed.dev/ai)
+    - Open-source collaborative editor with integrated AI workflows.
 - IDE Plugin
-  - Kilo Code
-  - Roo Code
-  - Cline
-
+  - [Kilo Code](https://github.com/Kilo-Org/kilocode)
+  - [Cline](https://github.com/cline/cline)
 - CLI tool
-  - Claude Code CLI
-  - Gemini CLI
-
+  - [Claude Code](https://code.claude.com/docs/en/overview)
+  - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
+  - [Codex CLI](https://github.com/openai/codex)
 - Web IDE
-  - Lovable
-  - Google AIstudio
-  - Base44
-  - Vercel v0
-  - Bolt.new
-
-
-
+  - [Lovable](https://lovable.dev/)
+  - [Google AI Studio](https://aistudio.google.com/)
+  - [Base44](https://base44.com/)
+  - [v0](https://v0.dev/)
+  - [Bolt.new](https://bolt.new/)
 
 #### Docs
 
-  - helpful tools to read Github Repo
-    - [PocketFlow-Tutorial-Codebase-Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge)
-      - 快速学习 GitHub 仓库
-    - Context 7
-    - DeepWiki
-      - drawing architecture diagrams and sequence diagrams; generate API documentation; Deep Research;
-    - Zread.ai
-    - gitdiagram
-      - Quickly understand the structure diagram of a GitHub project
-  - devDocs
-    - DevDocs = High-Quality Documentation Crawler + Intelligent Content Cleaner + AI Knowledge Integration Tool
-  - [awesome-selfhosted ⭐](https://github.com/awesome-selfhosted/awesome-selfhosted)
-    - A collection of free and open-source software products. 免费开源软件成品集合
+- helpful tools to read GitHub repositories
+  - [PocketFlow Tutorial Codebase Knowledge](https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge)
+    - Generates tutorials that help developers learn an unfamiliar repository.
+  - [Context7](https://github.com/upstash/context7)
+  - [DeepWiki](https://deepwiki.com/)
+    - Repository documentation, architecture diagrams, sequence diagrams, API references, and research.
+  - [Zread](https://zread.ai/)
+  - [GitDiagram](https://gitdiagram.com/)
+    - Generates an interactive architecture diagram from a GitHub repository.
+- [DevDocs](https://devdocs.io/)
+  - API documentation browser with centralized search and offline access.
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐
+  - A curated collection of free and open-source software products.
 
-#### Design & Font-end
+#### Design & Front-end
 
-  - [A2UI, 谷歌生态下的UI生成工具](https://github.com/google/A2UI)
-  - [openui](https://github.com/wandb/openui)
-    - conversational build Font web
-  - [onlook 18k](https://github.com/onlook-dev/onlook)
-    - A front-end visualization tool that allows you to edit React front-end like Photoshop, supporting Tailwind CSS (tw). 前端可视化工具. 像ps一样编辑React前端, 支持tw
-  - GrapesJS
-    - Zero-code web design tool
-  - Galileo AI
-    - Zero-code web design tool
-  - [animejs](https://animejs.com/%20)
-    - Font-end component library
-  - inspira-ui
-    - Font-end component library
-  - Logo Design
-    - [Arosade](https://github.com/JhojanGgarcia/arosade)
-      - Logo design tool
+- [A2UI](https://github.com/a2ui-project/a2ui)
+  - Open standard and libraries for agent-generated declarative UI.
+- [OpenUI](https://github.com/wandb/openui)
+  - Conversational interface for building front-end UI.
+- [Onlook](https://github.com/onlook-dev/onlook)
+  - Open-source, AI-first visual builder and editor for React.
+- [GrapesJS](https://grapesjs.com/)
+  - Open-source web builder framework with drag-and-drop editing.
+- Galileo AI
+- [Anime.js](https://animejs.com/)
+  - JavaScript animation engine for the web.
+- [Akaza UI](https://akaza-ui.com/)
+  - Unstyled, accessible headless UI components for Vue 3.
+- Logo Design
+  - [Arosade](https://github.com/JhojanGgarcia/arosade)
+    - Logo design tool.
+- Desktop & mobile app
+  - [Tauri](https://tauri.app/)
+    - Framework for building small, fast desktop and mobile applications with a web front end.
+  - [PakePlus](https://pakeplus.com/)
+    - Packages websites as desktop and mobile applications.
 - Git
   - [GitMCP](https://github.com/idosal/git-mcp)
-    - Seamlessly convert any GitHub repository into an MCP service, allowing AI assistants to easily access and understand the project’s documentation.
+    - Converts a GitHub repository into an MCP endpoint for documentation and code retrieval.
+
 #### Back-end
 
-  - servers
-    - [ctop](https://github.com/bcicen/ctop)
-      - 一个专门为容器设计的、命令行版的“任务管理器”。
-    - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
-      - 通过 AI 大模型简化 Kubernetes 集群的管理操作，简单来说：你只输入大白话，就能完成原来复杂的运维，不需要记各种复杂的命令了。
-    - [nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
-      - 通过 UI 操作 Nginx
-    - [JumpServer](https://github.com/jumpserver/jumpserver)
-      - Manage enterprise server assets using a browser, which is quite secure.开源堡垒机
-  - database
-    - Supabase ⭐
-    - Firebase
-  - functions
-    - [public-apis](https://github.com/public-apis/public-apis)
-      - 开放免费的 API 集合
-    - [tarui](https://github.com/tauri-apps/tauri)
-      - 快速将网站打包成各种应用程序
-    - Meilisearch
-      - 程序内置搜索引擎
-      - 介绍 <!-- markmap: fold -->
-        - Meilisearch 本质上是一个开源的全文搜索引擎，用 Rust 语言开发，专为前端和移动应用优化设计。它跟传统搜索引擎最大的区别就是对用户体验的极致追求，尤其是实时搜索这块，输入一个字母就能立刻看到结果，真的是快到夸张。
-          市面上类似的产品大部分要么太重（Elasticsearch 动辄几个 G 内存），要么功能太弱（像 SQL 的 LIKE 查询连拼写错误都容忍不了）。而 Meilisearch 就像是取了两者的精华，既保持了轻量级（才 100 多 MB 内存），又提供了企业级的搜索体验。
-    - [Bruno](https://github.com/usebruno/bruno)
-      - 开源 API 测试工具
-  - caddy
-  - Gatsby
-  - Strapi
-    - open-source headless CMS that enables developers to build customizable APIs
-      with flexible content structures and a powerful admin interface.
-  - SQLPage
-    - Quickly build a front-end visual website based on a database
-  - [PakePlus 0.9k](https://github.com/Sjj1024/PakePlus)
-    - 把网页快速打包成 app
+- servers
+  - [ctop](https://github.com/bcicen/ctop)
+    - Command-line monitoring interface for containers.
+  - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
+    - Uses natural-language instructions to help operate Kubernetes clusters.
+  - [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
+    - Web interface for managing Nginx proxy hosts and certificates.
+  - [JumpServer](https://github.com/jumpserver/jumpserver)
+    - Open-source privileged access management platform.
+- database / app platform
+  - [Supabase](https://supabase.com/) ⭐
+  - [Firebase](https://firebase.google.com/)
+- developer tools
+  - [public-apis](https://github.com/public-apis/public-apis)
+    - Collaborative collection of public APIs.
+  - [Meilisearch](https://www.meilisearch.com/)
+    - Application-focused search engine with typo tolerance and fast search-as-you-type.
+  - [Bruno](https://github.com/usebruno/bruno)
+    - Open-source API client and testing tool.
+- [Caddy](https://caddyserver.com/)
+- [Gatsby](https://www.gatsbyjs.com/)
+- [Strapi](https://strapi.io/)
+  - Open-source headless CMS for customizable content APIs and administration.
+- [SQLPage](https://sql-page.com/)
+  - Builds data-driven websites directly from SQL queries.
 
 #### Network
-  - NPS
-    - A powerful intranet penetration proxy server that supports almost all commonly used protocols, such as TCP, UDP, HTTP(S), <br>SOCKS5, etc. With simple configuration, nps allows you to access resources on the external network just as if you <br> were on the internal network.
 
-### DATA <!-- markmap: fold -->
+- [NPS](https://github.com/ehang-io/nps)
+  - Intranet proxy supporting TCP, UDP, HTTP(S), SOCKS5, and related protocols.
 
-- Scarping
+### Data <!-- markmap: fold -->
+
+- Scraping
   - open-source
-    - crawl4AI
-    - crawlee
-      - The combination of web crawling and browser automation. 爬虫和浏览器自动化的结合
-    - maxun
-    - Firecrawl
-      - Deeply crawl web content and internal links; optimize the output content, filtered through LLM in markdown format.深度爬取网页内容及内部link; 输出内容优化,经过了LLM筛选格式为md
+    - [Crawl4AI](https://github.com/unclecode/crawl4ai)
+    - [Crawlee](https://github.com/apify/crawlee)
+      - Combines web crawling with browser automation.
+    - [Maxun](https://github.com/getmaxun/maxun)
+    - [Firecrawl](https://github.com/firecrawl/firecrawl)
+      - Crawls sites and converts pages into LLM-ready Markdown or structured data.
+    - [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai)
   - 3rd
-    - Travily
-      - Supports web search and result verification, more like an intelligent search engine.支持网络搜索和结果验证, 更像一个智能搜索引擎
-    - Scrapegraph-ai
-    - ScrapingBee
-    - WebScrapingAPI
-    - ScraperAPI
+    - [Tavily](https://tavily.com/)
+      - Search API for AI agents with result extraction and research workflows.
+    - [ScrapingBee](https://www.scrapingbee.com/)
+    - [WebScrapingAPI](https://www.webscrapingapi.com/)
+    - [ScraperAPI](https://www.scraperapi.com/)
 - AI Conversational Database
   - 3rd
-    - pandasAI
-    - Google BigQuery
+    - [PandasAI](https://github.com/sinaptik-ai/pandas-ai)
+    - [Google BigQuery](https://cloud.google.com/bigquery)
   - open-source
-    - MongoDB+MCP
-    - liam
-      - Automatically generate database relationship ERP diagrams
-- BI / Database management
+    - MongoDB + MCP
+    - [Liam ERD](https://github.com/liam-hq/liam)
+      - Generates interactive entity-relationship diagrams from database schemas.
+- BI / Database Management
   - open-source
-    - Metabase ⭐
-      - AI接入, 学习成本低, 界面友好
-    - DateEase
-      - 中文友好, AI接入
-    - WrenAI
-      - 专为AI设计, 底层AI
-    - DBeaver
-      - 数据库Client
-    - Prisma
-      - 让前端/全栈开发者能够以编写 TypeScript 代码的自然方式，自信、安全且高效地操作后端数据库。
-    - Apache Superset
-      - 最流行的开源 BI 工具
-    - Teable
-      - 开源版的 Airtable
+    - [Metabase](https://github.com/metabase/metabase) ⭐
+      - Approachable business intelligence with AI-assisted querying and visualization.
+    - [DataEase](https://github.com/dataease/dataease)
+      - Chinese-friendly BI platform with AI integrations.
+    - [Wren AI](https://github.com/Canner/WrenAI)
+      - Semantic layer and text-to-SQL engine for embedded conversational analytics.
+    - [DBeaver](https://github.com/dbeaver/dbeaver)
+      - Cross-platform database client.
+    - [Prisma](https://github.com/prisma/prisma)
+      - Type-safe ORM and database toolkit for TypeScript.
+    - [Apache Superset](https://superset.apache.org/)
+      - Open-source data exploration and visualization platform.
+    - [Teable](https://teable.io/)
+      - PostgreSQL-based business data platform with spreadsheet-style collaboration and automation.
 - Files and OCR
-  - [langextract](https://github.com/google/langextract)
-    - 从非结构化数据中提取并组织结构化的关键信息
+  - [LangExtract](https://github.com/google/langextract)
+    - Extracts structured information from unstructured text with source grounding.
   - Docs
-    - [ConvertX ⭐](https://github.com/C4illin/ConvertX) 开源免费的文档格式转换工具
+    - [ConvertX](https://github.com/C4illin/ConvertX) ⭐
+      - Self-hosted file conversion service.
     - PPT
       - [MultiAgentPPT](https://github.com/johnson7788/MultiAgentPPT)
-        - multi Conversational Agents auto create PPT
+        - Uses multiple conversational agents to generate presentations.
     - PDF
       - [BabelDOC](https://github.com/funstory-ai/BabelDOC)
-        - 使用llm翻译接口, 保持pdf格式的翻译神器
-      - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr) It no longer relies on OCR, but instead uses multimodal AI and vector indexing to understand the entire PDF, <br>supporting mixed image-text search, visual Q&A, and content archiving queries.
-      - [Docling 30k⭐](https://github.com/docling-project/docling)
-        - 目前功能最全面的文档解析与转换工具,可使用视觉 AI 模型提升能力. 特别是可以用本地的专供视觉<br>识别的 LLM 模型, 降低成本.
+        - Translates PDFs while preserving layout.
+      - [no-ocr](https://github.com/kyryl-opens-ml/no-ocr)
+        - Processes PDF pages without OCR and supports visual question answering over charts and images.
+      - [Docling](https://github.com/docling-project/docling)
+        - Document parsing and conversion with PDF/Office support, OCR, layout, and table processing for AI and RAG content.
+      - [MinerU](https://github.com/opendatalab/MinerU)
+        - Converts complex PDFs into structured Markdown and JSON for downstream AI workflows.
   - OCR <!-- markmap: fold -->
-    - [PaddleOCR ⭐](www.paddleocr.com)
-    - Monkey OCR
-    - dots.ocr
-    - OCRFlux_3b
-
-- Investment
-  - [Qlib 24.6k ⭐](https://github.com/microsoft/qlib)
+    - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) ⭐
+    - [MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR)
+    - [dots.ocr](https://github.com/studio-dots-ai/dots.ocr)
+    - [OCRFlux](https://github.com/chatdoc-com/OCRFlux)
+- Finance / Quantitative Trading
+  - [ai_quant_trade](https://github.com/charliedream1/ai_quant_trade)
+  - [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS)
+    - Quantitative research and trading framework with task scheduling and distributed deployment.
+  - [Backtrader](https://github.com/mementum/backtrader)
+    - Python backtesting and trading framework.
+  - [Qlib](https://github.com/microsoft/qlib)
+    - AI-oriented quantitative investment platform for research and production.
   - [FinGenius](https://github.com/HuaYaoAI/FinGenius)
-    - Muti Conversational Agents help you make invest decisions
-  - [OpenBB ⭐](https://github.com/OpenBB-finance/OpenBB)
-    - Open-source financial platform has already received 43K stars on GitHub. Its goal is to enable anyone, anywhere, to conduct professional-level investment research.
-  - [TradingAgents](https://github.com/hsliuping/TradingAgents-CN)
-    - Muti Conversational Agents help you make invest decisions
+    - Multi-agent financial research and investment analysis.
+  - [OpenBB](https://github.com/OpenBB-finance/OpenBB) ⭐
+    - Open financial-data platform for analysts, quantitative research, and AI agents.
+  - [TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
+    - Chinese-enhanced multi-agent LLM financial trading framework.
 
 
-### RAG <!-- markmap: fold -->
+### RAG & Knowledge Management <!-- markmap: fold -->
 
-- Google NoteBookLM ⭐
-- [Open Notebook ⭐](https://github.com/lfnovo/open-notebook), NotebookLM的开源平替
-- Second me
-- [nb](https://github.com/xwmx/nb)
-  - A terminal-based knowledge base that can be deployed on a server for use.终端形式的知识库, 可以丢到服务器上用
-- Perplexity
+- [Google NotebookLM](https://notebooklm.google.com/) ⭐
+- [Open Notebook](https://github.com/lfnovo/open-notebook)
+  - Self-hosted research and knowledge-management tool with source ingestion, retrieval, citations, and configurable AI models.
+- [Second Me](https://github.com/mindverse/Second-Me)
 - [SurfSense](https://github.com/MODSetter/SurfSense)
-  - A knowledge management tool that can aggregate data from platforms like search engines, Slack, and Notion to build a personal knowledge base, and quickly and efficiently search for content in the knowledge base through AI conversations.知识管理工具，能聚合搜索引擎/Slack/Notion 等平台数据搭建个人知识库，并且通过 AI 对话来快速效率的查找知识库中的内容
+  - Self-hostable research assistant that aggregates personal and team sources into a searchable knowledge base.
+- [RAGFlow](https://github.com/infiniflow/ragflow)
+  - Open-source RAG engine combining document understanding, retrieval, and agent workflows.
 
+### What’s More Than Text <!-- markmap: fold -->
 
-
-### What`s more then Text <!-- markmap: fold -->
-
-- Mermaid
-  - Text to diagram, chart, flowchart, sequence diagram, etc.
-- Markmap
-  - Markdown to mindmap
-- Vega
-  - Text to html charts
-- Slidev
-  - Markdown to slide
-- [GPT-vis](https://github.com/antvis/GPT-Vis/blob/main/README.zh-CN.md)
-  - An AI chat specifically designed for generating charts.专门生成图表的 AI chat
-- [AI 画 Draw.io的逻辑图](https://github.com/DayuanJiang/next-ai-draw-io)
+- [Mermaid](https://mermaid.ai/open-source/)
+  - Text-based diagrams, charts, flowcharts, and sequence diagrams.
+- [Markmap](https://markmap.js.org/)
+  - Markdown to mind map.
+- [Vega](https://vega.github.io/vega/)
+  - Declarative grammar for interactive visualizations.
+- [Slidev](https://sli.dev/)
+  - Markdown-based presentation framework for developers.
+- [GPT-Vis](https://github.com/antvis/GPT-Vis/blob/ai/README.zh-CN.md)
+  - Framework-agnostic, AI-native visualization library for LLM applications.
+- [Next AI Draw.io](https://github.com/DayuanJiang/next-ai-draw-io)
+  - Creates and edits draw.io diagrams through natural language.
+- [D2](https://d2lang.com/)
+  - Declarative diagram scripting language with automatic layout.
 
 ## Knowledge
 
 ### Awesome Links <!-- markmap: fold -->
-- [Vibe Coding 中文指南](https://github.com/tukuaiai/vibe-coding-cn)
-- [Vibe Vibe](https://github.com/datawhalechina/vibe-vibe) 面向零编程基础学习者的 AI 辅助编程系统化教程，<br>从「我有一个想法」到「我做出了一个产品」，让人人都能成为 Builder
-- [精选 LLM 应用集, 探索 LLM 在不同领域实际应用的创新方式](https://www.zdoc.app/zh/Shubhamsaboo/awesome-llm-apps)
-- [OPENTOOLS, 热门AI工具列表](https://opentools.ai/)
-- [海量AI工具百科](https://fmhy.net/ai)
+
+- [Vibe Coding 中文指南](https://github.com/tradecatlabs/vibe-coding-cn)
+- [Vibe Vibe](https://github.com/datawhalechina/vibe-vibe)
+  - 面向零编程基础学习者的 AI 辅助编程系统化教程，从「我有一个想法」到「我做出了一个产品」。
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+  - Curated examples of practical LLM applications across different domains.
+- [OpenTools](https://opentools.ai/)
+- [FMHY AI](https://fmhy.net/ai)
 - [llm-course](https://github.com/mlabonne/llm-course)
-  - 学习大模型基础知识
-- Prompts Engineering <!-- markmap: fold -->
+  - Learning path for large-language-model fundamentals and engineering.
+- [nb](https://github.com/xwmx/nb)
+  - Command-line and local-web tool for plaintext notes, bookmarks, and archiving.
+- Prompt Engineering <!-- markmap: fold -->
   - Rules
-    - [A collection library of prompts 热门工具的提示词收集库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+    - [System Prompts and Models of AI Tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
     - [Cline Prompts Hints](https://mp.weixin.qq.com/s/Y7wXwq-anNCCxyeh0oSA6w)
     - [Claude Prompt](https://mp.weixin.qq.com/s/u2YhuunO9gRX9H8LklRTnA?mpshare=1&scene=1&srcid=0416ZD0S7awgqdtX2F3CBv6r&sharer_shareinfo=4f4d026b3bdcf446b4c9e32dad413dd0&sharer_shareinfo_first=4f4d026b3bdcf446b4c9e32dad413dd0&version=4.1.36.99603&platform=mac#rd)
-    - [Cline offical guide of prompt](https://docs.cline.bot/improving-your-prompting-skills/prompting)
-
   - Tools
-    - LangChain
-    - LangGraph 🌟
-    - Jinja2
-    - Cloudflare AI gateway
-    - Helicone
+    - [LangChain](https://docs.langchain.com/oss/python/langchain/overview)
+    - [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview) 🌟
+    - [Jinja](https://jinja.palletsprojects.com/)
+    - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)
+    - [Helicone](https://www.helicone.ai/)
 
 
 
