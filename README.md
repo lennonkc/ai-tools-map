@@ -302,6 +302,8 @@
   - [Claude Code](https://code.claude.com/docs/en/overview)
   - [Gemini CLI](https://github.com/google-gemini/gemini-cli)
   - [Codex CLI](https://github.com/openai/codex)
+  - [YYLO](https://github.com/yylo-dev/yylo)
+    - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes: typed task, validation, merge, and release-readiness boundaries, with each task in a dedicated branch/worktree behind a risk-based merge queue. MIT, on npm as @yylo/cli.
 - Web IDE
   - [Lovable](https://lovable.dev/)
   - [Google AI Studio](https://aistudio.google.com/)
