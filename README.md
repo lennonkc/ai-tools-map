@@ -402,6 +402,8 @@
     - [ScrapingBee](https://www.scrapingbee.com/)
     - [WebScrapingAPI](https://www.webscrapingapi.com/)
     - [ScraperAPI](https://www.scraperapi.com/)
+    - [CurlShot](https://curlshot.com/)
+      - Screenshot API and hosted MCP server that render a URL, HTML or Markdown to PNG, JPEG, WebP, PDF or video.
 - AI Conversational Database
   - 3rd
     - [PandasAI](https://github.com/sinaptik-ai/pandas-ai)
