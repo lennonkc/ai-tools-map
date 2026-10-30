@@ -295,6 +295,7 @@
   - Windsurf
   - [Zed](https://zed.dev/ai)
     - Open-source collaborative editor with integrated AI workflows.
+  - [Volt](https://github.com/LeulAria/VOLT)
 - IDE Plugin
   - [Kilo Code](https://github.com/Kilo-Org/kilocode)
   - [Cline](https://github.com/cline/cline)
