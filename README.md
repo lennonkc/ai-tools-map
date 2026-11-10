@@ -276,6 +276,8 @@
       - Ecosystem for custom characters, styles, and precise pose or composition control.
     - [ComfyUI](https://github.com/Comfy-Org/ComfyUI)
       - Node-based interface and execution engine for generative AI workflows.
+    - [Prompt Generator](https://trypromptgenerator.com)
+      - Writes image prompts for Midjourney, FLUX, Nano Banana, GPT Image, Seedream and Stable Diffusion from a description or an uploaded picture (image to prompt).
 - Podcast
   - [Podcastfy](https://github.com/souzatharsis/podcastfy)
     - Open-source Python tool that transforms multimodal content into multilingual AI-generated audio conversations.
