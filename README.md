@@ -35,6 +35,8 @@
   - [MCP.so](https://mcp.so/)
   - [Glama MCP Servers](https://glama.ai/mcp/servers)
   - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+  - [SyndiPath](https://syndipath.com)
+    - Autonomous MCP server registry, agent skills directory, and interactive playground for discovering, testing, and integrating Model Context Protocol tools across 26 languages.
 - [Understanding MCP clients](https://modelcontextprotocol.io/docs/2026-07-28/learn/client-concepts)
   - open-source
     - [Open WebUI](https://github.com/open-webui/open-webui) ⭐
